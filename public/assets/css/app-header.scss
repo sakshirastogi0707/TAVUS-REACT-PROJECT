@@ -1,0 +1,137 @@
+@import '../../../../public/assets/css/colors.scss';
+
+
+
+
+
+
+
+// .app-header-main {
+//   height: 70px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   padding: 8px 16px;
+//   border-bottom: 1px solid #E2E2EA;
+//   .avatar-icon {
+//     background: $colorBackLight;
+//     width: 32px;
+//     height: 32px;
+//     border-radius: 50px;
+//     margin-right: 10px;
+//   }
+
+//   .bellIcon {
+//     position: relative;
+//     height: 36px;
+//     width: 36px;
+//     border-radius: 50px;
+//     background: #273A53;
+//     box-shadow: 0px 4px 6px 0 rgba(39, 58, 83, 0.5);
+//     margin-right: 2.2rem;
+//     margin-top: -3px;
+//     cursor: pointer;
+        
+//     .Notifiacation {
+//       background: $colorBack;
+//       color: $colorWhite;
+//       font-family: $Josefin;      
+//       border-radius: 4px;
+//       position: absolute;
+//       top: -3px;
+//       height: 17px;
+//       width: 17px;
+//       right: -4px;
+//       font-size: 12px;
+//       line-height: 15px;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       display: -webkit-flex;
+//       -webkit-align-items: center;
+//       -webkit-justify-content: center;
+//     }
+//   }
+//   .card_header {
+//     color: $colorGrayDrak;
+//     font-weight: $SemiBold;
+//     font-family: $Josefin;
+//     font-size: 14px;
+//     line-height: 30px;
+//     letter-spacing: 0.01px;
+//     display: block;
+//   }
+//   .card_subtile {
+//     color: $colorgy;
+//     font-weight: $Regular;
+//     font-family: $Josefin;
+//     font-size: 12px;
+//     line-height: 12px;
+//     letter-spacing: 0.01px;
+//   }
+
+// }
+
+
+// .MuiPaper-root .MuiList-root .MuiMenuItem-root {
+//   width: auto;
+//   overflow: hidden;
+//   font-size: 14px;
+//   box-sizing: border-box;
+//   min-height: 48px;
+//   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+//   font-weight: 400;
+//   line-height: 1.5;
+//   padding-top: 6px;
+//   white-space: break-spaces;
+//   letter-spacing: 0.00938em;
+//   padding-bottom: 6px;
+
+// }
+// .MuiListItem-button:hover {
+//   background-color: transparent;
+// }
+// .profile_url{
+//   width: 32px;
+//   height: 32px;
+//   border-radius: 50px;
+//   margin-right: 10px;
+// }
+// .search {
+//   margin-left: 24px;
+// }
+
+// @media (max-width: 766px)  {
+//   .app-header-main {
+//     padding: 8px 8px;
+
+//     .avatar-icon {
+//       width: 28px;
+//       height: 28px;
+//     }
+//     .bellIcon {
+//       height: 30px;
+//       width: 30px;
+//       margin-right: 1rem;
+//       margin-top: 3px;
+//     }
+//     .card_header {
+//       font-size: 12px;
+//       // display: none;
+//     }
+//     // .card_subtile{
+//     //   display: none;
+//     // }
+//     .userMenu{
+//       .mr-4, .mx-4 {
+//         margin-right: 0px !important;
+//     }
+
+//     }
+
+
+//   }
+//   .search {
+//     margin-left: 10px;
+// }
+// }

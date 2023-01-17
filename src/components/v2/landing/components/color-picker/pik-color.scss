@@ -1,0 +1,178 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.colorPick{
+   .DevTempBox{
+      height: 438px;
+      overflow: auto;
+      margin-top: 30px;
+   }
+   .MuiAccordionSummary-expandIconWrapper.Mui-expanded ,.MuiAccordionSummary-content.Mui-expanded{
+      background-color: transparent !important;
+      
+      }
+   .MuiButtonBase-root.Mui-expanded {
+      background: #3a3d43 !important;
+      border-radius: 8px 8px 0px 0px !important;
+   }
+   .MuiAccordion-region{
+      .MuiAccordionDetails-root{
+         padding: 12px !important;
+         background: #2A2C31;
+         border-radius: 0px 0px 16px 16px !important;
+      }
+   }
+   .buttonText{
+      padding-left: 11px !important;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px !important;
+   }
+   .MuiTypography-root{
+      p{
+         margin-bottom: 12px;
+      }
+      .boxIcon{
+         width: 16px;
+         height: 16px;
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: middle;
+
+      }
+   }
+.sketch-picker {
+    width: 100%!important;
+    height: 254px;
+    padding: 0px !important;
+    border-radius: 7px !important;
+    background: #2A2C31 !important;
+    box-shadow: none !important;
+    box-sizing: initial;
+    font-family: $SatoshiVariable !important;
+   //  @media (min-width: 1439px) {
+   //    width: 100% !important;
+   // }
+      input{
+         background-color: transparent !important;
+         box-shadow: none !important;
+         border: 0.769886px solid rgba(255, 255, 255, 0.6) !important;
+         border-radius: 6px !important;
+         height: 32px !important;
+         color: #fff!important;
+         width: 100% !important;
+         position: absolute;
+         font-family: $SatoshiVariable;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 12px;
+         line-height: 16px;
+         color: #FFFFFF;
+           bottom: -44px;
+           vertical-align: middle;
+            text-align: center;
+      }
+      input:focus-visible{
+         outline: 0px !important;
+         box-shadow: none !important;
+         
+         
+      }
+      label{
+        color: #fff !important;
+        position: absolute;
+        top: -7px;
+        left: 2px;
+        padding: 0px;
+        margin: 0px;
+        font-family: $SatoshiVariable;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 9px;
+         line-height: 12px;
+      }
+      
+      .hue-horizontal{
+         border-radius: 6px !important;
+      }
+      .flexbox-fix{
+         padding-bottom: 8px !important;
+         padding-top: 6px !important;
+      }
+   }
+   @media (max-width: 1030px) {
+      .sketch-picker > div {
+         padding-bottom: 35% !important;
+      }
+   }
+   @media (min-width: 1039px) {
+      .sketch-picker > div {
+         padding-bottom: 70% !important;
+      }
+   }
+   @media (min-width: 1439px) {
+      .sketch-picker > div {
+         padding-bottom: 55% !important;
+      }
+   }
+
+      .sketch-picker .flexbox-fix:nth-child(2)>div + div {
+         display: none;
+         }
+      .sketch-picker > div {
+            border-radius: 5px;
+      }
+      .sketch-picker .flexbox-fix div div + div {
+         border-radius: 6px;
+
+      }
+      .sketch-picker .flexbox-fix>div>div:first-child {
+         height: 12px !important;
+         overflow: initial !important;
+      }
+      .sketch-picker .flexbox-fix div + div {
+         height: 12px !important;
+         overflow: initial !important;
+      }
+      .sketch-picker .flexbox-fix div div + div + div div{ 
+         margin-top: 1px !important;
+         width: 9px !important;
+         border-radius: 50% !important;
+         height: 9px !important;
+      }
+         .hue-horizontal > div > div{
+            margin-top: 1px !important;
+         width: 9px !important;
+         border-radius: 50% !important;
+         height: 9px !important;
+         }
+         .hue-horizontal div {
+            color: #2A2C31;
+         }
+         .saturation-white div + div div {
+            width: 10px !important;
+            height: 10px !important;
+            box-shadow: 0px 0px 0px 5px #fff, 0 0.4em olive !important;
+      }
+      // .DevTempBox{
+      //    margin-top: 10px;
+      //    height: 475px;
+      //    overflow: auto;
+      // }
+      // ::-webkit-scrollbar {
+      //    width: 8px;
+      //    background: #22232C;
+      //    border-radius: 8px;
+      //    display: block !important;
+      //    padding-left: 30px;
+      //    }
+      //    ::-webkit-scrollbar:hover {
+      //    width: 3px;
+      //    }
+      //    ::-webkit-scrollbar-thumb {
+      //      background: #0062FF;; 
+      //      border-radius: 8px;
+      //      height: 200px;
+      //    }    
+
+
+
+}

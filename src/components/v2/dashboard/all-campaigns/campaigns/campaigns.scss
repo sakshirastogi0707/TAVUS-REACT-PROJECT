@@ -1,0 +1,122 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.campaigns-list{
+    border-radius: 20px;
+    padding: 32px;
+    width: 48%;
+    height: 184px;
+    background: rgba(35, 38, 49, 0.5);
+    @media (min-width: 1920.98px)  {
+      width: 32.8%;
+      
+    }
+    cursor: pointer;
+    @media (max-width: 998.98px) {
+      width: 100%;
+      padding-right: 16px;
+    }
+    .chart_cont{
+      width: 24%;
+    //   background: black;
+    //   border-radius: 10px;
+      @media (max-width: 998.98px) {
+        width: 100%;
+      }
+      img{
+        width: 100%;
+        border-radius: 6px;
+        // height: 141px;
+        // object-fit: cover;
+        // object-position: center;
+        // @media (max-width: 998.98px) {
+        // height: 200px;
+        // }
+        // @media (max-width: 678.98px) {
+        //   height: 180px;
+        //   }
+          
+      }
+    }
+    .last-stap{
+        h5{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            color: #6F7897;
+        }
+    }
+    .chart_list{
+      padding-left: 24px;
+      width: 76%;
+      .views_list {
+        .tag_lineDev{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            color: #6F7897;
+        }
+      
+           
+        .titleDev{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            margin: 0px;
+            color: #FFFFFF;
+        }
+      }
+      @media (max-width: 998.98px) {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0px;
+      }
+      .borderSec{
+        border: 1px solid #3C4254;
+        margin: 0px 20px 0px 40px;
+      }
+      .views_list{
+
+        .title{
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 25px;
+        }
+      }
+      .title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #DDDEE3;
+        font-family: $SatoshiVariable;
+        min-height: 45px;
+        margin: 0;
+      }
+      .campaigns-nmae{
+        padding-bottom: 24px;
+        .tag_line{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 20px;
+          color: #FFFFFF;
+          font-family: $SatoshiVariable;
+          margin-bottom: 0px;
+        }
+        span{
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: #6F7897;
+        }
+      }
+    }
+    
+  }

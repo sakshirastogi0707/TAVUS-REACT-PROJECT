@@ -1,0 +1,41 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.button-tooltip{
+    position: fixed;
+    bottom: 150px;
+    left: 36px;
+    .button-tooltipBox{
+        padding: 20px 21px 25px 30px;
+        border: 2px solid #FFC542;
+        border-radius: 8px;
+        width: 306px;
+        height: 147px;
+        background: rgba(48, 49, 59, 0.95);
+        .tooltipcont{
+            padding-bottom: 9px;
+            .closeBtn{
+                cursor: pointer;
+            }
+            .text{
+                width: 100%;
+            }
+            .title{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFFFFF;
+                padding-left: 12px;
+                margin-bottom: 0px;
+                font-family: $SatoshiVariable;
+            }
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+            font-family: $SatoshiVariable;
+        }
+    }
+}

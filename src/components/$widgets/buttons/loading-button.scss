@@ -1,0 +1,25 @@
+@import "../../../../public/assets/css/colors.scss";
+.loadingBtn{
+    .MuiLoadingButton-root{
+        font-family: $SatoshiVariable;
+        background: #1877F2!important;
+        border-radius: 8px !important;
+        padding: 10px 17px!important;
+        font-weight: 600 ;
+        font-size: 18px;
+        color: #FFFFFF;
+        border: 1px solid #1877F2!important;
+        box-shadow: none !important;
+    }
+    .Mui-disabled{
+        background: #303443 !important;
+        border: 1px solid #303443 !important;
+        color: #6F7897 !important;
+
+        .MuiSvgIcon-root{
+            width: 20px !important;
+            height: 20px !important;    
+            color: #595F70;       
+        }
+    }
+}

@@ -1,0 +1,43 @@
+
+@import "../../../../public/assets/css/colors";
+
+.custom-select-main {
+    .MuiFormControl-root {
+        display: block;
+        margin: 0;
+        height: 35px;
+    }
+    
+    .MuiInputBase-root {
+        display: block;
+        border: 1px solid #4b5162;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 10px 15px;
+        background-color: #4b5162;
+        height: 46px;
+    }
+    .MuiInput-underline:after,
+    .MuiInput-underline:hover:not(.Mui-disabled):before,
+    .MuiInput-underline:before {
+        border-bottom: none;
+    }
+    .MuiNativeSelect-select:focus {
+        background-color: transparent;
+    }
+    .MuiNativeSelect-select {
+        font-family: $SatoshiVariable;
+        font-weight: $Light;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .MuiNativeSelect-select.MuiNativeSelect-select{
+        padding: 0px;
+        color: #f2f2f2 !important;
+    }
+    select option {
+        margin: 0px;
+        background: #4b5162 !important;
+    }
+    
+}

@@ -1,0 +1,170 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.cropImg{
+    margin-top: 29px;
+    .Demo-sliderContainer-11{
+       
+       
+       
+        
+    }
+    .zoomIn{
+        padding-top: 15px;
+        .MuiSlider-rail, .MuiSlider-track{
+            height: 5px;
+            border-radius: 50px !important;
+        }
+        .MuiSlider-root{
+            padding: 14px 0px;
+        }
+        .MuiSlider-thumb{
+            top: 15px;
+            background-color:  #1877F2;
+        }
+        .MuiTypography-root{
+            font-family: $SatoshiVariable !important;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+            text-transform: initial !important;
+            width: 115px;
+        }
+    }
+    .saveBtn{
+        float: right;
+        padding-top: 22px;
+        .MuiButtonBase-root{
+            background-color: #1877F2;
+            width: 104px;
+            height: 34px;
+            border-radius: 8px;
+            .MuiButton-label{
+                font-family: $SatoshiVariable;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                text-transform: initial !important;
+            }
+        }
+    }
+    
+    
+    .cropImgBox{
+        height: 150px;
+        position: relative;
+
+    }
+        .closeIcon{
+            position: absolute;
+            top: -14px;
+            right: -13px;
+            cursor: pointer;
+        }
+    .upload-main{
+        position: relative;
+        .uploadLogo{
+            height: 148px;
+            position: relative;
+            background: #282938;
+            border: 1px dashed #4C4E67;
+            border-radius: 8px;
+            .uploadSvg{
+                position: relative;
+                padding-top: 27px;
+                padding-bottom: 20px;
+                label{
+                    margin: 0px;
+                    height: 43px;
+                }
+                p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: rgba(255, 255, 255, 0.8);
+                    padding-top: 21px;
+                }
+               
+            }
+        }
+        form {
+            position: absolute;
+            top: 0%;
+            height: 148px;
+            width: 100%;
+    
+            input {
+                width: 100%;
+                height: 100%;
+                outline: none;
+                opacity: 0;
+                cursor: pointer;
+            }
+        }
+        .cropLogo{
+            margin-top: 21px;
+            .LogoDev{
+                background-color: #0046B6;
+                height: 48px;
+                border-radius: 8px;
+                padding:9px 12px;
+
+                .logoTitle{
+                    display: flex;
+                    .logoName{
+                        padding-left: 10px;
+                            h5{
+                                font-family: $SatoshiVariable;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 100%;
+                                color: #FFFFFF;
+                                margin: 0px;
+                            }
+                            h6{
+                                font-family: $SatoshiVariable;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 100%;
+                                color: #FFFFFF;
+                                margin: 0px;
+                            }
+                    }
+                }
+                .imgDev{
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }
+    .toggleButton{
+        padding-bottom: 13px;
+        .MuiToggleButtonGroup-root{
+            background: rgba(74, 74, 74, 0.2);
+            border-radius: 8px;
+            width: 116px;
+            height: 40px;
+        }
+        .MuiButtonBase-root{
+            background-color:transparent ;
+        }
+        .MuiToggleButton-root{
+         padding: 11px 16px;
+        }
+        .Mui-selected{
+            background-color:#1877F2 ;
+            border-radius: 8px !important;
+        }
+        .Mui-selected:hover{
+            background-color:#1877F2 ;
+            border-radius: 8px !important;
+        }
+    }
+   
+}

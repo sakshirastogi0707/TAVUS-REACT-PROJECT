@@ -1,0 +1,42 @@
+@import "../../../../public/assets/css/colors.scss"; 
+.time-pickers{
+    position: relative;
+            .time-img {
+                position: absolute;
+                bottom: 8px;
+                padding-top: 13px;
+                right: 16px;
+                z-index: 99;
+            }
+            .MuiIconButton-root {
+                z-index: 999;
+                width: 100%;
+                padding: 15px;
+                margin: 5px 5px 8px 0px;
+            }
+
+            .MuiIconButton-label {
+                display: none;
+            }
+}
+        .MuiPickersModal-dialog .MuiPickersBasePicker-container{
+
+                .MuiPickersToolbar-toolbar {
+                background-color: $colorDarGeen;
+                }
+                .MuiPickersClock-pin {
+                    background-color: $colorDarGeen;
+                }
+                .MuiPickersClockNumber-clockNumberSelected {
+                    background-color: $colorDarGeen;
+                }
+            .MuiPickersClockPointer-pointer {
+                background-color: $colorDarGeen;
+                .MuiPickersClockPointer-thumb {
+                    border: 14px solid $colorDarGeen;
+                }
+            }
+        }
+        .MuiDialogActions-root .MuiButton-textPrimary {
+            color: $colorDarGeen;
+        }

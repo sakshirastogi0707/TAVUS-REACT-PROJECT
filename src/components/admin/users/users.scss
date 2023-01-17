@@ -1,0 +1,134 @@
+@import "../../../../public/assets/css/colors";
+
+.dashboard-main {
+    margin: 12px 12px 12px 0px;
+    .user{
+        padding-bottom: 25px;
+        .search-section .searchDiv{
+            @media (max-width: 767px) {
+                padding-bottom: 20px !important;
+              }
+        }
+    }
+    .card {
+        border: none;
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        margin-top: 0px;
+        min-height: 250px;
+    position: relative;
+        .card-body {
+            padding: 0;
+            .table{
+                min-height: 190px;
+            }
+        }
+    }
+   
+    .user{
+        @media (max-width: 767px) {
+            padding: 20px 0px;
+          }
+    }
+    .generateBtn {
+        font-family: $SatoshiVariable;
+        font-weight: $SemiBold;
+        font-size: 17px;
+        line-height: 24px;
+        padding: 8px 10px 8px 16px !important;
+        background: #0062FF;
+        border-radius: 5px ;
+        min-width: 160px;
+        display: inline;
+        text-align: left;
+    }
+    
+    .table thead .table_title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    .table thead th {
+        border-bottom: 0;
+        vertical-align: middle;
+        font-size: 12px;
+        line-height: 12px;
+        color: #757B8C;
+        font-family: $SatoshiVariable;
+        font-weight: $SemiBold;
+    }
+    .table thead th {
+        border-top: 0;
+        border-bottom: 1px solid #595F70;
+    }
+    .table th {
+        padding: 25px 20px;
+    }
+    .role {
+        .edit-icon{
+            padding-left: 10px;
+        }
+        .MuiSvgIcon-root {
+            width: 20px !important;
+            height: 20px !important;
+        }
+        .singledropdown{
+            .css-1wa3eu0-placeholder{
+                font-size: 12px;
+                line-height: 14px;
+                font-weight: 300;
+            }
+            .css-yk16xz-control {
+                min-height: 40px !important;
+            }
+            .css-tlfecz-indicatorContainer {
+                padding: 4px 1px !important;
+            }
+        }
+    }
+    .table td {
+        padding: 20px 20px;
+        vertical-align: middle;
+        font-size: 12px;
+        line-height: 12px;
+        color: $colorBackDark;
+        font-family: $SatoshiVariable;
+        font-weight: $Regular;
+        border-bottom: 1px solid #595F70;
+    }
+    .table th:first-child,
+    .table td:first-child {
+        padding-left: 35px;
+    }
+    .send-invite{
+        cursor:pointer;
+        color: blue !important;
+    }
+    
+}
+.invite-user-modal {
+    .Userinput{
+        .text-field {
+            .MuiInputBase-input {
+                padding-left: 20px;
+                padding-right: 20px;
+                font-family: "roobertmedium";
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 79px;
+                background: #4b5162;
+                border-radius: 10px;
+                height: 34px;
+                border-bottom: 0px;
+                
+            }
+        }
+    }
+    .Userinput .text-field .MuiInput-underline:before{
+        display: none;
+    }
+    .Userinput .text-field .MuiInput-underline::after{
+        display: none;
+    }
+}

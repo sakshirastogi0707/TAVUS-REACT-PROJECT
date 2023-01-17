@@ -1,0 +1,234 @@
+@import "../../../../../../../../public/assets/css/colors.scss";
+.landing-pageTwoDesktop{
+    // border-radius: 30px;
+    height: 100%;
+    @media (max-width: 959px) {
+        height: 100vh;
+    }
+    .mainBox{
+        @media (min-width: 1920px){
+            height: calc(100vh - 10px);
+            max-width: 1440px;
+            margin: 0 auto;
+            align-items: center!important;
+            justify-content: center!important;
+            display: flex;
+        }
+       
+        .logoBox{
+            border-radius: 20px;
+            height: 88px;
+            display: flex;
+            align-items: center;
+            img{
+                padding-left: 10px;
+                padding: 6px;
+                width: auto !important;
+                height: 100%;
+            }
+        }
+        
+            .boxTop{
+                padding: 0px 55px;
+                @media (max-width: 959px) {
+                   padding: 0px;
+                 }
+                img{
+                    width: 100%;
+                }
+            }
+            .boxBottom{
+                padding: 26px 51px 28px;
+                display: flex;
+                @media (max-width: 959px) {
+                   display: block;
+                   padding: 0px;
+                }
+                .logoBox{
+                    width: 22%;
+                    padding-right: 20px;
+                    @media (max-width: 959px) {
+                        width: 100%;
+                        padding: 24px 13px;
+                    }
+                }
+                .footerText{
+                    padding-right: 20px;
+                    width: 42%;
+                    @media (max-width: 959px) {
+                        width: 100%;
+                        padding: 0px 32px;
+                    }
+
+                }
+                .footerButton{
+                    width: 34%;
+                    padding-left: 36px;
+                    @media (max-width: 959px) {
+                        width: 100%;
+                        padding: 0px 32px 35px;
+                    }
+                }
+                .templateBtn {
+                    @media (max-width: 959px) {
+                        display: block !important;
+                    }
+                padding-top: 4px;
+                    .basicBUtton{
+                        float: left;
+                        margin-right: 10px;
+                        padding-top: 0px;
+                        @media (max-width: 959px) {
+                            float: initial;
+                            margin-right: 0px;
+                        padding-top: 18px;
+                        }
+
+                        .MuiButtonBase-root{
+                            border-radius: 12.1872 !important;
+                            width: 174.43px;
+                            min-height: 47.75px;
+                            height: auto;
+                            font-weight: 800;
+                            font-size: 15.234px;
+                            line-height: 28px;
+                            word-break: break-word;
+                            @media (max-width: 959px) {
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 16px;
+                                line-height: 37px;
+                                height: 54px;
+                            }
+                        }
+                    }
+                    
+            }
+                .templateText{
+                    h2.templateTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                        @media (max-width: 959px) {
+                            font-weight: 700;
+                            font-size: 42px;
+                            line-height: 55px;
+                        }
+                    }
+                    p.templatePTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                        @media (max-width: 959px) {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 37px;
+                        }
+                    }
+                    h4.templateSubTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 36px;
+                        letter-spacing: 0.1px;
+                        @media (max-width: 959px) {
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+.landing-pageTwoMobile{
+    // max-width: 576px;
+    border-radius: 20px;
+    max-width: 414px;
+    margin: auto;
+        .boxTop{
+            padding-bottom: 25px;
+            img{
+                width: 100%;
+                border-radius: 20px 20px 0px 0px;
+            }
+        }
+            .landing-logo{
+                border-radius: 20px;
+                height: 88px;
+                display: flex;
+                align-items: center;
+                margin: 0px 13px;
+                img{
+                    padding-left: 10px;
+                }
+            }
+               
+                .boxBottom{
+                    display: block;
+                    padding-bottom: 24px;
+                    .logoBox{
+                            width: 100%;
+                            padding: 24px 13px;
+                    }
+                    .footerText{
+                            width: 100%;
+                            padding: 0px 32px;
+                            .templateText{
+                                h2{
+                                    font-family: 'Poppins';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 48px;
+                                    line-height: 55px;
+                                    letter-spacing: 0.1px;
+                                    margin: 0px;
+                                }
+                                p{
+                                    font-family: 'Poppins';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 27px;
+                                    letter-spacing: 0.1px;
+                                    margin: 0px;
+                                }
+                            }
+                    }
+                    .footerButton{
+                            width: 100%;
+                            padding: 0px 32px;
+                            .templateText{
+                                h4{
+                                    font-family: 'Poppins';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 25px;
+                                    line-height: 66px;
+                                    letter-spacing: 0.1px;
+                                    margin: 0px;
+                                    padding-top: 17px;
+                                }
+                            }
+                            .templateBtn{
+                                display: inherit !important;
+                                .basicBUtton{
+                                    margin: 0px;
+                                    .MuiButtonBase-root{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+
+                    }
+                }  
+    }

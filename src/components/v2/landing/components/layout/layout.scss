@@ -1,0 +1,60 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.templateBox{
+  .templateTitleFix{
+    h3.title {
+      margin-bottom: 24px;
+    }
+  } 
+  .DevTempBox{
+    margin-top: 30px;
+    height: 466px;
+    overflow: auto;
+    .template-layouts-main {
+      padding-right: 24px;
+      .image-thumb {
+        width: 100%;
+        padding: 5px;
+      }
+      .imgBox{
+        background: #303443;
+        border-radius: 10px;
+        margin-bottom: 24px;
+        img{
+          border-radius: 20px;
+        }
+      }
+      .active {
+        background: #1877F2;
+        border-radius: 10px;
+        margin-bottom: 24px;
+        img{
+          border-radius: 20px;
+        }
+      }
+      p{
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+        padding: 0px 8px 8px;
+      }
+      
+    }
+   
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    background: #22232C;
+    border-radius: 8px;
+    display: block !important;
+    padding-left: 30px;
+    }
+    ::-webkit-scrollbar:hover {
+    width: 3px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #0062FF;; 
+      border-radius: 8px;
+      height: 200px;
+    }
+}

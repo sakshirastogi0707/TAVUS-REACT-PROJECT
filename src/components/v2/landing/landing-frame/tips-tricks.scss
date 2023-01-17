@@ -1,0 +1,94 @@
+@import "../../../../../public/assets/css/colors.scss";
+.tips-tricks{
+    padding-right: 12px !important;
+    .model_title .title h5{
+        margin-bottom: 2px !important;
+        line-height: 18px !important;
+    }
+    .main-model{
+        padding-right: 7px !important;
+        height: 500px;
+        overflow: auto;
+       
+    }
+
+    .contentModal{
+        
+       .tips-tricks-main{
+           .tricks-box{
+            .tips-tricks-box{
+                background: #303443;
+                border-radius: 10px;
+                height: 204px;
+                margin:13px 12px;
+                .tips-cont{
+                    padding: 31px 28px 13px;
+
+                    h3{
+                        font-family: $SatoshiVariable;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        margin-bottom: 7px;
+                        margin-top: 0px;
+                    }
+                    p{
+                        font-family: $SatoshiVariable;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 20px;
+                        color: rgba(255, 255, 255, 0.8);
+                    }
+                }
+                .buttonRight{
+                    padding-right: 6px;
+                    .loadingBtn .MuiLoadingButton-root {
+                        background: #1877F2 !important;
+                        border-radius: 5px !important;
+                        font-family: $SatoshiVariable;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 28px;
+                        letter-spacing: 0.1px;
+                        padding: 5px 11px !important;
+                        color: #FFFFFF;
+                        border: 1px solid #1877F2 !important;
+                        width: 98px;
+                        height: 29px;
+                        text-transform: initial;
+                        justify-content: unset !important;
+                        .MuiButton-endIcon{
+                            margin-right: -10px;
+                            margin-left: 5px;
+                            img{
+                                filter: brightness(5);
+                                width:12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+           }
+           
+       } 
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+        background: #22232C;
+        border-radius: 8px;
+        display: block !important;
+        padding-left: 30px;
+        }
+        ::-webkit-scrollbar:hover {
+        width: 3px;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #0062FF;; 
+          border-radius: 8px;
+          height: 200px;
+        }
+}

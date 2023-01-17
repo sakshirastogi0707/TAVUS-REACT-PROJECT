@@ -1,0 +1,74 @@
+@import "../../../../public/assets/css/colors.scss";
+
+
+.backdrop {
+  background-color: transparent;
+}
+.directory-links-drawer {
+  padding: 10px;
+
+  .day-list li {
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 5px;
+
+    a {
+      font-weight: 500;
+      font-family: Work Sans;
+      color: $colorBack;
+
+    }
+
+    a:hover {
+      text-decoration: none !important;
+    }
+  }
+
+  .day-list li:hover {
+    border-radius: 10px;
+  }
+}
+
+.icon-drop {
+  top: 24px;
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .directory-links-drawer {
+    padding: 10px;
+
+    .day-list li {
+      padding: 7px;
+      font-size: 15px;
+      margin-top: 5px;
+
+      a {
+        font-weight: 500;
+        font-family: Work Sans;
+        color: $colorBack;
+
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .day-list li:hover {
+     
+      border-radius: 10px;
+    }
+  }
+  .login-section .card_header{
+    display: none;
+  }
+  .icon-drop {
+   display: none;
+}
+}
+
+@media (max-width: 575.98px) {
+
+}

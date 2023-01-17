@@ -1,0 +1,272 @@
+@import "../../../../../public/assets/css/colors.scss";
+.LeftBox-main{
+  background: rgba(35, 38, 49, 0.5);
+  width: fit-content;
+  padding: 20px;
+  border-radius: 16px;;
+  height: 100%;
+  .boxDiv{
+    width: 367px;
+    .DevText{
+      padding-bottom: 20px;
+      span{
+        color: #6F7897;
+        font-size: 15px;
+        font-family: $SatoshiVariable;
+      }
+    }
+  }
+  .DevCont{
+    margin-bottom: 24px;
+  }
+  .Alert-message-box{
+    margin-top: 10px;
+  }
+  .video-box-main{
+   margin-top: 24px;
+    .video-box{
+      height: 226px;
+      width: 367px;
+      border-radius: 20px;
+      position: relative;
+      background-color: #232631;
+      .VideoBox{
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        border-radius: 20px;
+        position: absolute;
+        z-index:1;
+      }
+    }
+  }
+  .webcam{
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    height: 226px;
+    width: 367px;
+  }
+}
+.Audiovideo{
+  .iconButton .MuiButton-containedPrimary {
+      background: #232631;
+      border-radius: 75px;
+      box-shadow:none;
+      font-family: $SatoshiVariable;
+      min-width: 138px;
+      max-width: 138px;
+      height: 34px;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      padding: 5px 10px 5px 12px;
+      .MuiButton-startIcon{
+          margin-right: 8px;
+          img{
+              width: 12px !important;
+          }
+      }
+      &:hover{
+          background: #232631 !important;
+      }
+  }
+}
+
+.timer-counter, .red-dot-wrapper {
+    z-index: 2;
+    font-size: 42px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Start-recording{
+    width: 100%;
+    .iconButton .MuiButton-containedPrimary{
+        width: 100%;
+    }
+}
+.stop-recording{
+    width: 100%;
+    .iconButton .MuiButton-containedPrimary{
+        width: 100%;
+        background: #232631 !important;
+        border-radius: 8px;
+    }
+}
+.record-again{
+    width: 100%;
+    .iconButton .MuiButton-containedPrimary{
+        width: 100%;
+        background: #232631 !important;
+        border-radius: 8px;
+    }
+}
+.interaction{
+    padding-top: 10px;
+    padding-bottom: 32px;
+    .MuiPaper-elevation{
+      background: #1b273c;
+      border-radius: 8px;
+      color:#fff ;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      font-family: $SatoshiVariable;
+      padding: 2px 20px;
+      .MuiAlert-icon{
+        padding: 7px 0;
+        margin-right: 16px;
+        display: -webkit-box;
+        opacity: 9;
+        display: none;
+      }
+    }
+  }
+  .scriptLeft{
+    width: 391px;
+    height: 572px;
+    background:rgba(35, 38, 49, 0.5);
+    border-radius: 16px;
+    position: relative;
+    padding: 25px 32px 32px;
+      .topBox{
+          .total-cont{
+              margin-bottom: 9px;
+              h3{
+                  font-family: $SatoshiVariable;
+                  font-weight: 500;
+                  font-size: 15px;
+                  line-height: 24px;
+                  letter-spacing: 0.1px;
+                  color: #6F7897;
+              }
+          }
+          .play-record{
+            margin-bottom: 20px;
+            img{
+              cursor: pointer;
+            }
+          }
+          p{
+              font-weight: 500;
+              font-size: 17px;
+              line-height: 24px;
+              letter-spacing: 0.1px;
+              color: #FFFFFF;
+          }
+          .recordingButton{
+            padding: 20px 0px 10px 0px;
+            .iconButton .MuiButton-containedPrimary {
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 28px;
+              color: #F2F2F2;
+              letter-spacing: 0.1px;
+              background-color: #1877F2;
+              min-width: 100%;
+              border-radius: 8px;
+              box-shadow:none;
+              height: 56px;
+              .MuiButton-startIcon{
+                margin-right: 16px;
+                img{
+                    width: 16px !important;
+                }
+              }
+            }
+            .stop-recording-button {
+              background-color: #232631 !important;
+            }
+           .stop-recording .iconButton .MuiButton-containedPrimary {
+            background: #232631;
+                &:hover{
+                  background: #232631 !important;
+              }
+            }
+            .record-again .iconButton .MuiButton-containedPrimary {
+              background: #232631;
+                  &:hover{
+                    background: #232631 !important;
+                }
+              }
+          }
+          
+      }
+      .bottamBox{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: 32px;
+          .videoBox{
+              background: #232631;
+              border-radius: 12px;
+              height: 194px;
+              position: relative;
+              margin-bottom: 20px;
+              .musicSec{
+                position: absolute;
+                bottom: 15px;
+                left: 15px;
+              }
+              .video-recorder__Wrapper-sc-7k20rv-0{
+                border-radius: 8px;
+                min-height: 190px;
+              }
+              video{
+                width: 100%;
+                height: 100%;
+              }
+              
+          }
+          .Audiovideo{
+              .iconButton .MuiButton-containedPrimary {
+                  background: #232631;
+                  border-radius: 75px;
+                  box-shadow:none;
+                  font-family: $SatoshiVariable;
+                  min-width: 138px;
+                  max-width: 138px;
+                  height: 34px;
+                  font-weight: 500;
+                  font-size: 13px;
+                  line-height: 20px;
+                  padding: 5px 10px 5px 12px;
+                  .MuiButton-startIcon{
+                      margin-right: 8px;
+                      img{
+                          width: 12px !important;
+                      }
+                  }
+                  &:hover{
+                      background: #232631 !important;
+                  }
+              } 
+          }
+      }
+  }
+.red-dot-wrapper {
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    span {
+        height: 12px;
+        width: 12px;
+        border-radius: 20px;
+        background-color: red;
+        display: block;
+        margin-top: 10px;
+        margin-right: 10px;
+        position: absolute;
+        right: 0px;
+    }
+}

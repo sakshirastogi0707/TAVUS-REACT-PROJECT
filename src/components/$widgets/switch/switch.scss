@@ -1,0 +1,27 @@
+@import '../../../../public/assets/css/colors.scss';
+.switchBtn{
+    .MuiSwitch-thumb{
+        background: linear-gradient(180deg, #FCFCFD 0%, #CDCDD7 100%);
+        border: 3px solid #fff;
+        width: 20px;
+        height: 20px;
+        margin-top: -1px;
+    }
+    .MuiSwitch-track{
+        border-radius: 14px;
+        background-color: #F7F8FA;
+        box-shadow: inset 0 1px 3px 0 rgba(39,58,83,0.3);
+        width: 40px;
+        height: 20px;
+    }
+    .MuiButtonBase-root.MuiSwitch-switchBase.Mui-checked{
+        padding-left: 4px;
+    }
+    .MuiFormControlLabel-root {
+        margin-right: 0px;
+    }
+    .MuiSwitch-root{
+        margin-right: 0px;
+        margin-top: 12px;
+    }
+}

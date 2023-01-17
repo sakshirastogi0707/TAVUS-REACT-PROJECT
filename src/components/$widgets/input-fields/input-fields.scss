@@ -1,0 +1,187 @@
+@import "../../../../public/assets/css/colors.scss"; 
+.text-field {
+    fieldset {
+        top: 0px;
+    }
+    .MuiFormControl-root {
+        width: 100%;
+    }
+    .MuiOutlinedInput-root {
+        border-radius: 10px;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+    .MuiOutlinedInput-notchedOutline {
+        border-color: $colorBackLight;
+    }
+    .MuiInputLabel-outlined,
+    .MuiOutlinedInput-input {
+        font-family: $SatoshiVariable;
+        font-weight: $Regular;
+        font-size: 14px;
+        line-height: 18px;
+        
+    }
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        font-family: $SatoshiVariable;
+        font-weight: $Light;
+        font-size: 14px;
+        line-height: 15px;
+        color: $colorBack;
+        background: transparent;
+        padding-right: 8px;
+        transform: translate(24px, -2px) scale(0.75);
+    }
+    .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+         border-color: $colorBackLight;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-color: $colorBackLight;
+        border-width: 1px;
+    }
+}
+.text-field-custom{
+    position: relative;
+    
+    .MuiFormControl-root {
+        width: 100%;
+
+        .Mui-focused{
+            color: $colorBack;
+        }
+        .MuiInputBase-input, textarea{
+            padding: 6px 12px 7px;
+        }
+        .MuiInput-underline {
+            border-bottom: 0px solid $colorBackLight;
+        }
+        .MuiInput-underline:before {
+            border-bottom: 0px solid rgba(0, 0, 0, 0.42);
+        }
+        .MuiInput-underline:after{
+            border-bottom: 0px solid $colorBackLight;
+        }
+        .MuiInput-underline:hover:not(.Mui-disabled):before {
+            border-bottom: 0px solid rgba(0, 0, 0, 0.87);
+        }
+        .MuiInputLabel-root {
+            display: block;
+            transform-origin: top left;
+            padding: 0 5px;
+            font-size: 12px;
+            font-family: $SatoshiVariable;
+            font-weight: $Medium;
+            color: $colorBackLight;
+        }
+        .MuiInputBase-input, textarea{
+            font-family: $SatoshiVariable;
+            font-weight: $Bold;
+            font-size: 14px;
+            color: #F2F2F2;
+        }
+    }
+    .show-edit{
+        position: absolute;
+        right: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: $Bold;
+        color: $colorBackLight;
+
+    }
+
+}
+    .show-password {
+        position: absolute;
+        right: 20px;
+        margin-top: 16px;
+        cursor: pointer;
+        width: 24px;
+
+    }
+    .show-password1 {
+        position: absolute;
+        right: 20px;
+        margin-top: 16px;
+        cursor: pointer;
+        width: 24px;
+
+    }
+    .change-password{
+        position: absolute;
+        right: 8px;
+        margin-top: 17px;
+        cursor: pointer;
+        width: 22px;
+
+    }
+    .change-password1{
+        position: absolute;
+        right: 8px;
+        margin-top: 17px;
+        cursor: pointer;
+        width: 22px;
+
+    }
+.input-autocomplete{
+    .location-search-input{
+        width: 100%;
+        font-family: $SatoshiVariable;
+        font-weight: 400;
+        font-size: 14px;
+        background: transparent;
+    }
+    .autocomplete-dropdown-container{
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+    }
+    input{
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #555;
+    }
+    input:focus-visible {
+        border: 1px solid #555;
+    }
+
+}
+.text-field{
+    display: flex;
+    textarea {
+        resize: none !important;
+        overflow: hidden;
+        font: inherit;
+        margin: 0px;
+        display: block;
+        padding: 15px 36px 15px 15px;
+        min-width: 0px;
+        background: none;
+        box-sizing: content-box;
+        animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+        -webkit-tap-highlight-color: transparent;
+        color: $colorBack;
+        border-radius: 22px;
+        width: 17rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        font-family: $SatoshiVariable;
+        font-weight: 300;
+        font-size: 14px;
+        outline: none;
+        overflow: auto !important;
+    }
+
+    textarea:focus-visible {
+        border: 1px solid;
+        border-color: $colorBackLight;
+        border-radius: 22px;
+    }
+    .fi-rr-eye:before , .fi-rr-eye-crossed:before{
+        font-size: 25px;
+    }
+    .MuiSvgIcon-root {
+        width: 25px !important;
+        height: 25px !important;
+        color: #dddee3;
+    }
+}

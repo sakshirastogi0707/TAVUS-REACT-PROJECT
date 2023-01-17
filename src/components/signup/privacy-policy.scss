@@ -1,0 +1,123 @@
+@import "../../../public/assets/css/colors.scss";
+// .privacy-main::before{
+//     content: '';
+//     background-color: #171720;
+//     position: fixed;
+//     left: 0;
+//     right: 0;
+//     top: 0;
+//     bottom: 0;
+//     z-index: -1;
+//     height: 100%;
+//     width:100%;
+
+// }
+.privacy-main{
+    .header-main {
+        padding-top: 50px;
+        height: 78px;
+        .headerDiv{
+            display: none;
+        }
+    }
+    .privacy-main-box{
+        padding-top: 53px;
+        .privacy-box{
+            background: #181c28;
+            border-radius: 8px;
+            height: calc(100vh - 200px);
+            width: 52%;
+            position: relative;
+            padding: 40px;
+            @media (max-width: 991px) {
+                width: 90%;
+                padding: 30px;
+            }
+            .privacy-text{
+                min-height: 300px;
+                overflow: auto;
+                height: calc(100vh - 330px);
+                padding-bottom: 10px;
+                .privacy-title{
+                    font-family: $SatoshiVariable;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 38px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin-bottom: 24px;
+                }
+                p{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin-bottom: 12px;
+                }
+                h4{
+                    font-size: 22px;
+                    line-height: 38px;
+                    font-weight: 700;
+                }
+                ul{
+                    margin-left: 35px;
+                    li{
+                        margin-bottom: 10px;
+                    }
+                }
+                ul.disc{
+                    list-style-type:disc;
+                    span{
+                        cursor: pointer;
+                        color: #1877F2;
+                    }
+                    
+                }
+                ul.circle {
+                    list-style-type: circle;
+                  }
+                  ul.alpha {
+                    list-style-type: lower-alpha;
+                  }
+                  ul.decimal {
+                    list-style-type: decimal;
+                }
+            }
+            .privacy-box-footer{
+                height: 88px;
+                background: #232631;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                border-radius: 0px 0px 8px 8px;
+                .agree-button{
+                    padding: 14px;
+                    .loadingBtn .MuiLoadingButton-root{
+                        font-family: $SatoshiVariable;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        letter-spacing: 0.1px;
+                        text-transform: inherit;
+                        color: #FFFFFF;
+                        height: 60px;
+                        min-width: 140px;
+                        .MuiButton-endIcon{
+                            margin-left: 16px;
+                            img{
+                                webkit-filter: brightness(5);
+                                filter: brightness(5);
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+}

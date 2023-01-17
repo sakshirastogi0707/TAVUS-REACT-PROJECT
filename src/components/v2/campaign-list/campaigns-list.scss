@@ -1,0 +1,141 @@
+@import "../../../../public/assets/css/colors.scss";
+.campaign-main-box{
+    padding: 32px 39px;
+    h2{
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 58px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+    .MuiGrid-spacing-xs-4 {
+        width: auto;
+      }
+    .Campaigns-search{
+        margin-top: 32px;
+        .MuiPaper-root{
+            box-shadow:none;
+        }
+        .MuiInputBase-input{
+            height: 43px;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+    .compaigns-box{
+        
+        padding-top: 32px;
+        // grid-gap: 32px;
+        .create-campaign{
+            border-radius: 20px;
+            height: 184px;
+            border: 1px dashed #6F7897;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            @media (max-width: 998.98px) {
+                width: 100%;
+                padding-right: 16px;
+              }
+            .create-campaignDev{
+                h3{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 20px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    img{
+                        padding-right: 16px;
+                    }
+                }
+            }
+        }
+    }
+  
+}
+.pagination-dev{
+    padding-top: 30px;
+    float: right;
+    display: flex;
+    .bottomBack{
+        background: #1e1f25;
+        border: 1px solid #e4e4e4;
+        border-radius: 5px;
+        padding: 4px 8px;
+        margin: 0px 10px;
+        cursor: pointer;
+        .back-box{
+            font-family: $SatoshiVariable;
+            font-weight: 400;
+            font-size: 12px;
+            color: #757b8c;
+        }
+    }
+    .bottomBack:hover{
+        background: #0062FF;
+        border: 1px solid #0062FF;
+        .back-box{
+            color: #fff;
+        }
+    }
+    .pagination li:first-child, .pagination li:last-child{
+        background: #1E1F25;
+        border: 1px solid #E4E4E4;
+        border-radius: 5px;
+    }
+    .not_found h4{
+        font-size: 14px;
+    }
+    .pagination {
+        display: inline-flex;
+        margin: 0px;
+        padding: 0px 30px;
+        li {
+            margin: 0 5px;
+            background: transparent;
+            border: 0px solid #E4E4E4;
+            
+            a {
+                font-family: $SatoshiVariable;
+                font-weight: $Regular;
+                font-size: 12px;
+                text-decoration: none;
+                color: #757B8C;
+                letter-spacing: -0.02em;
+               /*font-size: 16px; 
+                height: 50px;
+                width: 50px;  */
+                height: 30px;
+                width: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                display: -webkit-flex;
+                -webkit-align-items: center;
+                -webkit-justify-content: center;
+                
+            }
+        }
+        
+        
+        .active {
+           a {
+               color: $colorWhite;
+           }
+            background: #0062FF;;
+            border: 1px solid #0062FF;
+            border-radius: 5px;
+        }
+    }
+
+}

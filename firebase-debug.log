@@ -1,0 +1,10 @@
+[debug] [2021-06-30T11:41:03.925Z] ----------------------------------------------------------------------
+[debug] [2021-06-30T11:41:03.927Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2021-06-30T11:41:03.928Z] CLI Version:   9.9.0
+[debug] [2021-06-30T11:41:03.928Z] Platform:      darwin
+[debug] [2021-06-30T11:41:03.928Z] Node Version:  v14.16.0
+[debug] [2021-06-30T11:41:03.929Z] Time:          Wed Jun 30 2021 17:11:03 GMT+0530 (India Standard Time)
+[debug] [2021-06-30T11:41:03.929Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-30T11:41:03.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-30T11:41:03.937Z] > authorizing via signed-in user (navdeep@simubladetechnology.com)

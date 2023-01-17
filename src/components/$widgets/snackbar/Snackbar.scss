@@ -1,0 +1,28 @@
+@import '../../../../public/assets/css/colors.scss';
+.alertSnackbar{
+    position: fixed;
+    bottom: 16px;
+    left: 1%;
+    z-index: 9999;
+    .MuiPaper-elevation{
+        background-color: #30313B;
+        border: 1px solid #FC5A5A;
+        border-radius: 8px;
+        color: #FFF;
+    }
+    .MuiAlert-icon{
+        .MuiSvgIcon-root {
+            color: #FC5A5A;
+        }
+    }
+    .MuiAlert-action{
+        padding-top: 0px !important;
+    }
+    .MuiIconButton-root:hover {
+        background-color: transparent !important;
+    }
+    .MuiIconButton-root {
+        min-height: -webkit-fill-available;
+        padding: 8px !important;
+    }
+}

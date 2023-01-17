@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  //   border: 2px solid burlywood;
+
+  .btnSection {
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .tableSection {
+    display: flex;
+    flex-direction: row;
+    // border: 2px solid green;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}

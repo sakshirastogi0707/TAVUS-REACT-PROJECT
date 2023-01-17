@@ -1,0 +1,171 @@
+@import "../../../../../public/assets/css/colors.scss";
+.audio-video{
+    padding: 0px 80px;
+  @media (max-width: 991px){
+    padding: 0px 30px;
+  }
+
+    .header-main-landing{
+      .headerDiv{
+          margin-top: 0px;
+        h2{
+          margin-bottom: 0px !important;
+          padding-bottom: 0px;
+        }
+      }
+    }
+    .frame-box{
+      margin-bottom: 140px;
+        @media (min-width: 1620px) {
+            height: calc(100vh - 175px);
+            max-width: 1440px;
+            margin: 0 auto;
+    
+          }
+         
+    }
+    .audio-title{
+      padding-top: 46px;
+      h3{
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+      }
+      p{
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #6F7897;
+      }
+    }
+  .script-box{
+    display: flex;
+    width: 100%;
+    padding-top: 32px;
+      @media (max-width: 991px){
+        flex-flow: row wrap;
+      }
+      .leftBox{
+        width: 50%;
+        h3{
+          margin: 0px;
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 48px;
+          line-height: 46px;
+          color: #FFFFFF;
+        }
+      }
+    .scriptLeft{
+      height: 591px;
+      background:rgba(35, 38, 49, 0.5);
+      border-radius: 16px;
+      position: relative;
+      padding: 40px;
+        .topBox{
+                h4{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin-bottom: 16px;
+                }
+            p{
+              font-family: $SatoshiVariable;
+              font-weight: 500;
+              font-size: 17px;
+              line-height: 24px;
+              letter-spacing: 0.1px;
+              color: #6F7897;
+              margin-bottom: 32px;
+            }
+        }
+    }
+
+    .scriptRight{
+      width: 50%;
+      margin-left: 32px;
+      
+      .recordingBox{
+        height: 384px;
+        background:rgba(35, 38, 49, 0.5);
+        padding: 40px;
+        border-radius: 16px;
+        margin-bottom: 32px;
+        h4{
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 48px;
+          letter-spacing: 0.1px;
+          color: #FFFFFF;
+        }
+        .cameraBtn{
+          padding-bottom: 12px;
+          .single-dropdown-icon{
+            width: 346px;
+            margin: 8px 0px;
+          }
+          .musicSec{
+            margin-left: 16px;
+          }
+        }
+       
+      }
+     
+    }
+    .retrain-box{
+      background-color: rgba(35, 38, 49, 0.5);
+      height: 175px;
+      padding: 40px;
+        border-radius: 16px;
+        h4{
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 48px;
+          letter-spacing: 0.1px;
+          color: #FFFFFF;
+          margin-bottom: 16px;
+        }
+        p{
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          color: #6F7897;
+        }
+        .retrainBtn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .iconButtonBlack .MuiButton-containedPrimary{
+            width: 160px;
+            min-width: 160px;
+            height: 60px;
+          }
+        }
+    }
+
+    .iconButtonBlack .MuiButton-containedPrimary{
+      
+      height: 60px;
+    }
+  }
+}

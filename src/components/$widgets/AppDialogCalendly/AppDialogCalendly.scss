@@ -1,0 +1,182 @@
+@import "../../../../public/assets/css/colors.scss";
+#app-dialog-calendly {
+
+  .MuiBackdrop-root{
+  }
+  .MuiDialogContent-root{
+    padding:0px;
+    margin: 32px 0px;
+  }
+  .MuiPaper-root.MuiDialog-paper{
+    border-radius: 20px;
+    background: #1E1F25;
+    box-shadow: none;
+  }
+ .modal-content{
+   min-width: 405px;
+   background-color: #1E1F25;
+   border: 0px solid #1E1F25;
+   color: #DDDEE3 !important;
+    @media (max-width: 767.98px) {
+      min-width: auto;
+    }
+    p{
+      display:block !important;
+    }
+    .model_title{
+      padding: 0px 26px 0px;
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+      .title{
+        float: left;
+      }
+      .title h3{
+        font-weight: $Medium;
+        font-size: 20px;
+        line-height: 26px;
+        font-family: $SatoshiVariable;
+      }
+      .title h5 {
+        font-family: $SatoshiVariable;
+        font-weight: $Regular;
+        font-size: 14px;
+        line-height: 20px;
+        color: #6F7897;
+        padding-top: 4px;
+      }
+      .close-icon {
+        float: right;
+        width: 27px;
+        height: 27px;
+        padding: 0px 3px;
+        border-radius: 50% !important;
+      }
+    }
+    .MuiIconButton-root:hover{
+      background-color: #2A2C31 !important;
+    }
+    p{
+      display: block;
+    }
+    .main-model{
+      padding: 32px;
+      position: relative;
+      .sub-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #DDDEE3;
+      }
+      .loader{
+        height: 200px;
+      .loadericon {
+            position: absolute;
+            left: 45%;
+            top: 34%;
+            z-index: 30001;
+            transform: translate(-50%, -50%);
+            .loading_title {
+                min-width: 100px;
+            }
+        }
+      }
+    }
+  }
+  .MuiDialog-paperWidthSm{
+    max-width: 460px;
+  }
+  .MuiDialog-paperWidthMd {
+    max-width: 600px;
+}
+.MuiDialog-paperWidthLg{
+  max-width: 668px;
+  min-height: 490px;
+  height: auto;
+  background-color: #1E1F25 !important;
+  .MuiDialogContent-root {
+    padding: 0px;
+    margin: 26px 0px 15px;
+}
+    .main-model{
+      background-color: #1E1F25 !important;
+      padding: 0px 7px 6px 28px;
+
+    }
+    .model_title {
+      padding: 0px 11px 0px 44px !important;
+      .title {
+        float: left;
+        padding-top: 7px;
+    }
+    }
+
+}
+  .modal-content::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .modal-content::-webkit-scrollbar-track {
+    background: #595F70;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .modal-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .MuiDialog-paperScrollPaper::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  h4 {
+    color: #6E6B7E;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+    padding: 0px 24px;
+  }
+
+  .modal-body {
+    padding: 30px 0px 5px;
+  }
+
+  .modal-footer {
+    border-top: none;
+    padding-top: 44px;
+    padding-bottom: 32px;
+  }
+
+  .btnClose {
+    height: 56px;
+    width: 84.81029510498047px;
+    border-radius: 10px;
+    margin-right: 24.23px;
+    border: 1px solid #403E50;
+    box-sizing: border-box;
+    background: #ffffff;
+  }
+
+  .btnSave {
+    background: #55419E;
+    color: #ffffff;
+    height: 56px;
+    width: 265.03216552734375px;
+    border-radius: 10px;
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.model-sec input{
+  background-color: #4b5162 !important;
+}

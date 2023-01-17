@@ -1,0 +1,115 @@
+@import "../../../../../public/assets/css/colors.scss";
+
+.live-preview-main{
+
+  .model_title {
+    margin-left: auto;
+    padding: 0 26px!important;
+  }
+  .recordingBox {
+    height: 436px;
+    background: rgba(35, 38, 49, 0.5);
+    padding: 55px 15px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .interaction {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 40px;
+      .MuiPaper-elevation {
+        background: #1b273c;
+        border-radius: 8px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        font-family: $SatoshiVariable;
+        padding: 8px 20px;
+        .MuiAlert-icon {
+          padding: 5px 0;
+          margin-right: 16px;
+          display: -webkit-box;
+          opacity: 9;
+        }
+      }
+    }
+    .script-text {
+      overflow: auto;
+      height: 474px;
+      padding: 0px 40px;
+      p span {
+        font-family: $SatoshiVariable !important;
+        font-size: 20px !important;
+        line-height: 34px !important;
+        letter-spacing: 0.1px;
+        color: #ffffff !important;
+      }
+    }
+    .loader-box {
+      background: rgba(23, 23, 32, 0.5);
+      backdrop-filter: blur(16px);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        padding: 20px;
+        text-align: center;
+        p {
+          padding-top: 28px;
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          color: #ffffff;
+        }
+      }
+      .rotate {
+        animation: rotation 2s infinite linear;
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    }
+
+    .recordingBox {
+      position: relative;
+    }
+    .live-btn {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      .iconButtonBlack .MuiButton-containedPrimary {
+        min-width: 103px;
+        height: 34px;
+        background-color: #171720;
+        border-radius: 75px;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+        font-style: normal;
+        font-family: $SatoshiVariable;
+      }
+    
+    }
+
+  }
+    
+}

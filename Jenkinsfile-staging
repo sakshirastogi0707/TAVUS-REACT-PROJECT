@@ -1,0 +1,89 @@
+properties properties: [
+    parameters([
+          string(defaultValue: env.VERSION, description: 'Version to deploy', name: 'VERSION'),
+          string(defaultValue: 'staging-v2', description: 'Branch to deploy', name: 'BRANCH'),
+    ])
+]
+pipeline {
+    agent any
+    environment {
+        AWS_ACCOUNT_ID="669651121059"
+        AWS_DEFAULT_REGION="us-east-2" 
+        IMAGE_REPO_NAME="${JOB_NAME}"
+        IMAGE_TAG="${params.VERSION}"
+        REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
+    }
+   
+    stages {
+        
+        stage('Create ECR Repository') {
+            steps {
+			    sh "sudo aws ecr get-login-password --region ${AWS_DEFAULT_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com"
+				sh '''#!/bin/bash
+                        aws ecr describe-repositories --repository-names=${IMAGE_REPO_NAME} &> /dev/null
+                        if [ $? != 0 ];
+                        then
+                        sudo aws ecr create-repository --repository-name ${IMAGE_REPO_NAME}
+						else
+						echo "Skip to create ECR Repository because it already exist with name: ${IMAGE_REPO_NAME}"
+                        fi
+						
+                '''
+				
+            }
+            
+        }
+        
+        stage('Cloning Git') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: "${params.BRANCH}"]], extensions: [], userRemoteConfigs: [[credentialsId: 'git-access-jenkins', url: 'https://github.com/Tavus-Engineering/tavus-react.git']]])
+            }
+        }
+  
+    // Building Docker images
+        stage('Building image') {
+            steps{
+                script {
+                     dockerImage = docker.build ("${IMAGE_REPO_NAME}:${IMAGE_TAG}", "-f Dockerfile-staging .")
+                }
+            }
+        }
+   
+    // Uploading Docker images into AWS ECR
+        stage('Pushing to ECR') {
+            steps{  
+                script {
+                     sh "docker tag ${IMAGE_REPO_NAME}:${IMAGE_TAG} ${REPOSITORY_URI}:$IMAGE_TAG"
+                     sh "docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}:${IMAGE_TAG}"
+                }
+            }
+        }
+	// Deploy Application by deployment yaml to kubernetes cluster hosted on EKS
+	    stage('Deploy Application to K8S Cluster') {
+            steps {
+		        script {
+		             sh '''#!/bin/bash
+		                   sed -i "/rollingStartDate/c \\ \\ \\ \\ \\ \\ \\ \\ rollingStartDate: $(date)" deployment-staging.yaml
+		             '''
+			         kubernetesDeploy(
+			         configs: 'deployment-staging.yaml',
+				     kubeconfigId: 'EKS_CREDENTIALS',
+				     enableConfigSubstitution: true
+			         )
+		        }
+		    }
+	    }
+    }
+	// Untag and delete Docker image from Jenkins workspace because it already have on ECR
+	post { 
+        success { 
+            script {
+                sh "docker rmi ${REPOSITORY_URI}:$IMAGE_TAG"
+                sh "docker rmi ${IMAGE_REPO_NAME}:${IMAGE_TAG}"
+            }
+        }
+        always {
+           cleanWs()
+        }
+    }
+}

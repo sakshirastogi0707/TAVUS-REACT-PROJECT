@@ -1,0 +1,89 @@
+@import "../../../../../public/assets/css/colors.scss";
+.side-bar{
+    .MuiList-padding{
+        padding-left: 44px;
+        padding-top: 21px;
+        padding-bottom: 0px;
+        padding-right: 20px;
+        
+        .MuiListItemButton-root {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 0px;
+            padding-right: 16px;
+        }
+        .MuiListItemIcon-root {
+            min-width: 45px;
+            height: 26px;
+            img {
+                width: 26px;
+            }
+        }
+        .MuiListItemText-primary{
+            font-family:$SatoshiVariable;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #757B8C;
+        }
+        .Mui-selected{
+            background-color: transparent;
+            img {
+                -webkit-filter: grayscale(1);
+                filter: grayscale(1);
+            }
+            .MuiListItemText-primary{
+                color: #fff;
+            }
+        }
+        .active-nav{
+            background-color: transparent;
+            img {
+                filter: none;
+            }
+            .MuiListItemText-primary{
+                color: #fff;
+            }
+        }
+
+        .Mui-selected:hover {
+            background-color:transparent;
+        }
+        .MuiListItemButton-root:hover {
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            background-color: transparent;
+        }
+       
+
+    }
+
+    .side-nav{
+        border-radius: 16px;
+    }
+    .navButton{
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        @media (max-width: 960px){
+            padding-bottom: 30px;
+          }
+        .iconButton{
+            .MuiButton-containedPrimary {
+                font-family: $SatoshiVariable;
+                font-weight: 500;
+                font-size: 16px ;
+                line-height: 20px;
+                color: #FFFFFF;
+                background-color: #1877F2 !important;
+                border-radius: 8px !important;
+                padding: 14px 17px 14px 18px;
+                text-transform: initial !important;
+                min-width: 161px ;
+                height: 48px;
+            }
+        }
+    }
+    
+}

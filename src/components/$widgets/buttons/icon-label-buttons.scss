@@ -1,0 +1,95 @@
+@import "../../../../public/assets/css/colors.scss";
+.iconButton{
+    .MuiButton-containedPrimary{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F2F2F2;
+        letter-spacing: 0.1px;
+        background-color: #1877F2 ;
+        border-radius: 5px ;
+        padding: 14px 22px 14px 25px ;
+        text-transform: initial !important;
+        min-width: 206px ;
+        box-shadow:none ;
+        .MuiButton-startIcon{
+            margin-right: 12px;
+        }
+        
+    }
+    .MuiButton-containedPrimary:hover{
+        background-color: #1877F2 !important;
+        box-shadow:none;
+    }
+}
+
+.iconButtonBlack{
+    .MuiButton-containedPrimary{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F2F2F2;
+        letter-spacing: 0.1px;
+        background-color: #232631;
+        border-radius: 5px ;
+        padding: 14px 22px 14px 25px ;
+        text-transform: initial !important;
+        min-width: 208px ;
+        box-shadow:none ;
+        .MuiButton-startIcon{
+            margin-right: 12px;
+        }
+        
+    }
+    .MuiButton-containedPrimary:hover{
+        background-color: #232631 !important;
+        box-shadow:none;
+    }
+}
+.iconButtonTransparent{
+    .MuiButton-containedPrimary{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F2F2F2;
+        letter-spacing: 0.1px;
+        background-color: transparent;
+        border-radius: 5px ;
+        padding: 14px 22px 14px 25px ;
+        text-transform: initial !important;
+        min-width: 208px ;
+        box-shadow:none ;
+        .MuiButton-startIcon{
+            margin-right: 12px;
+        }
+        
+    }
+    .MuiButton-containedPrimary:hover{
+        background-color: transparent !important;
+        box-shadow:none;
+    }
+}
+.endiconButton{
+    .MuiButton-containedPrimary{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F2F2F2;
+        letter-spacing: 0.1px;
+        background-color: #232631;
+        border-radius: 5px ;
+        padding: 14px 22px 14px 25px ;
+        text-transform: initial !important;
+        min-width: 208px ;
+        box-shadow:none ;
+        .MuiButton-startIcon{
+            margin-right: 12px;
+        }
+        
+    }
+    .MuiButton-containedPrimary:hover{
+        background-color: #232631;
+        box-shadow:none;
+    }
+}
+

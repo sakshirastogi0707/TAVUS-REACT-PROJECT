@@ -1,0 +1,175 @@
+@import "../../../public/assets/css/colors.scss";
+.integrations-main{
+    padding: 0 62px;
+    @media (max-width: 991px) {
+       padding: 0px 16px;
+    }
+    .header-main-landing{
+        padding-left:18px;
+        .headerDiv{
+            display: none;
+        }
+    }
+    .SectionBox{
+        margin-top: 46px;
+        width: 100%;
+        position: relative;
+        @media (min-width: 1620px) {
+            height: calc(100vh - 150px);
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        .mainBoxDev{
+            width: 100%;
+            @media (max-width: 1439px) {
+                padding-bottom: 40px;
+            }
+            .title{
+                font-family: $SatoshiVariable;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 58px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+                margin-bottom: 38px;
+            }
+        }
+        .main-Div{
+            margin-top: 38px;
+            position: relative;
+        }
+        .ListBox{
+            border: 1px solid #232735;
+            border-radius: 16px;
+            height: 514px;
+            margin-right: 12px;
+            @media (max-width: 991px) {
+                margin-right: 0px;
+             }
+            .DevSec{
+                padding: 24px 40px;
+                border-bottom: 1px solid #232735;
+                h4{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 38px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin: 0px;
+                }
+            }
+            .BtnSec{
+                padding: 40px;
+                .iconButtonBlack {
+                    margin-bottom: 16px;
+                    .MuiButton-containedPrimary{
+                        width: 100%;
+                        height: 60px;
+                        background: #303443;
+                        border-radius: 8px;
+                        justify-content: flex-start !important;
+                    }
+                    .MuiButton-containedPrimary:hover {
+                        background-color: #303443 !important;
+                    }
+                }
+            }
+        }
+        .ListBoxOne{
+            background: rgba(35, 38, 49, 0.5);
+            border-radius: 16px;
+            height: 514px;
+            margin-left: 12px;
+            @media (max-width: 991px) {
+                margin-left: 0px;
+             }
+            .DevSec{
+                padding: 24px 40px;
+                border-bottom: 1px solid #232735;
+                h4{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 38px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin: 0px;
+                }
+            }
+            .BtnSec{
+                padding: 40px;
+                .iconButtonBlack {
+                    margin-bottom: 16px;
+                    .MuiButton-containedPrimary{
+                        width: 100%;
+                        height: 60px;
+                        background: #303443;
+                        border-radius: 8px;
+                        justify-content: flex-start !important;
+                    }
+                    .MuiButton-containedPrimary:hover {
+                        background-color: #303443 !important;
+                    }
+                }
+                .iconButtonTransparent .MuiButton-containedPrimary{
+                    width: 100%;
+                    height: 60px;
+                    border: 1px solid #323747;
+                    border-radius: 8px;
+                    justify-content: flex-start !important;
+                }
+            }
+        }
+        .nextDev{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .ordev{
+                width: 78px;
+                height: 78px;
+                background: #171720;
+                border: 1px solid #1877F2;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 38px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+.configureInt{
+    .model_title{
+        .MuiButtonBase-root{
+            display: none;
+        }
+    }
+    .custom-select-main{
+         .MuiInput-root.MuiInput-underline:after, .MuiInput-root.MuiInput-underline:before {
+            border-bottom: 0 solid #595f70!important;
+        }
+        .MuiInputBase-root {
+            padding: 5px 15px;
+        }
+        .MuiNativeSelect-select.MuiNativeSelect-select {
+            padding: 6px 0px 0px;
+            color: #f2f2f2 !important;
+        }
+    }
+    .iconButton .MuiButton-containedPrimary {
+        min-width: 206px;
+    }
+}

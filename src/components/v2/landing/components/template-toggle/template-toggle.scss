@@ -1,0 +1,20 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.togglebutton{
+    text-align: center;
+    .MuiToggleButtonGroup-root{
+        background: rgba(74, 74, 74, 0.2);
+        border-radius: 8px !important;
+        .MuiToggleButton-root{
+            border:0px solid;
+            padding: 8px 17px 8px 21px;
+        }
+        .Mui-selected:hover {
+            background: #1877F2;
+        }
+        .active{
+            background: #1877F2;
+            border-radius: 8px !important;
+        }
+    }
+    
+}

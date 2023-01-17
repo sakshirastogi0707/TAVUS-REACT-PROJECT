@@ -1,0 +1,249 @@
+@import '../../../../public/assets/css/colors.scss';
+
+.signup-footer{
+  padding: 18px 36px 17px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #232631;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  height: 85px;
+  @media (max-width: 991px) {
+    height: 91px;
+    padding: 31px 24px;
+}
+
+    .fore-browser-view{
+      display: block;
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+    .fore-mobile-view{
+      display: none;
+      @media (max-width: 991px) {
+        display: block;
+        .next-bottom{
+            .loadingBtn .MuiLoadingButton-root {
+              height: 32px;
+              min-width: 32px !important;
+              max-width: 32px !important;
+              border-radius: 5px !important;
+              .MuiButton-endIcon{
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-top: -5px;
+              }
+              .MuiLoadingButton-loadingIndicator{
+                right: 9px;
+                color: #fff;
+              }
+          }
+        }
+      }
+    }
+   .back-box {
+      display: flex;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 5px;
+      overflow: hidden;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      background-color: #303443;
+      @media (max-width: 991px) {
+        img{
+          width: 14px;
+        }
+      }
+  }
+  .MuiBox-root{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -9px;
+    .MuiLinearProgress-colorPrimary {
+        background: #3C4254 !important;
+        height: 9px !important;
+        border-radius: 0px;
+    }
+    .MuiLinearProgress-barColorPrimary {
+        background-color: #1877F2 !important;
+    }
+}
+  .MuiButton-root img{
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+  }
+  .MuiButton-endIcon{
+    margin-left: 12px;
+  }
+  .MuiButton-root{
+      background: #0062FF;
+      border-radius: 8px !important;
+      border: 1px solid #0062FF !important;
+      text-transform:initial;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      height: 52px;
+      min-width:140px!important;
+      max-width:140px!important;
+      letter-spacing: 0.4px;
+      img{
+        -webkit-filter: brightness(5);
+        filter: brightness(5);
+      }
+      
+      }
+
+      .MuiSvgIcon-root{
+          width: 20px !important;
+          height: 20px !important;   
+      }
+  }
+ 
+    
+  .signup-footer .MuiButton-root .MuiButton-endIcon img{
+    position: relative;
+    right:0px;
+    top:2px;
+}
+
+  .Mui-disabled, .disabled-btn{
+      background: #595F70!important;
+      border-radius: 8px !important;
+      border: 1px solid #595F70 !important;
+      color:#6F7897 !important;
+      padding: 7px 15px;
+      letter-spacing: 0.4px;
+      img{
+        -webkit-filter: brightness(1);
+        filter: brightness(1);
+      }
+     
+    
+    
+  }
+  .signup-footer .MuiButton-root.disabled-btn img {
+    filter: brightness(1);
+    }
+  .footer-nave{
+    grid-gap: 24px;
+    .arrow-right {
+      
+    }
+    @media (max-width: 1280px) {
+        gap:12px;
+    }
+    .next-bottom{
+
+    }
+    .footerNav{
+        font-family: $SatoshiVariable;
+        font-weight: 400;
+        font-size: 16px;
+        color: #757B8C;
+        line-height: 23px;
+        letter-spacing: 0.1px;
+        cursor: pointer;
+        @media (max-width: 1439px) {
+            font-size: 13px;
+        }
+        @media (max-width: 991px) {
+          font-size: 12px;
+          font-weight: 500;
+          color: #fff;
+      }
+
+            .navCont{
+                padding: 0px 3px;
+                border-radius: 50%;
+                border: 1px solid #757B8C;
+                margin-right: 10px;
+                font-weight: 400;
+                font-size: 11px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                line-height: 18px;
+                position: relative;
+                top:-1px;
+            }
+
+            .navCont-active{
+                width: 20px;
+                height: 20px;
+                background: #0062FF;
+                padding: 0px 5px;
+                border-radius: 50%;
+                border: 1px solid #0062FF;
+                margin-right: 10px;
+               position: relative;
+               display: inline-block;
+               text-align: center;
+                line-height: 18px;
+                img{
+                  position: relative;
+                  top: -2px;
+                }
+              
+            }
+        } 
+        .arrow-right{
+            position: relative;
+            top: -1px;
+
+        } 
+       
+        .active{
+            color:#fff;
+            font-size: 16px;
+            .navCont{
+                border: 1.4px solid #fff;
+                line-height: 18px;
+
+            }
+            @media (max-width: 1439px) {
+                font-size: 13px;
+            }
+    
+        }
+    }
+                 
+    .thankubtn{
+      font-family: $SatoshiVariable;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      color: #DDDEE3;
+      padding: 8px 32px;
+  }
+.loadingBtn{
+    .Mui-disabled {
+        background: #303443 !important;
+        border-radius: 8px!important;
+        border: 1px solid #303443 !important;
+        color: #6F7897 !important;
+   
+    
+        img{
+          -webkit-filter: brightness(1);
+          filter: brightness(1);
+        }
+}
+}
+
+.next-bar{
+  width: 100%;
+  margin: 0 auto;
+}

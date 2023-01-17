@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: tavus-staging
+  name: tavusportal-staging-deploy
+spec:
+  selector:
+    matchLabels:
+      app: tavusportal-staging-deploy
+  replicas: 1
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
+      annotations:
+        rollingStartDate: "Tue Aug 26 09:06:38 UTC 2021"
+      labels:
+        app: tavusportal-staging-deploy
+    spec:
+      containers:
+      - name: tavusportal-staging-deploy
+        image: 669651121059.dkr.ecr.us-east-2.amazonaws.com/${IMAGE_REPO_NAME}:${IMAGE_TAG}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4400
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 4400
+

@@ -1,0 +1,23 @@
+@import "../../../../public/assets/css/colors.scss";
+.post-training-main{
+    
+    .done-box{
+        padding-top: 55PX;
+        width: 690px;
+        padding-bottom: 160px;
+        h2{
+            padding-top: 24px;
+        }
+        p span{
+            color: #fff;
+        }
+       .head-start{
+        margin-top: 48px;
+            .iconButton .MuiButton-containedPrimary{
+                min-width: 243px;
+                height: 60px;
+                font-weight: 700;
+            }
+       } 
+    }
+}

@@ -1,0 +1,49 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.calendly-modal{
+    padding-right: 12px !important;
+    .model_title .title h5{
+        margin-bottom: 2px !important;
+        line-height: 18px !important;
+    }
+    .main-model{
+        padding-right: 7px !important;
+        height: auto;
+       
+    }
+
+    // ::-webkit-scrollbar {
+    //     width: 8px;
+    //     background: #22232C;
+    //     border-radius: 8px;
+    //     display: block !important;
+    //     padding-left: 30px;
+    //     }
+    //     ::-webkit-scrollbar:hover {
+    //     width: 3px;
+    //     }
+    //     ::-webkit-scrollbar-thumb {
+    //       background: #0062FF;; 
+    //       border-radius: 8px;
+    //       height: 200px;
+    //     }
+}
+.calendly-inline-widget{
+    width: 100% !important;
+    margin: 25px;
+    // height: auto !important;
+    // min-height: 330px;
+    // max-height: 640px;
+    @media (max-width: 991px) {
+        margin: 40px 0px;
+    }
+}
+.calendly-inline-widget iframe{
+    border-radius: 16px;
+    background-color: #fff;
+    // // height: auto !important;
+    // min-height: 330px;
+    // max-height: 640px;
+}
+._cUP1np9gMvFQrcPftuf{
+ height: 100vh !important;
+}

@@ -1,0 +1,46 @@
+@import "../../../../public/assets/css/colors";
+.input-label{
+    background-color: #252731;
+    border-radius: 5px;
+    margin: 8px 0px !important;
+    .MuiInputLabel-root {
+        padding-left: 79px;
+        padding-top: 10px;
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #A5A5A9;
+    }
+    .MuiInputLabel-root.Mui-focused{
+        color: #A5A5A9;
+    }
+    
+    .MuiInputAdornment-root{
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        
+        
+    }
+    .MuiInput-underline:before {
+        border-bottom: 0px solid #595F70 !important;
+    }
+    .MuiInput-underline::after {
+        border-bottom: 0px solid #fff !important;
+    }
+    .MuiInput-underline:hover:not(.Mui-disabled):before {
+        border-bottom: 0px solid #fff !important; 
+    }
+    .MuiInput-root{
+        .MuiInput-input{
+            padding: 8px 10px 10px 60px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 14px;
+            color: #FFFFFF;
+        }
+    }
+}

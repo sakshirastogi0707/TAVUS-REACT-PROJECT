@@ -1,0 +1,91 @@
+@import "../../../../public/assets/css/colors.scss";
+.microphone{
+    .headerDiv{
+        p{
+            width: 48%;
+            margin: auto;
+            line-height: 24px !important;
+            padding-top: 5px;
+            @media (max-width: 998.98px) {
+                width: 100%;
+              }
+        }
+    }
+    .box-address{
+       margin-top: 104px; 
+       @media (min-width: 1500px){
+        margin-top: 20px; 
+       }
+    }
+    .DevBox .DevBoxSec .wrong-video{
+        .MuiButtonBase-root{
+            width: 245px;
+            margin: 12px !important;
+            border-radius: 30px !important;
+        }
+        .MuiButton-root:hover {
+            border: 1px solid #1877F2;
+        }
+    }
+}
+    .microphoneDev{
+        margin: 26px 0px !important;
+        .model_title {
+            margin-left: auto;
+            padding: 0px 26px 0px !important;
+        }
+        .main-model{
+            padding: 0px !important;
+        }
+        .contentModal{
+            text-align: center;
+            padding-top: 7px;
+            .DevSection{
+                h2{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 27px;
+                    color: #FFFFFF;
+                    margin-bottom: 17px;
+                }
+                h6{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #6F7897;
+                    margin-bottom: 32px;
+                    
+                } 
+                p{
+                    font-family: $SatoshiVariable;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #F0F1F2;
+                    padding-top: 4px;
+                    margin-bottom: 36px;
+                }
+            }
+            
+            .NiceBtnone{
+                margin-bottom: 34px;
+            }
+            .NiceBtn, .NiceBtnone{
+                .MuiButton-sizeMedium{
+                    height: 60px;
+                    border-radius: 8px;
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #F2F2F2;
+                }
+            }
+            
+        }
+    }

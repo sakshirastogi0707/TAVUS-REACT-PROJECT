@@ -1,0 +1,214 @@
+@import "../../../../../../../../public/assets/css/colors.scss";
+.landing-pageThreeDesktop{
+    height: 100%;
+    @media (min-width: 1440px){
+        height: 100vh;
+    }
+    @media (max-width: 959px) {
+        height: 100vh;
+    }
+    .mainBox{
+        @media (min-width: 1920px){
+            height: calc(100vh - 10px);
+            max-width: 1440px;
+            margin: 0 auto;
+            align-items: center!important;
+            justify-content: center!important;
+            display: flex;
+        }
+        padding: 42px 74px;
+        // padding: 69px 65px 115px 66px;
+        .for-desktop{
+            display: block;
+        }
+        .for-mobile {
+            display: none;
+        }
+        @media (max-width: 959px) {
+            padding: 0px;
+            padding-bottom: 32px;
+            .for-desktop{
+                display: none;
+            }
+            .for-mobile {
+                display: block;
+            }
+        }
+        .landing-logo{
+            border-radius: 20px;
+            height: 88px;
+            display: flex;
+            align-items: center;
+            @media (max-width: 959px) {
+                border-radius: 0px;
+            }
+            img{
+                padding-left: 10px;
+                padding: 6px;
+                width: auto !important;
+                height: 100%;
+            }
+        }
+        .boxBottom{
+            @media (max-width: 959px) {
+                padding: 0px 32px;
+            }
+        }
+        .BoxDev{
+            width: 738px;
+            @media (max-width: 959px) {
+                width: 100%;
+            }
+            .boxTop{
+                padding: 40px 29px 24px;
+                @media (max-width: 959px) {
+                    padding: 10px 0px;
+                    img{
+                        width: 100%;
+                        border-radius: 18px;
+                    }
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .templateBtn{
+                @media (max-width: 959px) {
+                    display: block !important;
+                }
+                .basicBUtton{
+                    margin: 0px 6px;
+                    .MuiButtonBase-root{
+                        border-radius: 16px !important;
+                        // min-width: 229px;
+                        width: 229px;
+                        min-height: 64px;
+                        height: auto;
+                        line-height: 22px;
+                        word-break: break-word;
+                    }
+                    @media (max-width: 959px) {
+                        margin-top: 10px;
+                        .MuiButtonBase-root{
+                            width: 100%;
+                        }
+                    }
+    
+                }
+            }
+           
+            .templateText{
+                h2.templateTitle{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 60px;
+                    letter-spacing: 0.1px;
+                    margin: 0px;
+                }
+                p.templatePTitle{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                    letter-spacing: 0.1px;
+                    margin: 0px;
+                }
+                h4.templateSubTitle{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 29px;
+                    line-height: 36px;
+                    letter-spacing: 0.1px;
+                    @media (max-width: 959px) {
+                        line-height: 32px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+       
+}
+.landing-pageThreeMobile{
+    // max-width: 576px;
+    border-radius: 20px;
+    max-width: 414px;
+    margin: auto;
+    .mainBox{
+       
+            .landing-logo{
+                height: 88px;
+                display: flex;
+                align-items: center;
+                img{
+                    padding-left: 10px;
+                }
+            }
+            .BoxDev{
+                width: 100%;
+
+                .boxTop{
+                    padding-bottom: 25px;
+                    img{
+                        width: 100%;
+                        border-radius: 20px 20px 0px 0px;
+                    }
+                }
+                .boxBottom{
+                    padding: 0px 32px 55px;
+                    
+                }
+                .templateBtn{
+                    display: inherit !important;
+                    .basicBUtton{
+                        margin: 0px;
+                        .MuiButtonBase-root{
+                            border-radius: 16px !important;
+                            // min-width: 229px;
+                            width: 100%;
+                        }
+                    }
+                }
+                .templateText{
+                    padding-top: 23px;
+                    h2.templateTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 55px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                    }
+                    p.templatePTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                    }
+                    h4.templateSubTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 66px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                        padding-top: 17px;
+                    }
+                }
+
+
+        }
+        
+    }
+
+
+    }

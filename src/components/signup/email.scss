@@ -1,0 +1,476 @@
+@import "../../../public/assets/css/colors.scss";
+
+.signup-frame-main::before {
+    content: '';
+    background-color: #171720;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+
+.signup-frame-main {
+    width: 100%;
+
+    @media (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        height: 100%;
+
+    }
+
+    .signup-left {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 473px;
+        padding: 24px;
+
+        @media (max-width: 767px) {
+            position: unset;
+            padding: 0px;
+            width: 100%;
+            top: unset;
+            order: 1;
+            padding-top: 35px;
+        }
+
+        .signup-left-box {
+            padding: 48px;
+            height: calc(100vh - 48px);
+            background: #1877F2;
+            border-radius: 16px;
+            position: relative;
+
+            @media (max-width: 767px) {
+                padding: 0px;
+                height: auto;
+                border-radius: 20px 20px 0px 0px;
+                height: 311px;
+
+                img {
+                    display: none;
+                }
+            }
+
+            .signup-top {
+                margin-top: 80px;
+
+                @media (min-width: 1183px)and (max-width:1450px) {
+                    margin-top: 50px;
+                }
+
+                @media (min-width: 768px)and (max-width:1182.98px) {
+                    margin-top: 30px;
+                }
+
+                @media (max-width: 767px) {
+                    margin: 0px 23px;
+                    padding-top: 27px;
+                    text-align: center;
+                }
+
+                h2 {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 48px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin-bottom: 24px;
+
+                    @media (min-width: 1183px)and (max-width:1450px) {
+                        font-size: 36px;
+                        line-height: 36px;
+                        margin-bottom: 16px;
+                    }
+
+                    @media (min-width: 768px)and (max-width:1182.98px) {
+                        font-size: 28px;
+                        line-height: 30px;
+                        margin-bottom: 14px;
+                    }
+
+                    @media (max-width: 767px) {
+                        font-size: 24px;
+                        line-height: 28px;
+                        margin-bottom: 3px;
+
+                    }
+                }
+
+                p {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+
+                    @media (min-width: 1183px)and (max-width:1450px) {
+                        font-size: 16px;
+                        line-height: 26px;
+
+                        br {
+                            display: block;
+                        }
+                    }
+
+                    @media (min-width: 767px)and (max-width:1182.98px) {
+                        font-size: 15px;
+                        line-height: 18px;
+
+                        br {
+                            display: block;
+                        }
+                    }
+
+                    @media (max-width: 767px) {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 28px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .signup-bottom {
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 42, 190, 0.2);
+                border-radius: 16px;
+                left: 0;
+                right: 0;
+                margin: 48px;
+                padding: 24px;
+
+                @media (max-width:767px) {
+                    display: none;
+                }
+
+                p {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+
+                    @media (min-width: 1183px)and (max-width:1180px) {
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
+
+                    @media (min-width: 991px)and (max-width:1182px) {
+                        font-size: 15px;
+                        line-height: 18px;
+                    }
+                }
+
+                hr {
+                    background: rgba(255, 255, 255, 0.2);
+                }
+            }
+        }
+
+    }
+
+    .signup-right-box {
+        width: 100%;
+        padding-left: 473px;
+
+        @media (max-width: 767px) {
+            padding: 0px 30px;
+        }
+
+        .DevBoxSection {
+            height: calc(100vh - 0px);
+            width: 498px;
+            margin: 0 auto;
+
+            @media (max-width: 767px) {
+                height: auto;
+                width: 100%;
+            }
+
+            .header {
+                margin-bottom: 40px;
+
+                @media (max-width: 767px) {
+                    text-align: center;
+                    margin-bottom: 17px;
+                }
+
+                h1 {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 38px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+
+                    @media (max-width: 767px) {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+
+                }
+
+                h3 {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+
+                    @media (max-width: 767px) {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 36px;
+                    }
+
+                    a {
+                        color: #1877F2;
+                    }
+
+                    a:hover {
+                        color: #1877F2;
+                    }
+                }
+            }
+
+            .MuiInputBase-root {
+                width: 100%;
+
+                @media (max-width: 767px) {
+                    margin-bottom: 17px !important;
+                }
+
+                .MuiInputBase-input {
+                    border-radius: 8px;
+                    position: relative;
+                    background-color: #1c1e28 !important;
+                    border: 0px solid #1c1e28;
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 32px;
+                    letter-spacing: 0.1px;
+                    height: 60px;
+                    padding: 0px 20px;
+                    line-height: 61px;
+
+                    @media (max-width: 767px) {
+                        height: 55px;
+                    }
+                }
+
+                .MuiInputBase-input {
+                    width: 100%;
+                }
+
+                input:-webkit-autofill {
+                    -webkit-box-shadow: 0 0 0 1000px #1c1e28 inset;
+                    -webkit-text-fill-color: #fff !important;
+                }
+
+                ::-webkit-input-placeholder {
+                    color: #757B8C;
+                    opacity: 1;
+                }
+
+                ::-moz-placeholder {
+                    color: #757B8C;
+                    opacity: 1;
+                }
+
+                :-ms-input-placeholder {
+                    color: #757B8C;
+                    opacity: 1;
+                }
+
+                :-moz-placeholder {
+                    color: #757B8C;
+                    opacity: 1;
+                }
+            }
+
+            .MuiInput-root.MuiInput-underline:before,
+            .MuiInput-root.MuiInput-underline::after {
+                display: none;
+            }
+
+            .terms {
+                padding-top: 40px;
+
+                span {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 32px;
+                    letter-spacing: 0.1px;
+                    color: #1877F2;
+                }
+            }
+
+            .login-btn {
+                margin-top: 40px;
+
+                @media (max-width: 767px) {
+                    margin-top: 7px;
+                }
+
+                .iconButton .MuiButton-containedPrimary {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    min-width: 100%;
+                    height: 60px;
+
+                    @media (max-width: 767px) {
+                        height: 55px;
+                    }
+                }
+            }
+
+            .hrDiv {
+                padding: 31px 0px;
+
+                @media (max-width: 767px) {
+                    padding: 25px 0px;
+                }
+
+                hr {
+                    height: 1px;
+                    background: #D9D9D9;
+                    opacity: 0.4;
+                    overflow: visible;
+                    text-align: center;
+                    margin: 0px;
+                }
+
+                hr:after {
+                    background: #171720;
+                    content: 'OR';
+                    padding: 0 8px;
+                    position: relative;
+                    top: -16px;
+                    font-family: $SatoshiVariable;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 32px;
+                    letter-spacing: 0.1px;
+                }
+            }
+
+            .signup_btn_google {
+                width: 100%;
+                border: 1px solid #5f626a;
+                border-radius: 8px;
+                height: 60px;
+                font-family: $SatoshiVariable;
+                text-transform: initial !important;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+
+                @media (max-width: 767px) {
+                    height: 55px;
+                }
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+
+            .signup_btn_google:hover {
+                background-color: transparent;
+            }
+        }
+    }
+
+
+
+    .swiper-main-box {
+        position: relative;
+        background: rgba(0, 42, 190, 0.2);
+        border-radius: 16px;
+        display: none;
+        margin: 0px 27px;
+
+        @media (max-width: 767px) {
+            display: block;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+            margin: 20px 0px;
+            min-height: 80px;
+            position: initial;
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                padding: 16px 37px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                min-height: 77px;
+                color: #fff;
+            }
+
+            .swiper-pagination-bullet {
+                width: 11px;
+                height: 11px;
+            }
+
+            .swiper-pagination-fraction,
+            .swiper-pagination-custom,
+            .swiper-horizontal>.swiper-pagination-bullets,
+            .swiper-pagination-bullets.swiper-pagination-horizontal {
+                bottom: -34px;
+            }
+
+            .swiper-pagination-clickable .swiper-pagination-bullet {
+                background: #1368E8;
+                opacity: 9;
+            }
+
+            .swiper-pagination-bullet-active {
+                opacity: 9;
+                background: #fff !important;
+            }
+        }
+    }
+}

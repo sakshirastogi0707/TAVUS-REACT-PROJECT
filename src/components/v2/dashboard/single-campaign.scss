@@ -1,0 +1,136 @@
+@import "../../../../public/assets/css/colors.scss";
+.single-campaign-main{
+   padding: 32px 37px;
+
+   .button-section{
+    padding-bottom: 17px;
+    padding-top: 40px;
+     .generateBtn{
+        width: 166px;
+        .MuiButton-root{
+          padding: 16px 15px 16px 24px;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 28px;
+            letter-spacing: 0.1px;
+            color: #FFFFFF;
+            background: #1877F2;
+            border-radius: 8px;
+            text-transform: inherit;
+            
+        }
+        
+        .MuiButton-endIcon{
+          margin-left: 16px;
+        }
+     }
+     .edit-campaign-btn{
+        padding: 0px 32px;
+        .iconButtonBlack .MuiButton-containedPrimary {
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 28px;
+            border-radius: 8px;
+            min-width: 182px;
+            height: 60px;
+        }
+     }
+     .add-collaborators-btn{
+        .iconButtonBlack .MuiButton-containedPrimary {
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 28px;
+            border-radius: 8px;
+            min-width: 225px;
+            height: 60px;
+        }
+     }
+    
+   }
+
+
+   .dataTable{
+    width: 60%;
+    // height: 577px;
+    position: relative;
+    margin-bottom: 10px;
+    .data-grid{
+        min-height: 420px;
+        max-height: 500px;
+        width: 100%;
+        .MuiDataGrid-root{
+          min-height: 420px;
+          max-height: 500px;
+        }
+        .MuiDataGrid-footerContainer{
+          min-height: 45px;
+          border-top: 1px solid #6F7897;
+        }
+    }
+    .show-more-box{
+      position: absolute;
+      bottom: 12px;
+      width: 100%;
+      text-align: center;
+      .show-more{
+        background-color: transparent !important;
+        border: 0px;
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2.1px;
+        cursor: pointer;
+        color: #6F7897;
+        padding-bottom: 16px;
+      }
+    }
+   }
+   .csv-tabel{
+    margin-left: 37px;
+    width: 40%;
+   }
+}
+.MuiPaper-root.MuiMenu-paper {
+    max-width: 300px !important;
+    min-width: 125px !important;
+}
+
+.video-modal {
+  @media (min-width: 568px) {
+    .contentModal {
+      padding: 0;
+    }
+  }
+
+  .img-fluid {
+    margin: AUTO;
+    width: 100% !important;
+    @media (min-width: 1024px) {
+      height: 475px !important;
+    }
+    @media (max-width: 767.98px) {
+      height: 236px!important;
+    }
+  }
+  .modal-content {
+    padding-bottom: 20px;
+  }
+  .MuiIconButton-root {
+    padding: 6px;
+  }
+}
+.MuiMenuItem-gutters{
+  font-family: $SatoshiVariable;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+

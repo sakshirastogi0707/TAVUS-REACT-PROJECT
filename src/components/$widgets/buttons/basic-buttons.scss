@@ -1,0 +1,17 @@
+@import "../../../../public/assets/css/colors.scss";
+.basicBUtton{
+    padding-top: 18px;
+    .MuiButtonBase-root{
+        font-family: $Poppins;
+        font-style: normal;
+        font-weight: $LargeBold;
+        font-size: 20px;
+        line-height: 37px;
+        text-transform: uppercase;
+        height: 64px;
+        min-width: 105px;
+        letter-spacing: 1.1px;
+        border-radius: 16px;
+        box-shadow:none !important;
+    }
+}

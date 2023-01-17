@@ -1,0 +1,275 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.create-buttonLink{
+    .button-variable{
+        margin-top: 30px;
+    }
+    .MuiAccordion-rounded .Mui-expanded {
+        background: #0062FF !important;
+        border-radius: 8px 8px 0px 0px !important;
+      }
+    .MuiAccordion-region{
+        .MuiAccordionDetails-root{
+            padding:8px 16px !important;
+            background: #2A2C31;
+            border-radius: 0px 0px 16px 16px !important;
+        }
+    }
+    .MuiAccordionSummary-expandIconWrapper.Mui-expanded ,.MuiAccordionSummary-content.Mui-expanded{
+        background-color: transparent !important;
+        
+      }
+    .hrDiv{
+        padding-top: 10px;
+     
+    }
+    .input-label {
+        margin: 16px 0px !important;
+    }
+    .ButtonVariable{
+        min-height: 56px;
+        max-height: 102px;
+        width: 100%;
+        background: #252731;
+        border-radius: 5px;
+        display: flex;
+        margin-top: 8px;
+        label{
+            font-weight: 500;
+            font-family: $SatoshiVariable;
+            font-size: 12px;
+            line-height: 14px;
+            color: #A5A5A9;
+            margin: 0px;
+        }
+        img{
+            padding: 0px 16px;
+        }
+        // .VariableText{
+        //     overflow: auto;
+        // }
+        .MuiFormControl-root{
+            padding: 0px;
+            margin: 0px !important;
+        }
+        .tagify {
+            border: 0px solid;
+            word-break: break-word;
+        }
+        .tagify__input{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 17px;
+            max-height: 74px;
+            overflow: auto;
+        }
+        .tagify__input:before {
+            top: 3px;
+            color: #757B8C;
+            font-weight: 500;
+            font-size: 13px;
+        }
+        .MuiInputLabel-root{
+            display: none;
+        }
+        .dropdown-wrapper{
+            margin-top: -10px !important;
+        }
+    }
+    hr {
+        border: none;
+        border: 1px solid #595F70;
+        color: #595F70;
+        overflow: visible;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    hr:after {
+        background: #2a2c31;
+        content: 'Or';
+        padding: 0 14px;
+        position: relative;
+        top: -13px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 14px;
+        font-size: 15px;
+        color: #595F70;
+        text-decoration-line: underline;
+    }
+
+    .CalendlyBtn{
+        padding-bottom: 14px;
+        padding-top: 15px;
+        .iconButton{
+            .MuiButton-containedPrimary{
+                font-weight: 500 !important;
+                font-size: 14px !important;
+                line-height: 19px;
+                color: #F2F2F2;
+                border-radius: 5px;
+                min-width: 100%;
+                max-width: 100%;
+                height: 56px;
+                @media (max-width: 1439px) {
+                    padding: 13px;
+                    font-size: 13px;
+                    .MuiButton-startIcon {
+                        margin-right: 5px;
+                    }
+                  }
+            }
+        } 
+    }
+    .UseCalendlyBtn{
+        padding-top: 16px !important;
+        padding-bottom: 24px;
+    }
+    .calendlyAddButton{
+        .iconButton{
+            .MuiButton-containedPrimary{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                min-width: 100%;
+                max-width: 100%;
+                height: 51px;
+                background-color: transparent;
+                border: 1px dashed rgba(55, 61, 70, 0.8);
+                border-radius: 8px;
+                box-shadow:none;
+                @media (max-width: 1439px) {
+                  padding: 14px;
+                }
+
+            }
+            .MuiButton-containedPrimary:hover{
+                border: 1px solid #1877F2;
+            }
+        } 
+    }
+    .closeBtn{
+        position: relative;
+        .closeIcon{
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            cursor: pointer;
+        }
+    }
+    .MuiFormControl-root{
+        width: 100% !important;
+    }
+    .MuiAccordion-rounded .Mui-expanded {
+        background: #0062FF;
+        border-radius: 8px 8px 0px 0px;
+      }
+}
+.contentModal{
+    h3{
+        font-style: normal;
+        font-family: $SatoshiVariable;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-top: 18px;
+        margin-bottom: 22px;
+    }
+
+    .calendlyList{
+        padding: 0px 39px 0px 40px;
+        .cont{
+            background: #1877F2;
+            padding: 16px 12px;
+            border-radius: 50%;
+            line-height: 0;
+            height: 32px;
+            width: 32px;
+            position: absolute;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        .detail{
+            margin-bottom: 18px;
+            padding-left: 3px;
+        }
+        .text-list{
+            padding-left: 51px;
+            h5{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 32px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .CalendlyTextarea{
+        padding-top: 3px;
+        margin-bottom: 25px;
+        .text-field textarea {
+            border: 1px solid #595F70;
+            border-radius: 8px;
+            height: 70px !important;
+            outline: none;
+            width: 100%;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+            overflow: auto !important;
+            padding: 15px;
+        }
+        textarea 
+        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+            line-height:70px;
+        }
+        ::-webkit-input-placeholder { /* Webkit */
+            line-height:70px;
+        }
+        :-ms-input-placeholder { /* IE */
+            line-height:70px;
+        }
+    }
+    .CalendlyButton{
+        margin-bottom: 33px;
+        .iconButton .MuiButton-containedPrimary {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: #F2F2F2;
+            letter-spacing: 0.1px;
+            background-color: #0062FF;
+            border-radius: 8px;
+            padding: 14px 22px 14px 25px;
+            text-transform: initial !important;
+            min-width: 215px;
+            height: 60px;
+            border: 1px solid #0062ff;
+            // @media (max-width: 1439px) {
+            //     font-size: 16px ;
+            //     padding: 14px 12px 14px 12px !important;
+            //     min-width: 196px;
+            // }
+
+        }
+        .Mui-disabled{
+            font-weight: 700 !important;
+            font-size: 18px !important;
+            line-height: 28px !important;
+            color: #6F7897 !important;
+            background: #303443 !important;
+            border-radius: 8px !important;
+            border: 1px solid #303443 !important;
+        }
+    }
+}

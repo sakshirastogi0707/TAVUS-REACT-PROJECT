@@ -1,0 +1,55 @@
+@import "../../../../public/assets/css/colors.scss";
+
+.landing-main {
+  .line-loader {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 112px;
+    right: 0;
+  }
+}
+
+.almostDev {
+
+  .signup-footer .loadingBtn .MuiLoadingButton-root {
+    max-width: 100% !important;
+  }
+
+  .headerDiv p {
+    line-height: 24px !important;
+  }
+}
+
+.congratulation {
+  margin-top: 70px !important;
+
+  @media (max-width: 1439px) {
+    margin-top: 30px;
+  }
+
+  p.congratulationText {
+    margin-top: 36px;
+    font-family: $SatoshiVariable;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    color: #F0F1F2 !important;
+  }
+}
+
+.edit-landing {
+  .model_title {
+    display: none !important;
+  }
+
+  .main-model {
+    margin-top: 20px;
+
+    .topsection h1 {
+      font-size: 28px !important;
+      line-height: 36px !important;
+    }
+  }
+}

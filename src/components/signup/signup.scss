@@ -1,0 +1,813 @@
+@import "../../../public/assets/css/colors.scss";
+
+.signup-main::before{
+    content: '';
+    background-color: #171720;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+
+}
+
+div.boxDev.box.new-layout {
+    position: static; 
+    transform: none; 
+    width: unset; 
+    margin-top: 20px;
+}
+.signup-main {
+    color: #D8D8D8;
+    font-family: $SatoshiVariable;
+   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #757B8C;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+    color: #757B8C;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+    color: #757B8C;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+    color: #757B8C;
+    }
+  
+    .pricingDev-sec{
+        .loadingBtn .MuiLoadingButton-root {
+            visibility: hidden;
+        }
+    }
+    @media (max-width: 1440px) {
+        margin-bottom: 96px;
+        height: calc(100vh - 96px);
+        overflow: auto;
+       padding-bottom: 40px;
+        font-family: $SatoshiVariable;
+
+    }
+    @media (max-width: 991px) {
+        .mobile-box{
+            height: calc(100vh - 360px);
+            margin-top: 10px !important;
+        }
+    }
+    
+    .boxpadd{
+        padding-top: 30px;
+    }
+   
+        
+       
+  
+    .Box_pricing{
+        .Devoffer{
+            padding: 18px 18px 20px 18px;
+        }  
+        .DevBox_pricing{
+            .MuiGrid-spacing-xs-2 {
+            
+                width: 100%;
+                margin: -8px 0;
+            }
+            @media (max-width: 991px) {
+                padding-top: 12px;
+                padding-bottom: 0px;
+            }
+            .DevBox_pricing_left{
+                width: 65%;
+                display: inline-block;
+                @media (max-width: 1024px) {
+                    width: 100%;
+                }
+
+            }
+            .DevBox_pricing_right{
+                width: 35%;
+                @media (max-width: 1024px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+    .Devthanku{
+        .thankuDiv{
+            h2{
+                font-family: $SatoshiVariable;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 36px;
+                color: #FFFFFF;
+            }
+            p{
+                font-family: $SatoshiVariable;
+                padding: 20px 48px;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 28px;
+                color: #757B8C;
+            }
+           
+           
+        }
+        img{
+            @media (max-width: 1439px) {
+                width:100%;
+            } 
+        }
+        
+    }
+    .address_contant{
+        color: #757B8C !important;
+        padding-top: 50px;
+        font-size: 15px;
+        @media (max-width: 1439px) {
+            padding-top:40px;
+         }
+         @media (max-width: 991px) {
+            padding-top:20px;
+         }
+       
+    }
+    .box-plan, .box-role{
+        margin-top:69px;
+        @media (max-width: 1439px) {
+            margin-top:30px;
+         }
+       
+    }
+    .box-details,  .box-email{
+        @media (max-width: 1439px) {
+            margin-top:20px;
+         }
+    }
+    .box-company,  .box-address, .box-website{
+        margin: 0 auto;
+        margin-top:104px;
+        @media (max-width: 1439px) {
+            margin-top:60px;
+         }
+    }
+    .box-address{
+        margin-top:20px;
+    }
+    .box{
+       
+        @media (min-width: 1500px) {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            margin-top:20px
+        }
+        @media (max-width: 991px) {
+            padding: 0px 35px;
+        }
+        .DevBox{
+           .MuiInputBase-input{
+            line-height: 28px !important;
+            @media (max-width: 991px) {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 56px;
+            }
+           }
+            @media (max-width: 1024px) {
+                width:100%;
+            }
+            .DevBoxSec{
+                text-align: center;
+                position: relative;
+               
+                
+                .Mui-disabled, .disabled-btn{
+                    cursor: not-allowed !important;
+                    background-color: transparent !important;
+                    border: 0px solid !important;
+                }
+                .Mui-disabled{
+                    color: #fff !important;
+                    -webkit-text-fill-color: #fff !important;
+                }
+                .react-geocoder{
+                    position: relative;
+                    input:focus-visible {
+                        outline: -webkit-focus-ring-color auto 0px;
+                        border-bottom: 2px solid #b8b8b8;
+                    }
+                    
+                    .react-geocoder-results{
+                        background-color: #282C38;
+                        border-radius: 6px;
+                        padding: 20px;
+                    }
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: #757B8C;
+                    @media (max-width: 991px) {
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 20px;
+                    }
+                    
+                }
+                .wrong-video{
+                    .MuiButton-label{
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 28px; 
+                        text-transform: capitalize;
+                        font-family: $SatoshiVariable;
+                        @media (max-width: 991px) {
+                            font-size: 15px;
+                            font-weight: 700;
+                        }
+                    }
+                   
+                    
+                    .MuiButtonBase-root {
+                        min-width: 236px;
+                        margin: 15px;
+                        height: 61px;;
+                        font-family: $SatoshiVariable;
+                        letter-spacing: 0.1px;
+                        background-color: transparent;
+                        color: #FFFFFF;
+                        border-radius: 50px !important;
+                        @media (max-width: 991px) {
+                                width: 100%;
+                                margin: 7px 0px ;
+                        }
+                    }
+                    .MuiButton-root:hover{
+                        background: #1877F2;
+                    }
+                    .selected{
+                        background: #1877F2 !important;
+                        border:1px solid #1877F2 !important;
+                    }
+                }
+
+            }
+            .DevBox_pricing{
+                .listBox{
+                    padding: 42px 33px 22px 47px;
+                    @media (max-width: 991px) {
+                        padding: 18px;
+                    }
+                }
+                .listBoxOne{
+                    padding: 26px 29px 14px 29px;
+                    
+                }
+                .boxBg{
+                    background: #282C38;
+                    border-radius: 10px;
+                    display: grid;
+
+                    h4{
+                        font-family: $SatoshiVariable;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #FFFFFF;
+                        line-height:28px;
+                        margin-bottom: 0;
+                        @media (max-width: 1199px) {
+                            font-size: 14px;
+                        }
+                    }
+                    p{
+                        font-family: $SatoshiVariable;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                       
+                    }
+                    .bottomBack{
+                        h4{
+                            font-family: $SatoshiVariable;
+                            font-weight: 600;
+                            font-size: 24px;
+                            color: #FFFFFF;
+                            margin: 0;
+                           
+                            .contVideo{
+                                font-weight: 400;
+                                font-size: 24px;
+                                color: #FFFFFF;
+                                
+                            }
+                            span{
+                                font-family: $SatoshiVariable;
+                                font-weight: 400;
+                                font-size: 14px;
+                                color: #DDDEE3;
+                            
+                            }
+                        }
+                        @media (max-width: 991px){
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .btnDemo{
+                        background: #1877F2;
+                        border-radius: 8px !important;
+                        padding: 12px 35px;
+                        font-family: $SatoshiVariable;
+                        font-weight: 400;
+                        color: #DDDEE3;
+                        font-size: 18px;
+                        text-transform: initial;
+                        width: 162px;
+                        @media (max-width: 991px){
+                            padding: 12px 30px;
+                            width: 100%;
+                        }
+
+                    }
+                    .enterprise {
+                        padding-left:0px; 
+                        margin-top: 11px;
+                        margin-bottom: 18px;                    
+                        li{
+                        font-weight: 300;
+                        font-size: 15px;
+                        line-height: 18px;
+                        padding: 10px 0px;
+                        color: #F2F2F2;
+                        position: relative;
+                        font-family: $SatoshiVariable;
+                        img {
+                            width: 12px;
+                            position: absolute;
+                            left: -30px;
+                            top: 14px;
+                           }
+                        }
+                    }
+                }
+                p{
+                    font-family: $SatoshiVariable;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 56px;
+                    color: #757B8C;
+                }
+                .pricing_list{
+                    padding: 34px 0px;
+                    @media (max-width: 1439px){
+                        padding: 30px 0px;
+                    }
+                    @media (max-width: 991px){
+                        padding: 20px 0px;
+                    }
+
+                    
+                    p{
+                        font-family: $SatoshiVariable;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        padding-top: 10px;
+                    }
+                    ul {
+                        clear: both;
+                        overflow: hidden;
+                        margin: 0;
+                    }
+                    ul li{
+                        width: 50%;
+                        float: left;
+                        font-family: $SatoshiVariable;
+                        font-weight: 400;
+                        font-size: 14px;
+                        padding: 10px 0px;
+                        letter-spacing: 0.1px;
+                        color: #F2F2F2;
+                        @media (max-width: 991px){
+                            width: 100%;
+                            float: left;
+                        }
+
+                        img{
+                           margin-right: 15px;
+                           width: 20px;
+                           height: 20px;
+                            position: relative;
+                            top: -2px;
+                        }
+                }
+            }
+        }
+            h3{
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 46px;
+                color: #DDDEE3;
+            }
+            h5{
+                font-family:$SatoshiVariable;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 36px;
+                color: #757B8C;
+            }
+            .number_sec{
+                font-family: $SatoshiVariable;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                color: #DDDEE3;
+                letter-spacing: 6px;
+            }
+            .MuiInput-root{
+                width: 100%;
+                font-family: $SatoshiVariable;
+                font-weight: 600;
+                font-size: 31px ;
+                line-height: 56px;
+                height: 93px;
+                color: #4F4F4F;
+                padding: 5px 0 5px;
+                @media (max-width: 1439px) {
+                    height: 85px;
+                    font-size: 24px;
+                }
+                @media (max-width: 1024px) {
+                    height:70px;
+                   
+                }
+                @media (max-width: 991px) {
+                    height:56px;
+                   
+                }
+                // margin: 15px 0px;
+              
+            }
+
+            .passcode{
+                
+                 .show-password{
+                    right: 3px;
+                    bottom:60px;
+                    
+                 }
+                .show-password1{
+                    bottom:60px;
+                    right: 3px;
+                    
+                    
+                }
+                
+            }
+
+              .makeStyles-root-29 {
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            
+        }
+        .btn-primary{
+            background: #246CF9;
+            font-family: $SatoshiVariable;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            color: #DDDEE3;
+        }
+        .btn-secondary{
+            background: #282C38;
+            border-color: #454957;
+            font-family: $SatoshiVariable;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            color: #757B8C;
+            
+        }
+        
+        .YerBtn{
+            padding: 8px 20px;
+        }
+        
+        .signup_gmail{
+            padding-top: 35px;
+            text-align: center;
+            @media (max-width: 1439px) {
+                padding-top: 28px;
+            }
+
+
+            h6{
+                font-family: $SatoshiVariable;
+                font-weight: 600;
+                font-size: 18px;
+                color: #757B8C;
+            }
+            h5{
+                font-family: $SatoshiVariable;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 24px;
+                color: #757B8C;
+                padding-top: 36px;
+                a{
+                    font-weight: 500;
+                }
+                @media (max-width: 1439px) {
+                    padding-top: 20px;
+                }
+             
+            }
+            .signup_btn_google{
+                background: #FFFFFF;
+                font-family: 'Roboto' !important;
+                font-weight: 500;
+                
+                color: rgba(0, 0, 0, 0.54);
+                margin: 5px 10px 0px 0px;
+                padding: 7px 12px;
+                border-radius: 10px;
+                text-transform: inherit;
+                font-size: 20px;
+                height: 54px;
+                width:261px;
+
+                img{
+                    padding-right: 12px;
+                }
+    
+            }
+        }
+        
+        .singledropdown {
+            .placeholder-text{
+                font-family: $SatoshiVariable;
+                font-weight: 600;
+                font-size: 31px;
+                color: #757B8C;
+            }
+            .css-yk16xz-control {
+                background-color: transparent !important;
+               border-radius: 0px;
+              border: 0px solid #4B5162;
+              border-bottom: 1PX solid #4B5162;
+               box-shadow: none;
+           }
+           .css-g1d714-ValueContainer {
+                padding-bottom: 12px;
+                padding-left: 0px;
+                height: 70px;
+
+                font-size: 31px;
+            }
+            .css-1wa3eu0-placeholder {
+                font-family:$SatoshiVariable;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 31px;
+                line-height: 20px;
+            }
+            .css-2b097c-container .css-1pahdxg-control{
+                border: 0px solid #4B5162;
+                border-bottom: 1PX solid #4B5162;
+                box-shadow: none !important;
+                border-radius: 0px;
+              }
+              .css-1pahdxg-control:hover {
+                background-color: transparent !important;
+                box-shadow: none;
+                border: 0px solid #4B5162;
+                border-bottom: 1PX solid #4B5162;
+              }
+              .css-1pahdxg-control{
+                background-color: transparent !important;
+                box-shadow: none;
+
+                .css-b8ldur-Input input{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 31px;
+                    line-height: 56px;
+                    color: #F2F2F2;
+                    margin-left: 10px;
+                }
+              }
+        }
+        .listAddress {
+            text-align: left;
+            background: #282C38;
+            border-radius: 6px;
+            padding: 10px 0px;
+            position: absolute;
+            width: 100%;
+            max-height: 175px;
+            overflow: auto;
+          
+            li{
+                font-family: $SatoshiVariable;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: #DDDEE3;
+                padding: 10px 10px;
+               
+                }
+                li:hover{
+                    background-color:#0062FF;
+                }
+        }
+    }
+    
+  
+    
+    
+        label {
+            position: relative;
+            min-height: 22px;
+            display: block;
+            margin-bottom: 0;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        
+        input[type="checkbox"] {
+            width: auto;
+            opacity: 0.00000001;
+            position: absolute;
+            left: 0;
+            margin-left: -20px;
+            &:checked ~ label{
+                &:before {
+                    border: 2px solid $colorBackLight;
+                    background:$colorBackLight;
+                }
+                &:after {
+                    transform: rotate(-45deg) scale(1);
+                }
+            }
+            &:focus + label::before {
+                outline: 0;
+            }
+        }
+
+    
+    .btn-white{
+        width: 277px;
+        margin:0 auto;
+        background: #DDDEE3;
+        border-radius: 8px !important;
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 28px;
+        height: 46px;
+        color: #282C38;
+        font-family: $SatoshiVariable;
+        text-transform: initial;
+        @media (max-width: 1199px) {
+            width: 100%;
+        }
+        
+    }
+    .btn-white:hover{
+        background: #DDDEE3;
+        color: #282C38;
+      
+    }
+    .btn-black{
+        width: 277px;
+        margin:0 auto;
+        background: #1E1F25;
+        border-radius: 8px !important;
+        font-weight: 450;
+        font-size: 18px;
+        height: 46px;
+        line-height: 28px;
+        color: #FFFFFF;
+        font-family: $SatoshiVariable !important;
+        text-transform: initial;
+        @media (max-width: 1199px) {
+            width: 100%;
+        }
+      
+    }
+    .btn-black:hover{
+        
+        background: #1E1F25;
+        color: #FFFFFF;
+    }
+
+}
+.checkBox{
+    margin: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 1439px) {
+        padding:30px 0px;
+     }
+     @media (max-width: 1024px) {
+        padding:0px 0px;
+        margin: 15px 0px;
+        height: 40px;
+     }
+     @media (max-width: 991px) {
+        margin: 30px 0px;
+     }
+
+    span{
+        font-family: $SatoshiVariable;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #757B8C;
+        letter-spacing: 0.5px;
+        a{
+            font-weight: 600;
+        }
+        @media (max-width: 991px) {
+            font-size: 12px;
+            line-height: 16px;
+            padding: 0px;
+            display: block ;
+         }
+
+       
+    }
+    .MuiSvgIcon-root {
+        width: 35px !important;
+        height: 35px !important;
+        color: #0062FF;
+        
+        margin-right: 12px;
+    }
+    @media (max-width: 991px) {
+        .checkBox-text{
+            display: inline-block;
+            padding: 2px 0px 0px 5px;
+        }
+    }
+    @media (max-width:480px) {
+        .checkBox-text{
+            display: inline-block;
+            padding: 6px 0px 0px 5px;
+        }
+    }
+  
+}
+
+.signup-policies{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   .policies-box {
+       color: #F2F2F2;
+
+       .MuiButton-root {
+        background: #0062FF;
+        border-radius: 5px !important;
+        padding: 7px 20px;
+        color: #F2F2F2;
+    }
+    }
+}
+.BtnSkip{
+    padding: 10px 20px 10px 28px !important;
+
+}
+
+.loader-btn{
+    .MuiCircularProgress-root{
+        width: 20px !important;
+        height: 20px !important;
+        margin-top: 5px;
+    }
+    min-width: 120px;
+}
+.li-active{
+    background: #0062FF;
+}
+
+.w7{
+width:785px;
+margin:0 auto;
+   
+    @media (max-width: 1024px){
+        width:100%;
+    }
+}

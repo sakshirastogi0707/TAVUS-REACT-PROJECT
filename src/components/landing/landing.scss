@@ -1,0 +1,31 @@
+@import "../../../public/assets/css/colors";
+
+.landing-main {
+    .header{
+        margin: 35px 25px 15px;
+    }
+    .ContentEditor {
+        margin: 10px 0 10px;
+        h2 {
+            font-family: $SatoshiVariable;
+            font-weight: $Bold;
+            color: $colorBackDark;
+            font-size: 28px;
+            line-height: 55px;   
+        }       
+    }
+    .vptVideoPlayer {
+        @media (min-width: 1024px) {
+            width: 41.875rem;
+            position: relative;
+            margin: auto;
+        }
+    }
+    iframe {
+        border: 0;
+    }
+    .MuiButton-text {
+        border-radius: 0.25rem;
+        padding: 6px 32px;
+    }
+}

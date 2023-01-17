@@ -1,0 +1,19 @@
+.suggestionsContainer {
+    max-height: 200px;
+    overflow-y: scroll;
+    ::-webkit-scrollbar {
+        width: 2px;
+        background: red;
+        border-radius: 8px;
+        display: block !important;
+      }
+      ::-webkit-scrollbar:hover {
+        width: 3px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #0062ff;
+        border-radius: 8px;
+        height: '10px';
+      }
+}
+

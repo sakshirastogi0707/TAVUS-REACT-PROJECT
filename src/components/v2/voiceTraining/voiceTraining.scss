@@ -1,0 +1,117 @@
+@import "../../../../public/assets/css/colors.scss";
+.training-frame-main{
+      padding: 0px 80px;
+    @media (max-width: 991px){
+      padding: 0px 30px;
+    }
+    .header-main-landing{
+      .headerDiv{
+        margin: 0px;
+        h2{
+          margin-bottom: 0px !important;
+          padding-bottom: 0px;
+        }
+      }
+    }
+    .training-frame-box{
+      margin-top: 55px;
+      display: flex;
+      @media (min-width: 1620px){
+        margin-top: 0px;
+      }
+    }
+    .frame-box {
+      margin-bottom: 140px;
+      }
+      @media (min-width: 1620px){
+          .frame-box{
+              height: calc(100vh - 175px);
+              max-width: 1440px;
+              margin: 0 auto;
+          }
+    }
+    .sidebarLeft {
+      width:43%;
+      padding-right: 72px;
+      @media (max-width: 1439px){
+        padding-right: 40px;
+      }
+      h3{
+        font-family: $SatoshiVariable;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+       }
+       p{
+        font-family: $SatoshiVariable;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.8);
+        padding-top: 24px;
+      }
+
+    }
+   .scriptBox{
+     width: 57%;
+     
+      .videoBox{
+        background: #232631;
+        border-radius: 12px;
+        height: 442px;
+        position: relative;
+        .video-recorder__Wrapper-sc-7k20rv-0{
+          border-radius: 8px;
+          min-height: 190px;
+        }
+        .musicSec{
+          position: absolute;
+          bottom: 32px;
+          left: 32px;
+        }
+        
+      }
+      .cameraBtn{
+          padding-top: 32px;
+          gap: 30px;
+          .btnMicrophone{
+            width: 346px;
+            height: 66px;
+          }
+      }
+  } 
+
+
+  .recordingLeft{
+    width:447px;
+    height:657px;
+    background: rgba(35, 38, 49, 0.5);
+    border-radius: 16px;
+  }
+  .recordingBox{
+    width: 500px;
+    height:657px;
+    background: rgba(35, 38, 49, 0.5);
+  }
+}
+
+#script-textarea {
+  flex: 1;
+  background: rgba(35, 38, 49, 0.5);
+  color: white;
+  outline: none;
+  border: none;
+  font-family: 'Satoshi-Variable';
+  padding: 15px;
+  font-size: 18px;
+  overflow-y: auto;
+  resize: none;
+}
+
+
+ 
+
+
+

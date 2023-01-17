@@ -1,0 +1,60 @@
+@import "../../../../public/assets/css/colors.scss";
+.introducing-voices-main{
+    padding: 0px 73px;
+    @media (max-width: 991px) {
+        padding: 0px 20px;
+
+      }
+    .frame-box{
+        margin-bottom: 140px;
+        position: relative;
+        margin-top: 161px;
+          @media (min-width: 1620px) {
+              height: calc(100vh - 175px);
+              max-width: 1440px;
+              margin: 0 auto;
+      
+            }
+        }
+    .done-box{
+        width: 690px;
+        padding-bottom: 160px;
+        @media (max-width: 991px) {
+            width: 100%;
+            padding-bottom: 0px;
+          }
+        h2{
+            margin: 24px 0px;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: 0.1px;
+            color: #FFFFFF;
+        }
+        h5{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.1px;
+            color: #6F7897;
+            margin-bottom: 24px;
+        }
+        p{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.1px;
+            color: #6F7897;
+        }
+        // @media (max-width: 1439px){
+        //         padding-bottom: 136px;
+        // }
+       
+    }
+}

@@ -1,0 +1,38 @@
+.training-box{
+    margin-bottom: 120px;
+    margin-top: 40px;
+    @media (min-width: 1620px) {
+        height: calc(100vh - 175px);
+        margin: auto;
+        max-width: 1440px;
+
+    }
+    .videoSection{
+        background: #232631;
+        border-radius: 8px;
+        height: 442px;
+    }
+}
+.allow-access{
+    .title{
+        padding: 13px 14px;
+       
+        h5{
+            font-weight: 500;
+            font-size: 17px !important;
+            line-height: 25px !important;
+            letter-spacing: 0.1px;
+            color: #6F7897;
+        }
+    }
+    .main-model{
+        padding-top: 2px !important;
+        .iconButton .MuiButton-containedPrimary{
+            min-width: 154px;
+            height: 60px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}

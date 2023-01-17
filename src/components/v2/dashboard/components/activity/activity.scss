@@ -1,0 +1,17 @@
+@import "../../../../../../public/assets/css/colors.scss";
+
+
+.ActivityContainer{
+width: 350px;
+height: 412px;
+background: rgba(35, 38, 49, 0.5);
+border-radius: 16px;
+h3{
+    font-family: $SatoshiVariable;
+    font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        padding: 25px  25px;
+}
+}

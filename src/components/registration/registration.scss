@@ -1,0 +1,297 @@
+@import "../../../public/assets/css/colors.scss";
+
+.registration-main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    background-size: contain;
+    @media (min-width: 1680px)  {
+        height: 100vh;
+    }
+    @media (min-width: 992px)  {
+        padding: 85px 0;
+        background-size: cover;
+    }  
+    .registration-cntr {
+        padding: 40px 20px;
+        border-radius: 40px;
+        @media (min-width: 1200px) {
+            padding: 80px 10px 80px 80px;
+        }
+        @media (min-width: 992px) {
+            border-radius: 5px;
+        }      
+        background: $colorWhite;
+        img {
+            filter: drop-shadow(0px 4px 34px rgba(0, 0, 0, 0.08));
+        }
+    }
+    .head-title{
+        height: 100%;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        padding-right: 25px;
+        .titleDiv{
+            padding-bottom: 105px;
+        }
+    }
+    h1 {
+        font-family: $SatoshiVariable;
+        color: $colorBackDark;
+        font-weight: $Bold;
+        font-size: 30px;
+        @media (min-width: 1200px) {
+            font-size: 38px;
+            line-height: 55px;
+
+        }
+    }
+    h3 {
+        font-family: $SatoshiVariable;
+        color: $colorBackDark;
+        font-weight: $SemiBold;
+        font-size: 20px;
+        line-height: 35px;
+        @media (min-width: 1200px) {
+            font-size: 26px;
+            line-height: 55px;
+        }
+        @media (max-width: 991.98px) {
+            margin-top: 35px;
+        }
+    }
+    p {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-weight: $Light;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .terms p {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-weight: $Light;
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 0px;
+        a{
+            font-size: 14px; 
+        }
+    }
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+    a {
+        font-family: $SatoshiVariable;
+        color: $colorRed;
+        font-weight: $Regular;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .loginCntr{
+        padding: 0px 70px 0px 30px;
+    }
+    button {
+        border: 1px solid #CDCDD7;
+        border-radius: 10px;
+    }
+    label.MuiInputLabel-outlined {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: $Light;
+        padding-left: 10px;
+    }
+    .MuiButton-label {
+        font-family: $SatoshiVariable;
+        font-weight: $SemiBold;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .MuiFormControl-root,
+    .MuiButton-text {
+        width: 100%;
+    }
+    .MuiOutlinedInput-root {
+        border-radius: 5px;
+    }
+    .MuiInputLabel-outlined.MuiFormLabel-filled {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-size: 15px !important;
+        line-height: 17px;
+        font-weight: $Light;
+        
+    }
+    .MuiOutlinedInput-notchedOutline {
+        padding-left: 20px !important;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+    .MuiFormLabel-root.Mui-focused,
+    .MuiOutlinedInput-notchedOutline {
+        border-color: $colorBackLight;
+        border-radius: 5px !important;
+        
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-width: 1px;
+    }
+    fieldset {
+        top: 0px;
+    }
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(18px, -2px) scale(0.75);
+    }
+    .MuiInputBase-input {
+        font-family: $SatoshiVariable;
+        color: #F2F2F2;
+        font-size: 17px;
+        line-height: 17px;
+        height: 52px;
+        box-sizing: inherit;
+        font-weight: $Light;
+        padding-left: 20px;
+    }
+    #Password {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .checkbox {
+       
+        position: relative;
+       
+        label {
+            position: relative;
+            min-height: 22px;
+            display: block;
+            padding-left: 40px;
+            margin-bottom: 0;
+            font-weight: normal;
+            cursor: pointer;
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 22px;
+                height: 22px;
+                transition: transform 0.28s ease;
+                 border: 2px solid $colorBackLight;
+                 background: #ffff;
+                 border-radius: 6px;
+            }
+            &:after {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 5px;
+                border-bottom: 2px solid $colorWhite;
+                border-left: 2px solid $colorWhite;
+                transform: rotate(-45deg) scale(0);
+                transition: transform ease 0.25s;
+                position: absolute;
+                top: 7px;
+                left: 6px;
+            }
+        }
+        input[type="checkbox"] {
+            width: auto;
+            opacity: 0.00000001;
+            position: absolute;
+            left: 0;
+            margin-left: -20px;
+            &:checked ~ label{
+                &:before {
+                    border: 2px solid $colorBackLight;
+                    background:$colorBackLight;
+                }
+                &:after {
+                    transform: rotate(-45deg) scale(1);
+                }
+            }
+            &:focus + label::before {
+                outline: 0;
+            }
+        }
+    }
+    .error {
+        color:$colorRed;
+        font-size: 12px;
+    }
+
+    
+}
+@media (max-width: 991.98px) {
+    .registration-main{
+        .registration-cntr {
+            border-radius: 5px;
+        }
+        .titleDiv{
+            h1 {
+                font-size: 22px;
+                line-height: normal;
+            }
+        }
+        h3 {
+            font-size: 16px;
+        }
+        .loginCntr{
+            padding: 30px;
+        }
+        .head-title {
+            padding-right: 5px;
+        }
+    }
+    .registration-tab{
+        background-color: #fce9eb;
+        height: 100vh;
+    }
+    
+}
+@media (max-width: 767.98px) {
+    .registration-main{
+        text-align: center;
+        h3 {
+            margin-top: 0px;
+            line-height: 32px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .registration-cntr {
+            border-radius: 5px;
+        }
+        .loginCntr {
+            padding: 0px;
+        }
+    } 
+    .registration-tab{
+        height: auto;
+    }
+    .head-title{
+        height: auto !important;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        padding-right: 25px;
+        .titleDiv{
+            padding-bottom: 0px !important;
+        }
+    }
+}

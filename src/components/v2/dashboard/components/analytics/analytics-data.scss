@@ -1,0 +1,46 @@
+@import "../../../../../../public/assets/css/colors.scss";
+
+.analytics-data-component {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  width: 700px;
+
+  padding-left: 60px;
+  .wrapper {
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    h4 {
+      font-family: $SatoshiVariable;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.1px;
+      color: #6f7897;
+    }
+    p {
+      font-family: $SatoshiVariable;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      color: #11cabe;
+    }
+    .inner-div {
+      height: 50px;
+      width: 100px;
+      border-right: 1px solid #3c4254;
+      // margin-left: 10px;
+      h2 {
+        font-family: $SatoshiVariable;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #ffffff;
+      }
+    }
+  }
+}

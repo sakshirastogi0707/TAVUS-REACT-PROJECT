@@ -1,0 +1,226 @@
+@import "../../../../public/assets/css/colors.scss";
+
+.signin-main::before {
+    content: '';
+    background-color: #171720;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+
+.signin-main {
+    .header-main {
+        padding-top: 50px;
+        height: 80px;
+    }
+
+    .headerDiv {
+        display: none;
+    }
+
+    .box-email {
+        width: 384px;
+        height: calc(100vh - 80px);
+        margin: 0 auto;
+
+        @media (min-width: 991px)and (max-width:1279px) {
+            display: revert !important;
+            padding: 40px 0px;
+            width: 384px;
+            height: auto;
+
+        }
+
+        @media (min-width: 1500px) {
+            height: calc(100vh - 160px);
+        }
+
+        @media (max-width: 768px) {
+            width: 100%;
+            padding: 0px 30px;
+        }
+
+        .login-main-box {
+            width: 100%;
+
+            .header {
+                h1 {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 38px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+
+                    @media (max-width: 767px) {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+                }
+
+                h3 {
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+
+                    @media (max-width: 767px) {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 36px;
+                    }
+
+                    a {
+                        color: #1877F2;
+                    }
+
+                    a:hover {
+                        color: #1877F2;
+                    }
+                }
+            }
+
+            .DevBox {
+                margin: 40px 0px;
+
+                .MuiInputBase-root {
+                    width: 100%;
+
+                    .MuiInputBase-input {
+                        border-radius: 8px;
+                        position: relative;
+                        background-color: #1c1e28 !important;
+                        border: 0px solid #1c1e28;
+                        height: 50px;
+                        font-family: $SatoshiVariable;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 32px;
+                        letter-spacing: 0.1px;
+                        height: 60px;
+                        padding: 0px 20px;
+                        line-height: 61px;
+                    }
+
+                    .MuiInputBase-input {
+                        width: 100%;
+                    }
+
+                    input:-webkit-autofill {
+                        -webkit-box-shadow: 0 0 0 1000px #1c1e28 inset;
+                        -webkit-text-fill-color: #fff !important;
+                    }
+
+                    ::-webkit-input-placeholder {
+                        color: #757B8C;
+                        opacity: 1;
+                    }
+
+                    ::-moz-placeholder {
+                        color: #757B8C;
+                        opacity: 1;
+                    }
+
+                    :-ms-input-placeholder {
+                        color: #757B8C;
+                        opacity: 1;
+                    }
+
+                    :-moz-placeholder {
+                        color: #757B8C;
+                        opacity: 1;
+                    }
+
+                }
+
+                .MuiInput-root.MuiInput-underline:before,
+                .MuiInput-root.MuiInput-underline::after {
+                    display: none;
+                }
+
+                .terms {
+                    padding-top: 40px;
+
+                    span {
+                        font-family: $SatoshiVariable;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 32px;
+                        letter-spacing: 0.1px;
+                        color: #1877F2;
+                    }
+                }
+
+                .login-btn {
+                    margin-top: 8px;
+
+                    .iconButton .MuiButton-containedPrimary {
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 0.1px;
+                        min-width: 100%;
+                        height: 60px;
+                    }
+                }
+
+                .hrDiv {
+                    padding: 22px 0px;
+
+                    hr {
+                        height: 1px;
+                        background: #D9D9D9;
+                        opacity: 0.4;
+                        overflow: visible;
+                        text-align: center;
+                        margin: 0px;
+                    }
+
+                    hr:after {
+                        background: #171720;
+                        content: 'OR';
+                        padding: 0 8px;
+                        position: relative;
+                        top: -16px;
+                        font-family: $SatoshiVariable;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 32px;
+                        letter-spacing: 0.1px;
+                    }
+                }
+
+                .signup_btn_google {
+                    width: 100%;
+                    border: 1px solid #5f626a;
+                    border-radius: 8px;
+                    height: 60px;
+                    font-family: $SatoshiVariable;
+                    text-transform: initial !important;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

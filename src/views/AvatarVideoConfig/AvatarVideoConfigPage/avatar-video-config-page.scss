@@ -1,0 +1,147 @@
+@import "../../../../public/assets/css/colors.scss";
+
+.supercharge {
+  margin-bottom: 180px;
+  padding: 66px 30px 26px 80px;
+  width: 553px;
+
+  .scriptLeft {
+    margin-top: 37px;
+    width: 447px;
+    height: 612px;
+    background: rgba(35, 38, 49, 0.5);
+    border-radius: 16px;
+    padding: 37px 32px 32px;
+
+    h3 {
+      font-family: $SatoshiVariable;
+      font-size: 24px;
+      line-height: 26px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .timeline {
+      .vtl {
+        position: relative;
+      }
+
+      .vtl::before {
+        content: "";
+        width: 1px;
+        background-color: #0062FF;
+        position: absolute;
+        top: 0;
+        bottom: 32px;
+        left: 11px;
+      }
+
+      div.event {
+        padding-left: 36px;
+        position: relative;
+        border-radius: 6px;
+        margin-bottom: 40px;
+
+        h3 {
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 26px;
+          text-align: initial;
+        }
+      }
+
+      p.txt {
+        font-family: $SatoshiVariable;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      div.event::after {
+        content: "";
+        background: #1877F2;
+        ;
+        border: 8px solid #143268;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+
+      div.event.center::after {
+        content: "";
+        background: #1877F2;
+        ;
+        border: 8px solid #143268;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - 12px);
+        left: 0px;
+      }
+
+      .iconButton {
+        .MuiButton-containedPrimary {
+          width: 335px;
+          height: 56px;
+          font-family: $SatoshiVariable;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 28px;
+          color: #FFFFFF;
+          background: #1877F2;
+          border-radius: 8px;
+
+          .MuiButton-startIcon {
+            margin-right: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .loadericon {
+    height: calc(100vh - 175px);
+    margin: 0 auto;
+  }
+}
+
+.edit-transcript {
+  width: 80%;
+  background-color: rgba(35, 38, 49, 0.5);
+
+  // height: 100vh;
+  @media (min-width: 1920px) {
+    height: 100vh;
+  }
+
+  .edit-transcript-top {
+    padding: 20px 40px;
+    border-bottom: 1px solid #383D53;
+  }
+
+  .RightBoxDev {
+    padding: 20px 40px;
+
+    .loadericon {
+      img {
+        width: 64px;
+      }
+    }
+  }
+}
+
+.varDev {
+  color: #FFC300;
+}

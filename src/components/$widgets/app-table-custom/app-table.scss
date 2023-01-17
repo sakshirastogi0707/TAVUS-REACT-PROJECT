@@ -1,0 +1,121 @@
+@import "../../../../public/assets/css/colors.scss";
+  .table-container {
+    
+    background: rgba(35, 38, 49, 0.5);
+    border-radius: 16px;
+
+    .table{
+     
+      .table-heading-container {
+        padding: 32px 32px 10px;
+        h3 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 36px;
+          color: #ffffff;
+          
+        }
+        
+        .image-container {
+         h5{
+          span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            color: #6F7897;
+            padding-left: 8px;
+          }
+         }
+        }
+      }
+  
+    }
+  .data-grid{
+
+    .MuiDataGrid-root{
+      border: 0px solid !important;
+      padding:0px 32px;
+      .MuiDataGrid-columnHeaders {
+        border-bottom: 1px solid #6F7897;
+        .MuiDataGrid-columnHeaderTitle{
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.1px;
+          color: #6F7897;
+        }
+        .MuiDataGrid-columnHeader:focus-within{
+          outline: none;
+        }
+      }
+      .MuiDataGrid-cell{
+        border-bottom: 1px solid #6F7897;
+        font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.1px;
+          color: #FFFFFF;
+          padding: 10px 0px;
+        .MuiDataGrid-cellContent{
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.1px;
+          color: #FFFFFF;
+        }
+
+        img{
+          padding: 10px 0px;
+          max-width: 78px;
+          border-radius: 7px;
+          cursor: pointer;
+          vertical-align: middle;
+        }
+      }
+      .MuiDataGrid-cell:focus-within{
+        outline: none;
+      }
+    }
+    .MuiDataGrid-columnSeparator{
+      .MuiSvgIcon-root{
+        color: #6F7897 !important;
+      }
+    }
+    .MuiDataGrid-columnHeader:hover{
+      .MuiSvgIcon-root{
+        color: #6F7897 !important;
+      }
+    }
+    
+  }
+ 
+}
+.MuiPaper-elevation1, .MuiDataGrid-paper{
+  background: #232631 !important ;
+  border-radius: 8px !important;
+  color: #fff !important;
+  .MuiInputLabel-root{
+    color: #fff !important;
+  }
+  .MuiInput-input{
+    padding: 20px 5px;
+  }
+  .MuiNativeSelect-select option{
+    background: #232631 !important ;
+  border-radius: 8px !important;
+  color: #fff !important;
+  }
+  .Mui-disabled{
+    color: #fff !important;
+  }
+
+}

@@ -1,0 +1,126 @@
+@import "../../../../../public/assets/css/colors.scss";
+.landing-frame-main{
+  padding: 0px 62px 0px 40px;
+  @media (max-width: 991px){
+    padding: 0px 30px;
+    .header-main-landing .headerDiv {
+      margin-top: 0px;
+    }
+  }
+    .header-main-landing{
+      .headerDiv{
+        h2{
+          margin-bottom: 0px !important;
+          padding-bottom: 0px;
+        }
+      }
+    }
+    .frame-box{
+      margin-bottom: 140px;
+        @media (min-width: 1620px) {
+            height: calc(100vh - 332px);
+            max-width: 1440px;
+            margin: 0 auto;
+    
+          }
+          @media (max-width: 991px) {
+            width: 100%;
+            overflow: auto;
+    
+          }
+         
+    }
+  .landing-frame-box{
+    display: flex;
+    width: 100%;
+      @media (max-width: 991px){
+        width: 1170px;
+        flex-flow: row;
+        .landing-pageThreeDesktop, .landing-pageTwoDesktop, .landing-page,.landing-page-fore-desktop
+         , .landing-page-fore-mobile,.landing-pageThreeMobile,  .landing-pageTwoMobile ,.landing-pageMobile {
+          max-height: 512px;
+        }
+        .mainBox .templateText h2.templateTitle{
+          font-size: 20px !important;
+          line-height: 28px !important;
+        }
+        .mainBox .templateText p.templatePTitle{
+          font-size: 12px !important;
+          line-height: 15px !important;
+        }
+        .mainBox .templateText h4.templateSubTitle {
+          font-size: 16px;
+          line-height: 26px;
+        }
+        .landing-page-fore-desktop{
+          .mainBox {
+            .mainDevBox{
+              display: flex;
+            }
+            .boxLeft {
+              width: 60%;
+              margin-bottom: 19px;
+            }
+            .boxRight {
+                width: 40%;
+                padding-left: 20px;
+                margin-bottom: 10px;
+              .calendly-inline-widget{
+                height: 200px !important;
+              }
+            }
+          }
+        } 
+        
+      }
+      .landing-page .mainBox {
+        height: auto;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .landing-pageTwoDesktop .mainBox , .landing-pageThreeDesktop .mainBox {
+      height: auto;
+       max-width: 100%; 
+      margin: 0 auto;
+      display: inherit;
+  }
+
+  }
+  .Sidebar {
+      width: 207px;
+      border-radius: 16px;
+      margin-top: 40px;
+      background: rgba(35, 38, 49, 0.5);
+      height: 554px;
+      @media (max-width: 991px){
+        width: 208px;
+        margin:50px 10px 0px;
+      }
+    }
+    .Setting {
+      width: 24.1%;
+      border-radius: 16px;
+      margin: 40px 24px 0px;
+      background: rgba(35, 38, 49, 0.5);
+      padding: 0px 32px;
+      height: 554px;
+      @media (max-width: 991px){
+        width: 290px;
+        margin:50px 10px 0px;
+      }
+    }
+    .landing-preview {
+      width: 56.3%;
+      border-radius: 16px;
+      margin-left: 2px;
+      height:  595px;
+      @media (max-width: 991px){
+        width: 600px;
+        max-height: 513px;
+        margin: 25px 10px;
+      }
+    }
+}
+
+
+ 

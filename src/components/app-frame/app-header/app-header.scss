@@ -1,0 +1,93 @@
+@import '../../../../public/assets/css/colors.scss';
+
+.headerDiv {
+    margin-top: 73px;
+
+    @media (max-width: 1439px) {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-family: 'Satoshi-Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        color: #FFFFFF;
+        letter-spacing: 0.1px;
+
+        @media (max-width: 1024px) {
+            line-height: 45px;
+        }
+
+        @media (max-width: 991px) {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 700;
+            margin-bottom: 0px;
+        }
+
+        @media (max-width: 767px) {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+
+    p {
+        font-family: 'Satoshi-Variable';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 45px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: #6F7897;
+
+        @media (max-width: 1439px) {
+            padding: 0px !important;
+        }
+
+        @media (max-width: 991px) {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+
+
+
+}
+
+.header-main {
+    padding-top: 55px;
+
+    @media (max-width: 991px) {
+        padding: 52px 20px 0px;
+    }
+
+    .AccountBox {
+        position: absolute;
+        top: 39px;
+        right: 60px;
+
+        @media (max-width: 991px) {
+            top: 38px;
+            right: 26px;
+        }
+
+        .MuiPaper-root .MuiList-root .MuiMenuItem-root {
+            border-radius: 0px !important;
+            display: block;
+        }
+    }
+}
+
+.MuiMenu-list {
+    display: grid;
+
+}
+
+.MuiPaper-root .MuiList-root .MuiMenuItem-root {
+    display: block;
+}

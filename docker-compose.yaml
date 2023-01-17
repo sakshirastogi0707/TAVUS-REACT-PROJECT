@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  react-frontend:
+    build:
+      context: ./
+      target: base
+      dockerfile: Dockerfile.base
+    volumes:
+      - ./src:/home/node/app/src
+      - ./public:/home/node/app/public
+    container_name: react-frontend
+    env_file: ./.env.dev
+    platform: "linux/amd64"
+    expose:
+      - '4400'
+    ports:
+      - '4400:4400'
+    command: npm run start

@@ -1,0 +1,18 @@
+@import "../../../public/assets/css/colors.scss";
+
+.gettingstarted-main {
+    h2 {
+        font-family: $Josefin;
+        font-weight: $Bold;
+        color: $colorBack;
+        font-size: 28px;
+        line-height: 55px;
+    }
+    h6 {
+        font-family: $Josefin;
+        font-weight: $Bold;
+        color: $colorBack;
+        font-size: 17px;
+        line-height: 17px;
+    }
+}

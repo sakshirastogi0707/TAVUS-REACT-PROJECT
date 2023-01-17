@@ -1,0 +1,26 @@
+.videoPlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.count-down{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    p{
+        font-size: 50px;
+    }
+}
+.recordinDevBox{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    .recordinDev{
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+    }
+}

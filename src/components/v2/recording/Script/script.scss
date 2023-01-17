@@ -1,0 +1,31 @@
+@import "../../../../../public/assets/css/colors.scss";
+  .scriptScrollBar{
+      width: 100%;
+      height: 100%;
+      padding: 0 5px;
+      border-radius: 16px;
+      background: "rgba(35, 38, 49, 1)";
+      textarea{
+        position: inherit;
+        font-size: 20px;
+        font-family: $SatoshiVariable;
+        font-weight: 500;
+        color: #fff !important;
+        background: #1d1e29;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+        background: #22232C;
+        border-radius: 8px;
+        display: block !important;
+        padding-left: 30px;
+        }
+        ::-webkit-scrollbar:hover {
+        width: 3px;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #0062FF;
+          border-radius: 8px;
+          height: 200px;
+        } 
+    }

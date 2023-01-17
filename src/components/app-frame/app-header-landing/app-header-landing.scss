@@ -1,0 +1,79 @@
+@import '../../../../public/assets/css/colors.scss';
+
+.header-main-landing {
+    padding: 55px 0px 0px 0px;
+
+    @media (max-width: 991px) {
+        padding: 52px 20px 0px;
+        text-align: center;
+    }
+
+    .headerDiv {
+        margin-top: 32px;
+
+        @media (max-width: 991px) {
+            margin-top: 42px;
+        }
+
+        h2 {
+            font-family: 'Satoshi-Variable';
+            font-weight: $Medium;
+            font-size: 32px;
+            line-height: 36px;
+            color: #FFFFFF;
+            margin-bottom: 12px;
+
+            @media (max-width: 1024px) {
+                line-height: 45px;
+            }
+
+            @media (max-width: 991px) {
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: 700;
+                margin-bottom: 0px;
+            }
+
+            @media (max-width: 767px) {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+
+
+        p {
+            font-family: 'Satoshi-Variable';
+            font-weight: $Medium;
+            font-size: 18px;
+            line-height: 24px;
+            color: #6F7897;
+
+            @media (max-width: 1439px) {
+                padding: 0px !important;
+            }
+
+            @media (max-width: 991px) {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 36px;
+            }
+        }
+    }
+
+    .AccountBox {
+        position: absolute;
+        top: 39px;
+        right: 60px;
+
+        @media (max-width: 991px) {
+            top: 38px;
+            right: 26px;
+        }
+
+        .MuiPaper-root .MuiList-root .MuiMenuItem-root {
+            border-radius: 0px !important;
+            display: block;
+        }
+    }
+}

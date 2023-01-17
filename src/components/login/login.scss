@@ -1,0 +1,351 @@
+@import "../../../public/assets/css/colors.scss";
+
+.login-Main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    @media (min-width: 992px) {
+        // padding: 30px 85px 60px;     
+    }  
+    @media (max-width: 567px) {
+        background-size: contain;
+    }
+    .main_login{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        .login-sectiom{
+            background-color: #141518;
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            .loginForm{
+                max-width: 88%;
+            }
+            .text-field .MuiOutlinedInput-input {
+                font-family: $SatoshiVariable;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                background: #4b5162;
+                border-radius: 10px;
+            }
+        }
+        .login-sectiomTwo{
+            background-color: #1E1F25;
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            h2{
+                font-family: $SatoshiVariable;
+                font-weight: 900;
+                font-size: 52px;
+                line-height: 60px;
+                letter-spacing: 0.1px;
+                color: #DDDEE3;
+            }
+            p{
+                font-size: 16px;
+                line-height: 31px;
+                align-items: center;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+            }
+            .profile{
+                .long-menu{
+                    padding-left: 10px;
+                }
+                .header-p{
+                  color: #DDDEE3;
+                  font-size: 12px;
+                  font-weight: 600;
+                  line-height: 6px;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                }
+                .emid{
+                  font-size: 11px;
+                line-height: 16px;
+                color: #595F70;
+                }
+              }
+        }
+    }
+    
+    .loginCntr {
+        padding: 40px 20px;
+        @media (min-width: 768px) {
+            padding: 30px 85px 60px;
+        }
+        @media (min-width: 992px) {
+            border-radius: 10px;
+        }      
+        img {
+            filter: drop-shadow(0px 4px 34px rgba(0, 0, 0, 0.08));
+        }
+        .MuiInputBase-root{
+            width: 100%;
+        }
+        .MuiInput-underline:before{
+            display: none;
+        }
+        .MuiInput-underline:after{
+            display: none;
+        }
+       
+        .MuiInputBase-input {
+            font-family: $SatoshiVariable;
+            color: #E0E0E0 !important;
+            font-size: 17px;
+            line-height: 17px;
+            height: 52px;
+            box-sizing: inherit;
+            font-weight: $Light;
+            width: 100%;
+            padding-left: 20px;
+            background-color: #4B5162;
+            border-radius: 11px;
+        }
+        .MuiInput-input::placeholder {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+          }
+        #Password{
+            font-family: $SatoshiVariable;
+            color: #E0E0E0;
+            font-size: 17px;
+            line-height: 17px;
+            height: 52px;
+            box-sizing: inherit;
+            font-weight: $Light;
+            width: 100%;
+            padding-left: 20px;
+            background-color: #4B5162;
+            border-radius: 11px;
+            border: none;
+        }
+        #Password:focus-visible{
+            outline: none;
+        }
+        input::placeholder {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+          }
+    }
+    .signup_gmail{
+        padding: 40px 0px;
+        text-align: center;
+        h6{
+            font-family: $SatoshiVariable;
+            font-weight: 600;
+            font-size: 18px;
+            color: #757B8C;
+        }
+        h5{
+            font-family: $SatoshiVariable;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            color: #757B8C;
+            padding-top: 40px;
+        }
+        .signup_btn_google{
+            background: #FFFFFF;
+            font-family: 'Roboto' !important;
+            font-weight: 500;
+            font-size: 14px;
+            color: #757575;
+            margin: 5px 10px 0px 0px;
+            padding: 7px 12px;
+            border-radius: 10px;
+            text-transform: inherit;
+            font-size: 20px;
+            img{
+                padding-right: 12px;
+            }
+        }
+    }
+    h3 {
+        font-family: $SatoshiVariable;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 35px;
+        color: #F2F2F2;
+        padding-bottom: 23px;
+        @media (max-width: 991.98px) {
+            margin-top: 35px;
+        }
+    }
+    p {
+        font-family: $SatoshiVariable;
+        color: #BDBDBD;
+        font-weight: $Light;
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    .terms p {
+        font-family: $SatoshiVariable;
+        color: #BDBDBD;
+        font-weight: $Light;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 0px;
+    }
+    .terms{
+        margin-bottom: 15px;
+        span{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #757B8C;
+            font-family: $SatoshiVariable;
+        }
+    }
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+    .mb-46 {
+        margin-bottom: 46px;
+    }
+    a {
+        
+        color:#757B8C;
+    }
+    button {
+        border: 0px solid #CDCDD7;
+        border-radius: 10px;
+        background-color: #0062FF;
+        padding: 15px;
+        
+        .MuiButton-label {
+            font-family: $SatoshiVariable !important;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    label.MuiInputLabel-outlined {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: $Light;
+        padding-left: 10px;
+    }
+   
+
+    .MuiFormControl-root,
+    .MuiButton-text {
+        width: 100%;
+    }
+    .MuiOutlinedInput-root {
+        border-radius: 10px;
+    }
+    .MuiInputLabel-outlined.MuiFormLabel-filled {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: $Light;
+        
+    }
+    .MuiOutlinedInput-notchedOutline {
+        padding-left: 20px !important;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+    .MuiFormLabel-root.Mui-focused,
+    .MuiOutlinedInput-notchedOutline {
+        border-color: $colorBackLight;
+        border-radius: 10px !important;
+        
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-width: 1px;
+    }
+    fieldset {
+        top: 0px;
+    }
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(18px, -2px) scale(0.75);
+    }
+    
+    .MuiOutlinedInput-input {
+        padding: 18.5px 14px 10px;
+    }
+    #Password {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .passcode{
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .checkbox {
+       
+        position: relative;
+       
+        label {
+            position: relative;
+            min-height: 22px;
+            display: block;
+            padding-left: 40px;
+            margin-bottom: 0;
+            font-weight: normal;
+            cursor: pointer;
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 22px;
+                height: 22px;
+                transition: transform 0.28s ease;
+                 border-radius: 3px;
+                 border: 2px solid $colorBackLight;
+                 background: #ffff;
+                 border-radius: 6px;
+            }
+            &:after {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 5px;
+                border-bottom: 2px solid $colorWhite;
+                border-left: 2px solid $colorWhite;
+                transform: rotate(-45deg) scale(0);
+                transition: transform ease 0.25s;
+                position: absolute;
+                top: 7px;
+                left: 6px;
+            }
+        }
+        
+        input[type="checkbox"] {
+            width: auto;
+            opacity: 0.00000001;
+            position: absolute;
+            left: 0;
+            margin-left: -20px;
+            &:checked ~ label{
+                &:before {
+                    border: 2px solid $colorBackLight;
+                    background:$colorBackLight;
+                }
+                &:after {
+                    transform: rotate(-45deg) scale(1);
+                }
+            }
+            &:focus + label::before {
+                outline: 0;
+            }
+        }
+    }
+
+    
+}

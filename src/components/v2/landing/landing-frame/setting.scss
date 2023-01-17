@@ -1,0 +1,28 @@
+@import "../../../../../public/assets/css/colors.scss";
+.side-nav{
+
+      .titleBox{
+         position: static;
+         top: 0;
+         background: #1e1e29;
+         z-index: 9;
+         padding-top: 32px;
+      h3.title{
+         font-family:$SatoshiVariable;
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 24px;
+         color: #FFFFFF;
+         margin-bottom: 12px;
+      }
+      h5.subtitle{
+         font-family:$SatoshiVariable;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 20px;
+         color: #6F7897;
+         margin-bottom: 0px;
+      }
+   }
+}

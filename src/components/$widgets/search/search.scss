@@ -1,0 +1,22 @@
+@import "../../../../public/assets/css/colors.scss";
+
+#sidebar {
+    .MuiInputBase-root {
+        border-color: transparent;
+        line-height: 0.1px !important;
+    }
+    .MuiInputBase-input {
+        padding-left: 8px;
+        font-size: 14px;
+        color: $colorBackLight;
+        font-family: $SatoshiVariable;
+        font-weight: $Medium;
+    }
+  
+}
+
+@media (max-width: 766px)  {
+        .makeStyles-search-132 {
+            display: flex;
+        }
+}

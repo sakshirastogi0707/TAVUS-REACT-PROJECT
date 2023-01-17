@@ -1,0 +1,154 @@
+@import "../../../../../public/assets/css/colors.scss";
+.recording-main{
+    padding: 0px 80px 135px 80px;
+  @media (max-width: 991px){
+    padding: 0px 30px;
+  }
+   .scriptLeft{
+    margin-top: 74px;
+   }
+ 
+    .header-main-landing{
+      .headerDiv{
+          margin-top: 0px;
+        h2{
+          margin-bottom: 0px !important;
+          padding-bottom: 0px;
+        }
+      }
+    }
+    .frame-box{
+      margin-bottom: 140px;
+        @media (min-width: 1620px) {
+            height: calc(100vh - 175px);
+            max-width: 1440px;
+            margin: 0 auto;
+    
+          }
+         
+    }
+  .script-box{
+    display: flex;
+    width: 100%;
+    margin-top: 54px;
+      @media (max-width: 991px){
+        flex-flow: row wrap;
+      }
+    
+
+    .scriptRight{
+      width: 67%;
+      margin-left: 32px;
+      display: flex;
+      flex-direction: column;
+      .TipsButton{
+          padding-bottom: 24px;
+          position: absolute;
+          top: 41px;
+          right: 135px;
+        .iconButton .MuiButton-containedPrimary {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #F2F2F2;
+            letter-spacing: 0.1px;
+            background-color: #1877F2;
+            border-radius: 5px;
+            padding: 14px 22px 14px 25px;
+            text-transform: initial !important;
+            min-width: 167px;
+            height: 48px;
+        }
+      }
+      .scriptBox{
+        display: flex;
+        height: 100%;
+      }
+      .recordingBox{
+        height: 574px;
+        background:rgba(35, 38, 49, 0.5);
+        padding: 55px 15px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        .script-text:focus{
+          outline: none;
+        }
+        .script-text{
+
+          overflow: auto;
+          flex: 1;
+          height: 474px;
+          padding: 0px 40px;
+          p{
+            font-family: $SatoshiVariable !important;
+            font-size: 20px !important;
+            line-height: 34px !important;
+            letter-spacing: 0.1px;
+            color: #FFFFFF !important;
+         } 
+         p span{
+            font-family: $SatoshiVariable !important;
+            font-size: 20px !important;
+            line-height: 34px !important;
+            letter-spacing: 0.1px;
+            color: #FFFFFF !important;
+         }  
+        }
+     
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+        background: #22232C;
+        border-radius: 8px;
+        display: block !important;
+        padding-left: 30px;
+        }
+        ::-webkit-scrollbar:hover {
+        width: 3px;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #0062FF;; 
+          border-radius: 8px;
+          height: 200px;
+        } 
+    }
+  }
+}
+
+.video-modal-box{
+  margin: 0px !important;
+  .model_title{
+    margin-left: auto;
+    display: none !important;
+  }
+  .main-model{
+    padding: 60px !important;
+    .contentModal{
+      .videoSection{
+        width: 725px;
+        height: 400px;
+        background: #171720;
+        border-radius: 8px;
+      }
+      .cameraBtn{
+        padding: 32px 0px;
+        gap: 20px;
+      }
+      .iconButton{
+        .MuiButton-contained {
+          width: 140px;
+          height: 60px;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 28px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+
+
+}
+
+ 

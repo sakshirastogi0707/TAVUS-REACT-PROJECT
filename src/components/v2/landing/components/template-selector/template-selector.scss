@@ -1,0 +1,145 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.carouselHeader{
+  padding: 0px 53px;
+  @media (max-width: 991px) {
+    padding: 0px 35px;
+    }
+    @media (max-width: 991px) {
+      .header-main-landing {
+        padding: 52px 0px;
+    }
+  }
+}
+
+.carousel-main {
+  padding-top: 71px;
+   @media (max-width: 991px) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  padding-bottom: 145px;
+  
+  @media (min-width: 1620px) {
+  height: calc(100vh - 250px);
+  }
+  @media (max-width: 991px) {
+    height: calc(100vh - 332px);
+  }
+    .swiper{
+      margin-left: 53px;
+      @media (max-width: 991px) {
+        margin: 0px;
+      }
+    }
+  li.react-multi-carousel-item {
+    width: auto !important;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #303443;
+    border-radius: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    @media (max-width: 1440px) {
+      height: 379px;
+      width: 512px !important;
+      }
+  }
+
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .swiper-slide {
+
+    li {
+      padding: 7px;
+      cursor: pointer;
+      p{
+        text-align: left;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding: 17px 18px 10px 20px;
+        @media (max-width: 991px) {
+          font-size: 10px;
+          line-height: 10px;
+          padding: 6px 8px;
+        }
+      }
+    }
+
+    li.active {
+      background: #1877F2;
+      border-radius: 10px;
+      height: 100%;
+    }
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 44px;
+    left: auto;
+    @media (max-width: 991px) {
+      right: 10px;
+    }
+}
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 16px;
+    background: #141518;
+    height: 40px;
+    width: 40px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #ABAEB0;
+    border: 2px solid rgba(0, 98, 255, 0.4);
+    font-weight: bolder;
+    @media (max-width: 991px) {
+      font-size: 10px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      height: 23px;
+      width: 23px;
+    }
+  }
+
+  .placeholder-wrapper {
+    height: 365px;
+    width: 100%;
+    background: white;
+
+    .placeholder-card {
+      height: 365px;
+      width: 200px;
+      margin: 20px;
+      background-color: #303443;
+      display: inline-block;
+    }
+  }
+  .loaderSwiper{
+    .swiper-wrapper{
+     
+      .swiper-slide{
+        @media (max-width: 1440px) {
+        height: 377px;
+        width: 517px !important;
+        }
+        @media (max-width: 991px) {
+          height: 174px;
+          width: 236px !important;
+          margin-right: 10px !important;
+          }
+          
+      }
+    }
+  }
+}

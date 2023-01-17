@@ -1,0 +1,565 @@
+@import "../../../public/assets/css/colors";
+
+
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('../../../src/components/fonts/Satoshi-Variable.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-Variable.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: 'Satoshi-VariableItalic';
+  src: url('../../../src/components/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-VariableItalic.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-VariableItalic.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('../../../src/components/fonts/Satoshi-Light.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-Light.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-LightItalic';
+  src: url('../../../src/components/fonts/Satoshi-LightItalic.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-LightItalic.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('../../../src/components/fonts/Satoshi-Regular.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-Regular.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Italic';
+  src: url('../../../src/components/fonts/Satoshi-Italic.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-Italic.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../../../src/components/fonts/Satoshi-Medium.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-Medium.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-MediumItalic';
+  src: url('../../../src/components/fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-MediumItalic.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../../../src/components/fonts/Satoshi-Bold.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-Bold.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-BoldItalic';
+  src: url('../../../src/components/fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-BoldItalic.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('../../../src/components/fonts/Satoshi-Black.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-Black.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-BlackItalic';
+  src: url('../../../src/components/fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+    url('../../../src/components/fonts/Satoshi-BlackItalic.woff') format('woff'),
+    url('../../../src/components/fonts/Satoshi-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+
+
+// global styles
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background-color: #ddd;
+  display: none;
+}
+
+::-webkit-scrollbar:hover {
+  width: 3px;
+  display: block;
+}
+
+body {
+  font-family: 'Satoshi-Regular';
+  background: #171720 !important;
+  position: relative;
+  color: #FFFFFF;
+}
+
+html {
+  overflow: revert !important;
+
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-family: $SatoshiVariable;
+}
+
+
+.terms {
+  span a {
+    font-family: $SatoshiVariable;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+
+    color: #1877F2;
+  }
+}
+
+.top_bar {
+  p {
+    color: #757B8C;
+  }
+}
+
+.bgColor {
+  background-color: #1E1F25;
+}
+
+dl,
+ol,
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+label {
+  font-family: $SatoshiVariable;
+  font-weight: 300;
+  display: block;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.btn-outline-secondary:focus {
+  box-shadow: 0 0 0 0.1px rgba(108, 117, 125, .5);
+}
+
+.card {
+  background-color: #1E1F25;
+}
+
+.ds,
+.user {
+  background: #1E1F25;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tr-Fail td,
+.tr-Pass td,
+.tr-Regenerated td {
+  color: #000 !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.1px rgba(0, 123, 255, .25);
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.pt-32 {
+  padding-top: 33px;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.login-here {
+  margin-top: 190px;
+
+  p {
+    font-family: $SatoshiVariable;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #757B8C;
+
+    a {
+      color: #1877F2;
+    }
+  }
+
+  @media (max-width: 1439px) {
+    margin-top: 130px;
+  }
+}
+
+.table thead {
+  border-radius: 20px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.btn-danger {
+  background: #EB153B;
+}
+
+.btn-light {
+  background-color: #D0D0D0 !important;
+}
+
+.align-self {
+  -webkit-align-self: center;
+  align-self: center;
+}
+
+.form-control {
+  margin-right: 40px;
+  background-color: #4b5162;
+  color: #DDDEE3;
+  border: none;
+}
+
+.form-control:focus {
+  color: #DDDEE3;
+  background-color: #4b5162;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.showMoreLoder {
+  font-family: $SatoshiVariable;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2.1px;
+  cursor: pointer;
+  color: #6F7897;
+  padding-bottom: 16px;
+}
+
+#sidenav {
+  background: $bgColor;
+}
+
+.Toastify .Toastify__toast-container {
+  max-width: 560px;
+
+  .Toastify__toast {
+    padding: 10px;
+  }
+
+  .Toastify__close-button {
+    padding: 10px;
+  }
+}
+
+.btn_custom {
+  width: 90px;
+  padding: 4px 10px !important;
+
+  .MuiButton-label {
+    font-size: 12px;
+  }
+}
+
+.MuiPaper-root.MuiMenu-paper {
+  background: #282C38;
+  color: #fff;
+  border-radius: 0px !important;
+
+  .MuiListItem-button:hover {
+    text-decoration: none;
+    background-color: #0062FF;
+    border-radius: 0px !important;
+  }
+}
+
+.alertMs {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+
+  .MuiAlert-standardError {
+    background-color: #EB5757;
+    padding: 6px 19px 6px 26px;
+    color: #fff !important;
+  }
+
+  .MuiAlert-standardSuccess {
+    background: #82C43C;
+    color: #fff !important;
+  }
+
+  .MuiAlert-message {
+    padding: 10px 0;
+    color: #fff !important;
+    font-family: $SatoshiVariable;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  a {
+    color: #fff;
+    padding-left: 20px;
+    font-weight: 600;
+  }
+
+  .MuiSvgIcon-root {
+    color: #fff !important;
+  }
+
+  .MuiButtonBase-root {
+    .MuiSvgIcon-root {
+      color: #fff;
+    }
+  }
+}
+
+.MuiButton-root {
+  font-family: $SatoshiVariable !important;
+}
+
+.MuiMenuItem-root {
+  font-family: $SatoshiVariable !important;
+}
+
+.MuiTypography-subtitle1 {
+  font-family: $SatoshiVariable !important;
+}
+
+.MuiTypography-h4 {
+  font-family: $SatoshiVariable !important;
+}
+
+.MuiTypography-body2 {
+  font-family: $SatoshiVariable !important;
+}
+
+.MuiTypography-root {
+  font-family: $SatoshiVariable !important;
+}
+
+.Toastify__toast {
+  font-family: $SatoshiVariable !important;
+}
+
+.MuiInputBase-root {
+  font-family: $SatoshiVariable !important;
+}
+
+.MuiAlert-message {
+  font-family: $SatoshiVariable !important;
+
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 999999s ease-in-out 0s, color 999999s ease-in-out 0s;
+  transition-delay: background-color 999999s, color 999999s;
+  -webkit-text-fill-color: #fff !important;
+}
+
+
+.intercom-lightweight-app-launcher-icon {
+  width: 40px !important;
+  height: 40px !important;
+  top: 4px !important;
+  left: 4px !important;
+}
+
+.intercom-lightweight-app-launcher {
+  width: 50px !important;
+  height: 50px !important;
+  right: 6px !important;
+}
+
+.intercom-lightweight-app-launcher-icon-open svg {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.MuiInputBase-input {
+  color: #F2F2F2 !important;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.dotteds {
+  width: 3.57px;
+  height: 3.57px;
+  color: #C4C4C4;
+  cursor: pointer;
+  padding: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.MuiButtonBase-root {
+  border-radius: 10px;
+}
+
+.pagination {
+  display: inline-flex;
+
+  li {
+    margin: 0 5px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 50px;
+
+    a {
+      font-family: $SatoshiVariable;
+      font-weight: $Regular;
+      font-size: 12px;
+      text-decoration: none;
+      color: #0D1B25;
+      letter-spacing: -0.02em;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      -webkit-justify-content: center;
+
+      @media (max-width: 767px) {
+        height: 25px !important;
+        width: 25px !important;
+        font-size: 12px !important;
+      }
+    }
+  }
+
+
+  .active {
+    a {
+      color: $colorWhite;
+    }
+
+    background: $colorRed;
+    border: 1px solid $colorRed;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 1199px) {
+  br {
+    display: none;
+  }
+}

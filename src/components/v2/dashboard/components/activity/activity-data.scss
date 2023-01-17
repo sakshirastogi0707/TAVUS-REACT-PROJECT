@@ -1,0 +1,57 @@
+@import "../../../../../../public/assets/css/colors.scss";
+
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px, 20px, 20px, 0px;
+  .dataListContainer {
+    .listingContainer {
+      height: 90px;
+      .borderLine {
+        width: 286px;
+        height: 0px;
+        opacity: 0.2;
+        border: 1px solid #6f7897;
+      }
+      .list-data {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+          font-family: $SatoshiVariable;
+          font-size: 14px;
+          line-height: 20px;
+          font-style: normal;
+          font-weight: 500;
+          align-items: center;
+          letter-spacing: 0.1px;
+          color: #ffffff;
+        }
+        p {
+          font-family: $SatoshiVariable;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 20px;
+          align-items: center;
+          letter-spacing: 0.1px;
+          color: #6f7897;
+        }
+      }
+      p {
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        align-items: center;
+        letter-spacing: 0.1px;
+        color: #6f7897;
+      }
+    }
+  }
+}

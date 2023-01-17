@@ -1,0 +1,160 @@
+@import "../../../../public/assets/css/colors";
+
+.drawer-paper {
+
+  .avatar{
+    cursor: pointer;
+  }
+  .MuiPaper-rounded {
+    border-radius: 0;
+  }
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  z-index: 200;
+  align-items: self-end;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 8%;
+
+  &.visibility {
+    left: 0%;
+    width: 5.111111%;
+   /* transition: all .3s ease-in-out;*/
+    padding: 25px 15px;
+    text-align: center;
+    align-items: center;   
+  }
+
+  &.drawer-opened {
+    &.visibility {
+      left: 0px;
+      width: 23.5%;
+      text-align: left;
+      align-items: inherit;
+      padding: 20px;
+    }
+    
+  }
+
+  .link-button {
+    padding: 11px;
+    border-bottom: 2px solid $colorRed;
+    flex-direction: column;
+
+    .links-close {
+      border: 0px;
+      background: none;
+      color: $colorRed;
+    }
+    .panel-name{
+      float: right;
+      font-size: 14px;
+      font-weight: 600;
+      color: $colorBackLight;
+    }
+
+    .edit-hadline {
+      font-size: 36px;
+      font-weight: 500;
+      font-family: 'Work Sans';
+      padding: 10px 0px 0px;
+    }
+  }
+  ul li {
+    margin-bottom: 30px;
+    overrides tooltip {
+      font-size: 30px;
+      color:$colorRed;
+      background-color: $colorWhite;
+    }
+  }
+  .active > .menulbl {
+    font-weight: $SemiBold;
+  }
+  .menulbl {
+    font-family: $SatoshiVariable;
+    font-weight: $Medium;
+    color: $colorBack;
+    line-height: 36px;
+    letter-spacing: 0.07px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .active {
+    font-weight: $Bold;
+    .imgds {
+      border: 3px solid $colorBack;
+      
+      background: $colorWhite;
+    }
+  }
+  .imgds {
+    background: rgba(255,255,255,0.8);
+    padding: 7px 6px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid transparent;
+  }
+  .PrivateTabIndicator-root-369 {
+    height: 8px;
+  }
+
+
+}
+
+.backdrop {
+  position: fixed;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .drawer-paper.visibility {
+    padding: 25px 30px;
+}
+}
+
+@media (max-width: 766px)  {
+  .drawer-paper.visibility {
+    width: 100%;
+    align-items: center;
+    bottom: 0px;
+    height: 80px;
+    position: absolute;
+}
+        .drawer-paper {
+          position: fixed;
+          /* top: 0px; */
+          bottom: 0px;
+          background-color: #fff;
+          z-index: 200;
+          align-items: self-end;
+          flex-direction: column;
+          overflow-y: auto;
+          overflow-x: hidden;
+          width: 100%;
+      }
+      .drawer-paper.visibility {
+        padding: 0px 5px;
+        text-align: center;
+        align-items: center;
+    }
+
+      .drawer-paper ul li {
+        float: left;
+        padding: 0px 18px;
+    }
+    .opendrawer{
+      display: none;
+    }
+    .side_drawer{
+      display: none;
+    }
+}

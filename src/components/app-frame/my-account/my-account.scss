@@ -1,0 +1,88 @@
+@import '../../../../public/assets/css/colors.scss';
+.my-account-main{
+    .MuiBox-root{
+        .MuiAvatar-circular{
+            background: rgba(238, 189, 61, 0.1);
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 30px;
+            letter-spacing: 0.1px;
+            color: #EEBD3D;
+        }
+    }
+}
+.my-account{
+    .MuiPaper-root.MuiMenu-paper {
+        min-width: 224px !important;
+        min-height: 150px;
+        overflow: auto;
+    }
+    .MuiPaper-elevation{
+            background: #232631;
+            border-radius: 20px !important;
+            margin-top: 3px;
+            padding-bottom: 10px;
+        .account-tag{
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+            .MuiAvatar-circular{
+                margin: auto;
+                background: rgba(238, 189, 61, 0.1);
+                font-family: $SatoshiVariable;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 30px;
+                letter-spacing: 0.1px;
+                color: #EEBD3D;
+                width: 48px;
+                height: 48px;
+            }
+            .account-name{
+                margin-top: 12px;
+                h3{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 20px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                }
+            }
+            
+        }
+        .iconButton .MuiButton-containedPrimary {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+            border-radius: 8px;
+            text-transform: initial !important;
+            min-width: 196px;
+            height: 44px;
+        }
+        .MuiMenuItem-root{
+            padding-left:24px;
+            padding-right:24px;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            color: #FFFFFF;
+            min-height: 20px;
+        }
+        .MuiDivider-fullWidth{
+            opacity: 0.1;
+            border: 1px solid #FFFFFF;
+            margin: 12px 0px;
+        }
+    }
+    
+}

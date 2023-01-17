@@ -1,0 +1,37 @@
+@import "../../../public/assets/css/colors.scss";
+.video-recording-main{
+  padding: 0 62px 0 53px;
+    @media (max-width: 991px){
+      padding: 0px 30px;
+    }
+      .header-main-landing{
+        .headerDiv{
+          h2{
+            margin-bottom: 0px !important;
+            padding-bottom: 0px;
+          }
+        }
+      }
+      .frame-box{
+        margin-bottom: 140px;
+          @media (min-width: 1620px) {
+              height: calc(100vh - 252px);
+              max-width: 1440px;
+              margin: 0 auto;
+      
+            }
+           
+          .video-recording-box{
+            padding-bottom: 32px;
+
+            .title{
+              font-family: $SatoshiVariable;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 48px;
+              line-height: 58px;
+              color: #FFFFFF;
+            }
+            }
+      }
+}

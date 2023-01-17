@@ -1,0 +1,379 @@
+@import "../../../../public/assets/css/colors.scss";
+.invite-user-main::before{
+    content: '';
+    background-color: #171720;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+}
+.invite-user-main {
+    color: #DDDEE3;
+    font-family: $SatoshiVariable;
+    height: 100vh;
+    background-color: #171720;
+    position: relative;
+
+    @media (max-width: 1440px) {
+        margin-bottom: 100px;
+        height: calc(100vh - 85px);
+        overflow: auto;
+
+    }
+
+    .boxDev.inviteBtn{
+        .icon-label-button{
+            padding: 18px 25px 18px 28px !important;
+        }
+       
+    }
+    .boxDev{
+        
+        margin: 0 auto;
+         padding-bottom: 20px;
+         @media (max-width: 1400px){
+            
+            padding-bottom: 70px;
+            }
+        @media (max-width: 959px){
+            width: 90%;
+        }
+        .DevBox{
+            width:566px;
+            // @media (max-width: 1450px) {
+            //     padding-bottom: 111px;
+            // }
+            @media (min-width: 1500px){
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            margin-top: 60px;
+            margin-bottom: 30px;
+            }
+        }
+        .invite-user{
+            background: #232631;
+            border-radius: 20px;
+            padding-bottom: 8px;
+        }
+        .table tbody {
+            background-color: #20212c;
+            // opacity: .5;
+        }
+        .table thead th {
+            vertical-align: bottom;
+            border-bottom: 1px solid #383b48;
+            border-top: 0px !important;
+            padding: 25px 23px;
+            font-family: $SatoshiVariable;
+            font-weight: $Medium;
+            font-size: 12px;
+            line-height: 14px;
+            color: #A5A5A9;
+        }
+            .table td {
+            padding: 20px 23px;
+            vertical-align: top;
+            border-top: 1px solid #383b48 !important;
+            font-family: $SatoshiVariable;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 22px;
+            color: #DDDEE3;
+            position: relative;
+            }
+        .tabel_list{
+
+            background-color:#1E1F25 ;
+            border-radius: 20px 20px 0px 0px;
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+              -webkit-overflow-scrolling: touch;
+                max-height: 250px;
+                min-height:120px ;
+                @media (min-width: 1920px){
+                    max-height: 315px;
+                }
+
+              .table td, .table thead th {
+                vertical-align: bottom;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #757B8C;
+                vertical-align: middle;
+            }
+           
+            .table_title {
+                font-family: $SatoshiVariable;
+                font-weight: $Medium;
+                font-size: 20px;
+                line-height: 24px;
+                color: #fff;
+                font-style: normal;
+            }
+            
+             thead{
+                position: sticky;
+                top: 0;
+                background-color: #232631;
+                z-index: 9;
+            }
+            tbody tr{
+             position: relative;
+            }
+            .table thead .table_leads{
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 22px;
+              color: #FFFFFF;
+              vertical-align: middle;
+            }
+             .table tbody td{
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 22px;
+              color: #DDDEE3;
+              vertical-align: middle;
+              position: relative;
+            }
+            
+            .userbox {
+              position:absolute;
+                left: 23px;
+                top: 50%;
+                transform: translate(0, -50%);
+          }
+          
+            .user-circle {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 32px;
+              height: 32px;
+              border-radius: 50px;
+              background-color: #A276FF;
+              overflow: hidden;
+              color: #fff;
+              text-align: center;
+              position: relative;
+              border: 1px solid #A276FF;
+              font-family: $SatoshiVariable;
+              font-weight:$Bold;
+              font-size: 14px;
+              line-height: 17px;
+            }
+            .user_title {
+                display: grid;
+                margin-left: 44px;
+                font-family: $SatoshiVariable;
+                font-style: normal;
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 23px;
+            }
+          }
+    }
+    .pd-48{
+        padding: 56px 0px 48px;
+       
+      }
+
+      
+}
+
+
+#app-dialog-invite .inviteUser {
+    color: #DDDEE3 !important;
+    .alertMs {
+        position: fixed;
+        top: 2%;
+        right: 1%;
+        z-index: 9999;
+        .MuiIconButton-root:hover {
+            background-color: transparent !important;
+        }
+    }
+    .main-model {
+        padding: 17px 33px 0px;
+        border-bottom: 0px solid #595F70;
+        position: relative;
+        .input-drop{
+            .MuiInputBase-root{
+                width: 100%;
+                font-family: $SatoshiVariable;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 100%;
+            }
+            .MuiInput-underline:before,.MuiInput-underline:after  {
+                display: none;
+            }
+            .MuiChip-sizeSmall{
+                height: 38px;
+                margin-top: 15px;
+                margin-right: 12px;
+            }
+            .MuiChip-deleteIconSmall{
+                width: auto;
+                height: auto;
+            }
+            .MuiChip-root{
+                background-color: transparent;
+                color: #FFFFFF;
+                border: 0.5px solid #595F70;
+                border-radius: 5px;
+                
+                .MuiChip-label{
+                    margin: 10px 13px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 100%;
+                    color: #FFFFFF;
+                    font-family: $SatoshiVariable;
+                }
+            }
+        }
+        .MuiFilledInput-root:before,.MuiFilledInput-root::after  {
+            display: none;
+        }
+        .MuiFilledInput-root:hover, .MuiFilledInput-root:focus{
+            border: 1px solid #ffffff;
+
+        }
+        .input-drop{
+            .MuiFormControl-root:hover{
+                border: 1px solid #fff;
+            }
+            position: relative;
+
+            .seats{
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                z-index: 30001;
+                transform: translate(-20%, -50%);
+                margin: 0;
+                font-family: $SatoshiVariable;
+                font-weight: $Medium;
+                font-size: 13px;
+                line-height: 14px;
+            }
+        }
+        
+        .MuiFormControl-root{
+            width: 100%;
+
+            .MuiOutlinedInput-root{
+                border: 1px solid #595F70;
+                background: #1E1F25;
+                height: 128px !important;
+                overflow: auto;
+                padding: 0px 20px;
+            }
+            .MuiOutlinedInput-root:hover{
+                border: 1px solid #ffffff;
+            }
+
+            textarea:focus-visible{
+                border: 0px solid !important;
+            }
+            textarea{
+                border-radius: 0px !important;
+            }
+            .MuiOutlinedInput-notchedOutline{
+                padding: 0;
+                border-color: transparent;
+            }
+            .MuiOutlinedInput-input{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 140%;
+                font-family: $SatoshiVariable;
+                overflow:auto;
+            }
+            textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+                font-weight: $Medium;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #757B8C !important;
+                opacity: 1 !important;
+                }
+                
+                textarea:-moz-placeholder, input:-moz-placeholder { /* Firefox 18- */
+                    font-weight: $Medium;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: #757B8C !important;
+                    opacity: 1 !important;
+                }
+                
+                textarea::-moz-placeholder , input::-moz-placeholder {  /* Firefox 19+ */
+                    font-weight: $Medium;
+                    font-size: 14px; 
+                    text-transform: uppercase;
+                    color: #757B8C !important;
+                    opacity: 1 !important;
+                }
+                
+                textarea:-ms-input-placeholder , input:-ms-input-placeholder{
+                    font-weight: $Medium;
+                    font-size: 14px; 
+                    text-transform: uppercase;
+                    color: #757B8C !important;
+                    opacity: 1 !important;
+                }
+        }
+        .MuiFilledInput-root {
+            background-color:#1E1F25;
+            border: 1px solid #595F70;
+            border-radius: 5px !important;
+            padding-right: 110px;
+            position: relative;
+            min-height: 68px;
+            padding-left:  20px;
+            padding-right: 112px;
+            padding-top: 0px;
+            input{
+            font-family: $SatoshiVariable;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.1px;
+            color: #595F70;
+            }
+            .MuiAutocomplete-tag {
+                margin: 3px;
+                max-width: calc(100% - 6px);
+                border: 0.5px solid #595F70;
+                border-radius: 5px !important;
+                font-family: $SatoshiVariable;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.1px;
+                color: #DDDEE3;
+               
+            }
+            .MuiAutocomplete-endAdornment{
+                display: none;
+            }
+        }
+        .invitebtn{
+            padding: 16px 80px !important;
+        }
+        .iconButton{
+            .MuiButton-containedPrimary{
+                height: 60px;
+            }
+        }
+    }
+}

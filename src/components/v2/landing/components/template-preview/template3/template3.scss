@@ -1,0 +1,181 @@
+@import "../../../../../../../public/assets/css/colors.scss";
+.landing-pageThreeDesktop{
+    // border-radius: 30px;
+    .mainBox{
+        padding: 42px 74px;
+        // padding: 69px 65px 115px 66px;
+        .for-desktop{
+            display: block;
+        }
+        .for-mobile {
+            display: none;
+        }
+        @media (max-width: 959px) {
+            padding: 15px 13px 16px;
+
+            .for-desktop{
+                display: none;
+            }
+            .for-mobile {
+                display: block;
+            }
+        }
+        .landing-logo{
+            border-radius: 20px;
+            height: 88px;
+            display: flex;
+            align-items: center;
+            img{
+                padding-left: 10px;
+            }
+        }
+        .BoxDev{
+            width: 738px;
+            @media (max-width: 959px) {
+                width: 100%;
+            }
+            .boxTop{
+                padding: 40px 29px 24px;
+                @media (max-width: 959px) {
+                    padding: 10px 0px;
+                    img{
+                        width: 100%;
+                        border-radius: 18px;
+                    }
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .templateBtn{
+                @media (max-width: 959px) {
+                    display: block !important;
+                }
+                .basicBUtton{
+                    margin: 0px 6px;
+                    .MuiButtonBase-root{
+                        border-radius: 16px !important;
+                        // min-width: 229px;
+                        width: 229px;
+                    }
+                    @media (max-width: 959px) {
+                        margin-top: 10px;
+                        .MuiButtonBase-root{
+                            width: 100%;
+                        }
+                    }
+    
+                }
+            }
+           
+            .templateText{
+                h2.templateTitle{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 60px;
+                    letter-spacing: 0.1px;
+                    margin: 0px;
+                }
+                p.templatePTitle{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                    letter-spacing: 0.1px;
+                    margin: 0px;
+                }
+                h4.templateSubTitle{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 29px;
+                    line-height: 66px;
+                    letter-spacing: 0.1px;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+       
+}
+.landing-pageThreeMobile{
+    // max-width: 576px;
+    border-radius: 20px;
+    max-width: 414px;
+    margin: auto;
+    .mainBox{
+       
+            .landing-logo{
+                height: 88px;
+                display: flex;
+                align-items: center;
+                img{
+                    padding-left: 10px;
+                }
+            }
+            .BoxDev{
+                width: 100%;
+
+                .boxTop{
+                    padding-bottom: 25px;
+                    img{
+                        width: 100%;
+                        border-radius: 20px 20px 0px 0px;
+                    }
+                }
+                .boxBottom{
+                    padding: 0px 32px 55px;
+                }
+                .templateBtn{
+                    display: inherit !important;
+                    .basicBUtton{
+                        margin: 0px;
+                        .MuiButtonBase-root{
+                            border-radius: 16px !important;
+                            // min-width: 229px;
+                            width: 100%;
+                        }
+                    }
+                }
+                .templateText{
+                    padding-top: 23px;
+                    h2.templateTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 55px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                    }
+                    p.templatePTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                    }
+                    h4.templateSubTitle{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 66px;
+                        letter-spacing: 0.1px;
+                        margin: 0px;
+                        padding-top: 17px;
+                    }
+                }
+
+
+        }
+        
+    }
+
+
+    }

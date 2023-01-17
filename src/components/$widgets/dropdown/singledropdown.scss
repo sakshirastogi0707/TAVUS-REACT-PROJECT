@@ -1,0 +1,77 @@
+@import "../../../../public/assets/css/colors.scss";
+
+.singledropdown {
+  .css-yk16xz-control {
+    background-color: #4B5162;
+    border-radius: 10px;
+    border: 1px solid #4B5162;
+    box-shadow: none;
+    cursor: pointer;
+    min-height: 45px !important;
+  }
+  .css-yk16xz-control:hover{
+    border: 1px solid #4B5162;
+  }
+  .css-1fhf3k1-control{
+    background-color: #4B5162;
+    border-color: #4B5162;
+  }
+  .css-1gtu0rj-indicatorContainer,
+  .css-tlfecz-indicatorContainer {
+    padding: 4px 5px !important;
+    color: #F2F2F2;
+    @media (min-width: 1023.98px) and (max-width: 1200px) {
+      padding: 4px 3px !important;
+    }
+  }
+
+  .css-1okebmr-indicatorSeparator {
+    display: none;
+  }
+  .css-1wa3eu0-placeholder {
+   color: #F2F2F2;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-family: $SatoshiVariable;
+    font-weight: $Medium;
+    margin-left: 0px;
+    margin-right: 0px;
+    @media (min-width: 1023.98px) and (max-width: 1200px) {
+      font-size: 12px;
+    }
+  }
+  .css-1uccc91-singleValue{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #F2F2F2;
+  }
+  .css-g1d714-ValueContainer {
+    padding: 4px 10px;
+  }
+  .css-2b097c-container .css-1pahdxg-control{
+    border: 1px solid #4B5162;
+    box-shadow: none !important;
+    border-radius: 10px;
+  }
+  .css-1pahdxg-control:hover {
+    border: 1px solid #4B5162;
+    background-color: #4B5162;
+    box-shadow: none;
+  }
+  .css-1pahdxg-control{
+    background-color: #4B5162;
+    border: 1px solid #4B5162;
+    box-shadow: none;
+  }
+  .css-1pahdxg-control{
+    input{
+      color: #F2F2F2 !important;
+    }
+  }
+  .css-11md64a{
+    z-index: 9999 !important;
+  }
+}
+

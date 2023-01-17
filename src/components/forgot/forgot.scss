@@ -1,0 +1,205 @@
+@import "../../../public/assets/css/colors.scss";
+
+.forgot-Main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    background-size: cover;
+    @media (min-width: 992px) {
+        padding: 60px 85px 78px;     
+    }  
+    @media (max-width: 567px) {
+        background-size: contain;
+    }
+    .loginCntr {
+        padding: 40px 20px;
+        border-radius: 20px;
+        @media (min-width: 768px) {
+            padding: 75px 85px 85px;
+        }
+        @media (min-width: 992px) {
+            width: 585px;
+        }      
+        background: #1E1F25;
+        img {
+            filter: drop-shadow(0px 4px 34px rgba(0, 0, 0, 0.08));
+        }
+        .MuiInput-underline:before {
+            border-bottom: 1px solid #595F70;
+        }
+    }
+    h3 {
+        font-family: $SatoshiVariable;
+        color: #DDDEE3;
+        font-weight: $Bold;
+        font-size: 20px;
+        line-height: 35px;
+        @media (min-width: 1200px) {
+            font-size: 28px;
+            line-height: 55px;
+        }
+        @media (max-width: 991.98px) {
+            margin-top: 35px;
+        }
+    }
+    p {
+        font-family: $SatoshiVariable;
+        color: #DDDEE3;
+        font-weight: $Light;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .terms p {
+        font-family: $SatoshiVariable;
+        color: #DDDEE3;
+        font-weight: $Light;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 0px;
+    }
+    .MuiFormLabel-root{
+        color: #DDDEE3;
+    }
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+    a {
+        font-family: $SatoshiVariable;
+        color: $colorRed;
+        font-weight: $Regular;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    button {
+        border-radius: 10px;
+    }
+    label.MuiInputLabel-outlined {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: $Light;
+        padding-left: 10px;
+    }
+    .MuiButton-label {
+        font-family: $SatoshiVariable;
+        font-weight: $SemiBold;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .MuiFormControl-root,
+    .MuiButton-text {
+        width: 100%;
+    }
+    .MuiOutlinedInput-root {
+        border-radius: 10px;
+    }
+    .MuiInputLabel-outlined.MuiFormLabel-filled {
+        font-family: $SatoshiVariable;
+        color: $colorBack;
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: $Light;
+        
+    }
+    .MuiOutlinedInput-notchedOutline {
+        padding-left: 20px !important;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+    .MuiFormLabel-root.Mui-focused,
+    .MuiOutlinedInput-notchedOutline {
+        border-color: $colorBackLight;
+        border-radius: 10px;
+        
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-width: 1px;
+    }
+    fieldset {
+        top: 0px;
+    }
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(18px, -2px) scale(0.75);
+    }
+    .MuiInputBase-input {
+        font-family: $SatoshiVariable;
+        color: #F2F2F2;
+        font-size: 17px;
+        line-height: 17px;
+        height: 52px;
+        box-sizing: inherit;
+        font-weight: $Light;
+        padding-left: 20px;
+    }
+    #Password {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .checkbox {
+       
+        position: relative;
+       
+        label {
+            position: relative;
+            min-height: 22px;
+            display: block;
+            padding-left: 40px;
+            margin-bottom: 0;
+            font-weight: normal;
+            cursor: pointer;
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 22px;
+                height: 22px;
+                transition: transform 0.28s ease;
+                 border: 2px solid $colorBackLight;
+                 background: #ffff;
+                 border-radius: 6px;
+            }
+            &:after {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 5px;
+                border-bottom: 2px solid $colorWhite;
+                border-left: 2px solid $colorWhite;
+                transform: rotate(-45deg) scale(0);
+                transition: transform ease 0.25s;
+                position: absolute;
+                top: 7px;
+                left: 6px;
+            }
+        }
+        input[type="checkbox"] {
+            width: auto;
+            opacity: 0.00000001;
+            position: absolute;
+            left: 0;
+            margin-left: -20px;
+            &:checked ~ label{
+                &:before {
+                    border: 2px solid $colorBackLight;
+                    background:$colorBackLight;
+                }
+                &:after {
+                    transform: rotate(-45deg) scale(1);
+                }
+            }
+            &:focus + label::before {
+                outline: 0;
+            }
+        }
+    }
+}
+

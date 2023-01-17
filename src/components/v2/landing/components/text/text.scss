@@ -1,0 +1,62 @@
+@import "../../../../../../public/assets/css/colors.scss";
+.textAccording{
+  .MuiAccordion-rounded .Mui-expanded {
+    background: #0062FF !important;
+    border-radius: 8px 8px 0px 0px !important;
+  }
+  .MuiAccordionSummary-expandIconWrapper.Mui-expanded ,.MuiAccordionSummary-content.Mui-expanded{
+    background-color: transparent !important;
+    
+  }
+  .MuiTypography-root{
+    position: relative;
+  }
+.text_box{
+  margin-top: 30px;
+}
+  .tagify{
+    border-radius: 8px!important;
+    color: #fff;
+    border: 1px solid hsla(0,0%,100%,.2);
+    font-family: $SatoshiVariable;
+    min-height: 56px;
+    max-height: 199px;
+    font-size: 14px;
+    outline: none;
+    position: relative;
+  }
+  
+  .tagify.tagify--focus{
+    border: 1px solid rgb(255, 255, 255) !important;
+    color: #757B8C !important;
+  }
+  
+  .tagify__input {
+    line-height: 20px !important;
+    font-size: 14px;
+    line-height: 17px !important;
+    padding: 15px 42px 15px 15px !important;
+    overflow: auto !important;
+    max-height: 150px;
+}
+  .tagify__input:before {
+    top: 0px;
+    color: #757B8C !important;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+  .show-password1 {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    width: 24px;
+    top: 0px;
+}
+.show-password {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  width: 24px;
+  top: 0px;
+  }
+}

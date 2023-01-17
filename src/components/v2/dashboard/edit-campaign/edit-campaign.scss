@@ -1,0 +1,69 @@
+@import "../../../../../public/assets/css/colors.scss";
+.edit-campaigns-main{
+
+    .compaigns-box{
+        margin-top: 227px;
+        position: relative;
+        text-align: center;
+        width: 693px;
+        .backButton{
+            position: absolute;
+            left: 0;
+            top: 0;
+            cursor: pointer;
+        }
+        h3{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 30px;
+            letter-spacing: 0.1px;
+            color: #FFFFFF;
+            span{
+                color: #6F7897;
+            }
+        }
+        .Devsec{
+            padding-top: 60px;
+            .buttonDev{
+                width: 100%;
+                background: rgba(35, 38, 49, 0.5);
+                border-radius: 20px;
+                padding: 29px 40px;
+                height: 90px;
+                cursor: pointer;
+                margin-bottom: 29px;
+                .editButton{
+                    h3 {
+                        font-family: $SatoshiVariable;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 32px;
+                            letter-spacing: 0.1px;
+                            
+                        span{
+                            margin-left: 32px;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+        .ArchiveBtn{
+            padding-top: 21px;
+            .iconButton .MuiButton-containedPrimary{
+                background: #FC5A5A;
+                border-radius: 8px;
+                min-width: 226px;
+                height: 60px;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 28px;
+                font-family: $SatoshiVariable;
+            }
+        }
+        
+    }
+}

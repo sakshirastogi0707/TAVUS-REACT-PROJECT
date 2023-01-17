@@ -1,0 +1,60 @@
+
+.accordion{
+    overflow-anchor: none;
+    background: #3b3d43;
+    border-radius: 8px 8px 16px 16px;
+    .Mui-expanded{
+        background-color: #0062FF;
+    }
+    .MuiAccordionSummary-expandIconWrapper.Mui-expanded{
+        background-color: transparent;
+    }
+    .MuiButtonBase-root{
+        border-radius: 8px 8px !important;
+    }
+    .MuiPaper-elevation{
+        margin-bottom: 30px !important;
+        border: none !important;
+        background: #3A3D43 !important;
+        border-radius: 8px !important;
+        margin-bottom: 24px;
+        box-shadow:none;
+    }
+    .Mui-expanded:focus{
+        border-radius: 8px 8px 0px 0px !important;
+    }
+    .Mui-expanded{
+        background-color: transparent !important;
+        box-shadow:none !important;
+    }
+    .MuiCollapse-root{
+         margin-bottom: 24px;
+            background-color: #2A2C31 !important;
+            border-radius: 0px 0px 16px 16px !important;
+     }
+     .MuiAccordionSummary-expandIconWrapper{
+        margin: 0px;
+        color: #fff!important;
+        
+     }
+     .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+        background-color: transparent !important;
+        
+     }
+    .MuiAccordionSummary-root{
+     min-height: 40px !important;
+     max-height: 40px;
+     display: flex;
+     padding: 0px 18px;
+        p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 40px;
+            color: #FFFFFF;
+           
+        }
+    }
+    .buttonText{
+        padding-left: 5px;
+     }
+}

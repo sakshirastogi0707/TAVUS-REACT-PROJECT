@@ -1,0 +1,110 @@
+@import "../../../../public/assets/css/colors.scss";
+
+.single-dropdown-icon {
+  width: 100%;
+  position: relative;
+  height: 66px;
+  .dropdown-icon{
+    width: 57px;
+    position: relative;
+    img{
+      position: absolute;
+      top: 26px;
+      left: 24px;
+      z-index: 99;
+    }
+  }
+
+  label{
+    position: absolute;
+    top: 4px;
+    left: 57px;
+    z-index: 99;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #1877F2;
+  }
+  .css-yk16xz-control {
+    background-color: #232631;
+    border-radius: 10px;
+    border: 1px solid #232631;
+    box-shadow: none;
+    cursor: pointer;
+    height: 66px !important;
+  }
+  .css-1pahdxg-control{
+    height: 66px !important;
+  }
+  .css-yk16xz-control:hover{
+    border: 1px solid #232631;
+  }
+  .css-1fhf3k1-control{
+    background-color: #232631;
+    border-color: #232631;
+  }
+  .css-1gtu0rj-indicatorContainer,
+  .css-tlfecz-indicatorContainer {
+    padding: 4px 5px !important;
+    margin-right: 22px;
+    color: #fff;
+    @media (min-width: 1023.98px) and (max-width: 1200px) {
+      padding: 4px 3px !important;
+    }
+  }
+
+  .css-1okebmr-indicatorSeparator {
+    display: none;
+  }
+  .css-1wa3eu0-placeholder {
+    font-family: $SatoshiVariable;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 20px;
+    @media (min-width: 1023.98px) and (max-width: 1200px) {
+      font-size: 12px;
+    }
+  }
+  .css-1uccc91-singleValue{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+  }
+  .css-yk16xz-control div:first-child ,.css-1pahdxg-control div:first-child{
+    padding-left: 27px;
+    padding-top: 29px;
+    padding-bottom: 9px;
+  }
+  .css-2b097c-container .css-1pahdxg-control{
+    border: 1px solid #232631;
+    box-shadow: none !important;
+    border-radius: 10px;
+  }
+  .css-1pahdxg-control:hover {
+    border: 1px solid #232631;
+    background-color: #232631;
+    box-shadow: none;
+  }
+  .css-1pahdxg-control{
+    background-color: #232631;
+    border: 1px solid #232631;
+    box-shadow: none;
+    min-height: 45px;
+  }
+  .css-1pahdxg-control{
+    input{
+      color: #fff !important;
+    }
+  }
+  .css-11md64a{
+    z-index: 9999 !important;
+  }
+}
+

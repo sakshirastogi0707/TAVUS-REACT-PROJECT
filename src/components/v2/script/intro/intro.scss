@@ -1,0 +1,81 @@
+@import "../../../../../public/assets/css/colors.scss";
+.script-frame-main{
+    padding: 0px 62px 0px 40px;
+  @media (max-width: 991px){
+    padding: 0px 30px;
+  }
+  .header-main-landing{
+    .headerDiv{
+      margin: 0px;
+      h2{
+        margin-bottom: 0px !important;
+        padding-bottom: 0px;
+      }
+    }
+  }
+  .script-frame-box{
+    margin-top: 91px;
+    display: flex;
+    @media (min-width: 1620px){
+      margin-top: 0px;
+    }
+  }
+  .frame-box {
+    margin-bottom: 140px;
+    }
+  @media (min-width: 1620px){
+      .frame-box{
+          height: calc(100vh - 332px);
+          max-width: 1440px;
+          margin: 0 auto;
+      }
+  }
+    .sidebar-image {
+      width: 52%;
+      @media  (max-width: 1439px){
+        width: 50%;
+       height: auto;
+       }
+        img{
+          width: 100%;
+        }
+    }
+   .scriptBox{
+     width: 48%;
+     padding: 0px 69px 0px 67px;
+
+     @media  (max-width: 1439px){
+       width: 50%;
+      padding: 0px 0px 0px 60px;
+      h3{
+        line-height: 36px;
+      }
+      p{
+        padding-top: 18px;
+        line-height: 28;
+       }
+      }
+     h3{
+      font-family: $SatoshiVariable;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+      color: #FFFFFF;
+     }
+     p{
+      font-family: $SatoshiVariable;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: rgba(255, 255, 255, 0.8);
+      padding-top: 24px;
+    }
+   } 
+}
+
+
+ 
+
+
+

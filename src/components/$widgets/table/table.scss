@@ -1,0 +1,25 @@
+@import '../../../../public/assets/css/colors.scss';
+.basic-table{
+    background-color: #1E1F25 !important;
+    max-height: 400px;
+    .MuiDataGrid-root{
+        border: none;
+    }
+    .MuiTableHead-root{
+        .MuiTableRow-root{
+            .MuiTableCell-root{
+                background-color: #1E1F25 !important;
+                font-family: $SatoshiVariable;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    
+    .MuiDataGrid-virtualScroller{
+            background-color: #1a1a22 !important;
+    }
+    
+}

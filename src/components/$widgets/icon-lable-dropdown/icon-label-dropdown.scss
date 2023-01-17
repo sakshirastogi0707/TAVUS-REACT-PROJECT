@@ -1,0 +1,61 @@
+@import "../../../../public/assets/css/colors.scss";
+.select-with-image{
+    .css-yk16xz-control{
+        height: 60px !important;
+        background: #1877F2;
+        border-radius: 8px;
+        border: 0px;
+        box-shadow: none;
+        padding: 0px 16px;
+    }
+    .css-1pahdxg-control{
+        height: 60px !important;
+        background: #1877F2;
+        border-radius: 8px;
+        border: 0px;
+        box-shadow: none;
+        padding: 0px 16px;
+      }
+      .css-1okebmr-indicatorSeparator{
+        display: none;
+      }
+      .css-1uccc91-singleValue{
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        color: #F2F2F2;
+      }
+      .css-s31cto-singleValue{
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+      }
+      .css-g1d714-ValueContainer {
+        padding: 4px 10px;
+      }
+     
+      .css-1pahdxg-control{
+        input{
+          color: #F2F2F2 !important;
+        }
+      }
+      .css-11md64a{
+        z-index: 9999 !important;
+      }
+
+
+    .css-1wa3eu0-placeholder{
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+   
+}

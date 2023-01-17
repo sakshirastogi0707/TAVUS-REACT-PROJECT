@@ -1,0 +1,42 @@
+@import "../../../../../public/assets/css/colors.scss";
+.campaigns-main{
+    padding: 32px 39px;
+    h2{
+        font-family: $SatoshiVariable;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 58px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+    .compaigns-box{
+        flex-wrap: wrap;
+        padding-top: 122px;
+        grid-gap: 32px;
+        .create-campaign{
+            border-radius: 20px;
+            width: 48%;
+            height: 184px;
+            border: 1px dashed #6F7897;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .create-campaignDev{
+                h3{
+                    font-family: $SatoshiVariable;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 20px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    img{
+                        padding-right: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

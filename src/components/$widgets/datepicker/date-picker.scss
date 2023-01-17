@@ -1,0 +1,27 @@
+@import "../../../../public/assets/css/colors.scss"; 
+.date-picker{
+    position: relative;
+            .time-img {
+                position: absolute;
+                bottom: 17px;
+                padding-top: 7px;
+                right: 10px;
+                z-index: 99;
+            }
+            .MuiIconButton-root {
+                z-index: 999;
+                width: 100%;
+                padding: 15px;
+                margin: 5px 5px 8px 0px;
+            }
+
+            .MuiIconButton-label {
+                display: none;
+            }
+            
+}
+.MuiPickersDay-daySelected {
+    color: #273a53 !important;
+    font-weight: 500;
+    background-color: #00e7b1 !important;
+}

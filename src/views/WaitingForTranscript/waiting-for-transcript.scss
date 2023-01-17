@@ -1,0 +1,84 @@
+@import "../../../public/assets/css/colors.scss";
+.transcript-box-main{
+    padding: 34px 37px 160px;
+    @media (min-width: 1500px) {
+        padding-bottom: 30px;
+    }
+    .transcript-title{
+        text-align: center;
+        margin-bottom: 13px;
+        height: 60px;
+        h3{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-bottom: 11px;
+        }
+        h5{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #A5A5A9;
+        }
+    }
+    .active{
+        
+        border: 4px solid #1877F2;
+        border-radius: 16px;
+    }
+    .box-dev{
+        padding-top: 20px;
+        @media (min-width: 1500px) {
+        height: calc(100vh - 190px);
+         padding-top: 0px;
+        }
+    }
+    .box-item{
+        margin: 12px;
+        padding: 12px;
+        img{
+            width: 100%;
+        }
+        .number-box{
+            margin-top: 24px;
+            margin-bottom: 8px;
+            width: 32px;
+            height: 32px;
+            background: #303443;
+            border-radius: 50%;
+            display: flex;
+            flex-shrink: 0;
+            justify-content: center;
+            align-items: center;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+
+        }
+        h4{
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+        p{
+            font-family:$SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #A5A5A9;
+
+        }
+    }
+}

@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: tavus-${ENV_TAG}
+  name: tavusportal-${ENV_TAG}-deploy
+spec:
+  selector:
+    matchLabels:
+      app: tavusportal-${ENV_TAG}-deploy
+  replicas: 1
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
+      annotations:
+        rollingStartDate: "Mon Oct 05 11:06:38 UTC 2021"
+      labels:
+        app: tavusportal-${ENV_TAG}-deploy
+    spec:
+      containers:
+      - name: tavusportal-${ENV_TAG}-deploy
+        image: 669651121059.dkr.ecr.us-east-2.amazonaws.com/${IMAGE_REPO_NAME}:${IMAGE_TAG}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4400
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 4400
+

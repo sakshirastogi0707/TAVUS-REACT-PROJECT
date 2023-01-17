@@ -1,0 +1,196 @@
+@import "../../../../../public/assets/css/colors.scss";
+.script-frame-main{
+  padding: 0px 73px;
+  @media (max-width: 991px){
+    padding: 0px 30px;
+  }
+    .header-main-landing{
+      .headerDiv{
+        h2{
+          margin-bottom: 0px !important;
+          padding-bottom: 0px;
+        }
+      }
+    }
+    .frame-box{
+      margin-bottom: 140px;
+        @media (min-width: 1620px) {
+            height: calc(100vh - 242px);
+            max-width: 1440px;
+            margin: 0 auto;
+    
+          }
+         
+    }
+  .script-box{
+    display: flex;
+    padding:54px 7px 32px;
+    width: 100%;
+      @media (max-width: 991px){
+        flex-flow: row wrap;
+      }
+    .scriptLeft{
+      width: 447px;
+      height: 575px;
+      background:rgba(35, 38, 49, 0.5);
+      border-radius: 16px;
+      padding: 32px;
+        h3{
+          font-family: $SatoshiVariable;
+          font-size: 24px;
+          line-height: 26px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+        .timeline{
+          padding-top: 32px;
+          .vtl{
+            position: relative;
+          }
+          .vtl::before {
+            content: "";
+            width: 1px;
+            background-color: #0062FF;
+            position: absolute;
+            top: 0;
+             bottom: 32px; 
+             left: 11px;
+          }
+          
+          div.event {
+            padding-left: 36px;
+            position: relative;
+            border-radius: 6px;
+            margin-bottom: 40px;
+          }
+          p.txt {
+            font-family: $SatoshiVariable;
+          font-size: 16px;
+          line-height: 28px;
+          color: rgba(255, 255, 255, 0.6);
+          }
+          
+          div.event::after {
+            content: "";
+            background: #1877F2;;
+            border: 8px solid #143268;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0px; 
+            left: 0px;
+          }
+          div.event.center::after {
+            content: "";
+            background: #1877F2;;
+            border: 8px solid #143268;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            position: absolute;
+            top: calc(50% - 12px);
+            left: 0px;
+          }
+          .iconButton{
+            .MuiButton-containedPrimary{
+              width: 335px;
+              height: 56px;
+              font-family: $SatoshiVariable;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 28px;
+              color: #FFFFFF;
+              background: #1877F2;
+              border-radius: 8px;
+              .MuiButton-startIcon {
+                margin-right: 14px;
+              }
+            }
+          }
+        }
+        
+    }
+
+    .scriptRight{
+      width: 63%;
+      margin-left: 32px;
+        .text-field textarea{
+          width: 100%;
+          height: 486px !important;
+          color: #fff;
+          font-family: $SatoshiVariable;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 24px;
+          padding: 43px 42px;
+          background-color: rgba(35, 38, 49, 0.5);
+          border:0px;
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: #6F7897;
+          }
+          ::-moz-placeholder { /* Firefox 19+ */
+          color: #6F7897;
+          }
+          :-ms-input-placeholder { /* IE 10+ */
+          color: #6F7897;
+          }
+          :-moz-placeholder { /* Firefox 18- */
+          color: #6F7897;
+          }
+
+    }
+  }
+  .Sidebar {
+      width: 207px;
+      border-radius: 16px;
+      margin-top: 40px;
+      background: rgba(35, 38, 49, 0.5);
+      height: 554px;
+      @media (max-width: 991px){
+        width: 44%;
+        margin: 25px 0px;
+      }
+      @media (max-width: 767px){
+        width: 100%;
+        height: auto;
+      }
+    }
+    .Setting {
+      width: 24.1%;
+      border-radius: 16px;
+      margin: 40px 24px 0px;
+      background: rgba(35, 38, 49, 0.5);
+      padding: 0px 32px;
+      height: 554px;
+      overflow: auto;
+      @media (max-width: 991px){
+        width: 50%;
+        margin: 25px 18px;
+      }
+      @media (max-width: 767px){
+        width: 100%;
+        height: auto;
+        margin: 50px 0px;
+      }
+    }
+    .landing-preview {
+      width: 56.3%;
+      border-radius: 16px;
+      margin-left: 2px;
+      height:  595px;
+      @media (max-width: 991px){
+        width: 100%;
+        height: auto;
+        margin: 25px 0px;
+      }
+      @media (max-width: 767px){
+        width: 100%;
+        height: auto;
+      }
+    }
+}
+
+
+ 

@@ -1,0 +1,87 @@
+@import "../../../../public/assets/css/colors.scss";
+.background-video-main{
+    padding:0px 55px !important;
+    .header-main-landing{
+        padding-left: 20px;
+    }
+    .background-video-setup{
+       margin-bottom: 120px;
+        margin-top: 50px;
+        .left-panel{
+            .MuiPaper-root{
+                border-radius: 16px;
+                .heading{
+                    padding-bottom: 12px;
+                }
+                .subheading{
+                    padding-bottom: 20px;
+                }
+            }
+        }
+        .right-panel{
+            .MuiPaper-root{
+                border-radius: 16px;
+            }
+        }
+
+      .MuiPaper-elevation{
+        box-shadow:none !important;
+        .tips-tricks-wrapper{
+            padding-bottom: 0px;
+            .tips-tricks-button {
+                font-family: $SatoshiVariable;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #fff;
+                background-color: #1877F2;
+                text-transform: capitalize;
+                box-shadow:none;
+                border-radius: 8px !important;
+            }
+        }
+        .choose{
+            padding-top: 26px;
+            padding-bottom: 11px;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+      }  
+    }
+    .switch-wrapper{
+        padding-bottom: 32px;
+    }
+    .shape-toggle-box{
+    display: flex;
+    background: rgba(74, 74, 74, 0.2);
+    border-radius: 8px;
+    }
+    .dynamic-block{
+        .MuiInputBase-input{
+            padding: 12px 5px;
+            font-family: $SatoshiVariable;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+    .drag-and-drop-block .drag-drop-icon-wrapper {
+        padding: 25px 18px 6px;
+    }
+    .bottom-section{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}

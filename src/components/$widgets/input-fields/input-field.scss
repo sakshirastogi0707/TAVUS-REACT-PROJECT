@@ -1,0 +1,65 @@
+@import "../../../../public/assets/css/colors";
+
+.MuiInputBase-input{
+    font-family: $SatoshiVariable;
+    font-weight: $SemiBold;
+    font-size: 31px;
+    line-height: 56px;
+    letter-spacing: 0.1px;
+    color: $colorWhite !important;
+    padding: 4px 0 8px;
+    width: 760px;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid #fff !important;
+}
+   .MuiInput-root.MuiInput-underline:before {
+        border-bottom: 1px solid #595F70 !important;
+    }
+    .MuiInput-root.MuiInput-underline::after {
+        border-bottom: 2px solid #fff !important;
+    }
+.MuiAccordionDetails-root{
+    padding: 25px 19px !important;
+    textarea{
+        border-radius: 8px!important;
+        color: #fff;
+        width: 100%;
+    }
+
+
+    textarea::-webkit-input-placeholder {
+        font-family: $SatoshiVariable;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #757B8C;
+        }
+        
+        textarea:-moz-placeholder { /* Firefox 18- */
+            font-family: $SatoshiVariable;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #757B8C; 
+        }
+        
+        textarea::-moz-placeholder {  /* Firefox 19+ */
+            font-family: $SatoshiVariable;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #757B8C;
+        }
+        
+        textarea:-ms-input-placeholder {
+            font-family: $SatoshiVariable;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #757B8C;
+        }
+}
+
